@@ -49,7 +49,7 @@ def clean_unit_name(raw):
     return name.title() if name.isupper() else name
 
 
-def detect_tier(name):
+def detect_tier(unit_name):
     """
     Precise tier classification for Sikkim Local Bodies.
     Order matters: ULB specific terms (including Nagar Panchayat) must be checked BEFORE general 'panchayat'.
@@ -76,7 +76,6 @@ def detect_tier(name):
 
     # Default fallback for Sikkim rural units
     return "Gram Panchayat Unit"
-
 
 def process_pdf_reports():
     raw_dir = Path("data/raw")
