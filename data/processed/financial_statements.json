@@ -1,0 +1,6938 @@
+[
+  {
+    "code": "257833",
+    "name": "Kyongnosla",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Kabi",
+    "fy": "2021-22",
+    "ob": 767533.0,
+    "receipts": 0.0,
+    "total_receipts": 2032398.0,
+    "payments": 307076.0,
+    "cb": 1725322.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 1
+  },
+  {
+    "code": "254776",
+    "name": "Men Rongong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Kabi",
+    "fy": "2021-22",
+    "ob": 1266177.0,
+    "receipts": 0.0,
+    "total_receipts": 3720202.0,
+    "payments": 1103242.0,
+    "cb": 2616960.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 2
+  },
+  {
+    "code": "254793",
+    "name": "Phensang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Kabi",
+    "fy": "2021-22",
+    "ob": 306362.0,
+    "receipts": 0.0,
+    "total_receipts": 1314397.0,
+    "payments": 380346.0,
+    "cb": 934051.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 3
+  },
+  {
+    "code": "254756",
+    "name": "Lingdok Nampong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Kabi",
+    "fy": "2021-22",
+    "ob": 730063.0,
+    "receipts": 0.0,
+    "total_receipts": 3563109.0,
+    "payments": 1526900.0,
+    "cb": 2036209.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 4
+  },
+  {
+    "code": "276335",
+    "name": "Lingchom Tingda",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Kabi",
+    "fy": "2021-22",
+    "ob": 590988.0,
+    "receipts": 0.0,
+    "total_receipts": 1390705.0,
+    "payments": 200000.0,
+    "cb": 1190705.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 5
+  },
+  {
+    "code": "254813",
+    "name": "Rongong Tumlong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Kabi",
+    "fy": "2021-22",
+    "ob": 1103352.0,
+    "receipts": 0.0,
+    "total_receipts": 2594433.0,
+    "payments": 749597.0,
+    "cb": 1844836.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 6
+  },
+  {
+    "code": "254742",
+    "name": "Kabi Rongpa",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Kabi",
+    "fy": "2021-22",
+    "ob": 621550.0,
+    "receipts": 0.0,
+    "total_receipts": 1462738.0,
+    "payments": 90000.0,
+    "cb": 1372738.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 7
+  },
+  {
+    "code": "254784",
+    "name": "Navey Shotak",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Kabi",
+    "fy": "2021-22",
+    "ob": 3883654.0,
+    "receipts": 0.0,
+    "total_receipts": 6981460.0,
+    "payments": 3360861.0,
+    "cb": 3620599.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 8
+  },
+  {
+    "code": "254773",
+    "name": "Martam Nazitam",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Martam",
+    "fy": "2021-22",
+    "ob": 3363456.0,
+    "receipts": 0.0,
+    "total_receipts": 9737361.0,
+    "payments": 5160707.0,
+    "cb": 4576654.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 9
+  },
+  {
+    "code": "254781",
+    "name": "Namli",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Martam",
+    "fy": "2021-22",
+    "ob": 709137.0,
+    "receipts": 0.0,
+    "total_receipts": 2704137.0,
+    "payments": 1955199.0,
+    "cb": 748938.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 10
+  },
+  {
+    "code": "254820",
+    "name": "Samlik Marchak",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Martam",
+    "fy": "2021-22",
+    "ob": 1521974.0,
+    "receipts": 0.0,
+    "total_receipts": 3555562.0,
+    "payments": 1702371.0,
+    "cb": 1853191.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 11
+  },
+  {
+    "code": "254717",
+    "name": "Byeng Phegyong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Martam",
+    "fy": "2021-22",
+    "ob": 2027769.0,
+    "receipts": 0.0,
+    "total_receipts": 4752845.0,
+    "payments": 3062824.0,
+    "cb": 1690021.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 12
+  },
+  {
+    "code": "254831",
+    "name": "Singling",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Soreng",
+    "fy": "2021-22",
+    "ob": 458878.0,
+    "receipts": 0.0,
+    "total_receipts": 3217768.0,
+    "payments": 1570621.0,
+    "cb": 1647147.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 13
+  },
+  {
+    "code": "257849",
+    "name": "Karthok Bojek",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Soreng",
+    "fy": "2021-22",
+    "ob": 240494.0,
+    "receipts": 0.0,
+    "total_receipts": 841958.0,
+    "payments": 0.0,
+    "cb": 841958.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 14
+  },
+  {
+    "code": "254834",
+    "name": "Soreng",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Soreng",
+    "fy": "2021-22",
+    "ob": 1086996.0,
+    "receipts": 0.0,
+    "total_receipts": 3014433.0,
+    "payments": 1179505.0,
+    "cb": 1834928.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 15
+  },
+  {
+    "code": "276344",
+    "name": "Mangsari Mangarjung",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Soreng",
+    "fy": "2021-22",
+    "ob": 1109223.0,
+    "receipts": 0.0,
+    "total_receipts": 2267122.0,
+    "payments": 883000.0,
+    "cb": 1384122.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 16
+  },
+  {
+    "code": "254720",
+    "name": "Burikhop",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "fy": "2021-22",
+    "ob": 728793.0,
+    "receipts": 0.0,
+    "total_receipts": 1784291.0,
+    "payments": 0.0,
+    "cb": 1784291.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 17
+  },
+  {
+    "code": "257843",
+    "name": "Budang Kamerey",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Duga",
+    "fy": "2021-22",
+    "ob": 278138.0,
+    "receipts": 0.0,
+    "total_receipts": 5735512.0,
+    "payments": 337664.0,
+    "cb": 5397848.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 18
+  },
+  {
+    "code": "254768",
+    "name": "Malbasay",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Soreng",
+    "fy": "2021-22",
+    "ob": 834461.0,
+    "receipts": 0.0,
+    "total_receipts": 1963684.0,
+    "payments": 538925.0,
+    "cb": 1424759.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 19
+  },
+  {
+    "code": "254746",
+    "name": "Kewzing Bakhim",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Ravong",
+    "fy": "2021-22",
+    "ob": 54025.0,
+    "receipts": 0.0,
+    "total_receipts": 273240.0,
+    "payments": 232756.0,
+    "cb": 40484.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 20
+  },
+  {
+    "code": "254798",
+    "name": "Ralong Namlung",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Ravong",
+    "fy": "2021-22",
+    "ob": 4589368.0,
+    "receipts": 0.0,
+    "total_receipts": 6624774.0,
+    "payments": 2310335.0,
+    "cb": 4314439.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 21
+  },
+  {
+    "code": "254857",
+    "name": "Tinkitam Rayong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Ravong",
+    "fy": "2021-22",
+    "ob": 871286.0,
+    "receipts": 0.0,
+    "total_receipts": 2045356.0,
+    "payments": 72.0,
+    "cb": 2045284.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 22
+  },
+  {
+    "code": "254714",
+    "name": "Barfung Zarung",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Ravong",
+    "fy": "2021-22",
+    "ob": 246499.0,
+    "receipts": 0.0,
+    "total_receipts": 432279.0,
+    "payments": 334118.0,
+    "cb": 98161.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 23
+  },
+  {
+    "code": "254719",
+    "name": "Borong Phamthang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Ravong",
+    "fy": "2021-22",
+    "ob": 4436758.0,
+    "receipts": 0.0,
+    "total_receipts": 7379033.0,
+    "payments": 4182970.0,
+    "cb": 3196063.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 24
+  },
+  {
+    "code": "254722",
+    "name": "Chakung",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Chumbong",
+    "fy": "2021-22",
+    "ob": 3616717.0,
+    "receipts": 0.0,
+    "total_receipts": 7856404.0,
+    "payments": 4683862.0,
+    "cb": 3172542.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 25
+  },
+  {
+    "code": "254725",
+    "name": "Chota Samdong Arubotey",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Chumbong",
+    "fy": "2021-22",
+    "ob": 1019810.0,
+    "receipts": 0.0,
+    "total_receipts": 3642433.0,
+    "payments": 1572525.0,
+    "cb": 2069908.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 26
+  },
+  {
+    "code": "254832",
+    "name": "Singyang Chumbung",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Gyalshing",
+    "fy": "2021-22",
+    "ob": 3676199.0,
+    "receipts": 0.0,
+    "total_receipts": 8250705.0,
+    "payments": 5329579.0,
+    "cb": 2921126.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 27
+  },
+  {
+    "code": "254777",
+    "name": "Mendogaon Berbotey",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Chumbong",
+    "fy": "2021-22",
+    "ob": 141726.0,
+    "receipts": 0.0,
+    "total_receipts": 3438252.0,
+    "payments": 2592416.0,
+    "cb": 845836.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 28
+  },
+  {
+    "code": "254734",
+    "name": "Dodak",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "fy": "2021-22",
+    "ob": 658068.0,
+    "receipts": 0.0,
+    "total_receipts": 3400496.0,
+    "payments": 1545421.0,
+    "cb": 1855075.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 29
+  },
+  {
+    "code": "254786",
+    "name": "Okhrey",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "fy": "2021-22",
+    "ob": 0.0,
+    "receipts": 0.0,
+    "total_receipts": 2337561.0,
+    "payments": 72.0,
+    "cb": 2337489.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 30
+  },
+  {
+    "code": "254814",
+    "name": "Rumbuk",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "fy": "2021-22",
+    "ob": 1991143.0,
+    "receipts": 0.0,
+    "total_receipts": 4465564.0,
+    "payments": 2376177.0,
+    "cb": 2089387.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 31
+  },
+  {
+    "code": "254828",
+    "name": "Siktam Tikpur",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "fy": "2021-22",
+    "ob": 1397982.0,
+    "receipts": 0.0,
+    "total_receipts": 3292413.0,
+    "payments": 505128.0,
+    "cb": 2787285.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 32
+  },
+  {
+    "code": "254863",
+    "name": "Upper Thambong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "fy": "2021-22",
+    "ob": 1156312.0,
+    "receipts": 0.0,
+    "total_receipts": 4066500.0,
+    "payments": 163442.0,
+    "cb": 3903058.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 33
+  },
+  {
+    "code": "254763",
+    "name": "Lower Fambong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "fy": "2021-22",
+    "ob": 3400912.0,
+    "receipts": 0.0,
+    "total_receipts": 5560207.0,
+    "payments": 1864513.0,
+    "cb": 3695694.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 34
+  },
+  {
+    "code": "254807",
+    "name": "Ribdi Bhareng",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "fy": "2021-22",
+    "ob": 100749.0,
+    "receipts": 0.0,
+    "total_receipts": 1355594.0,
+    "payments": 1176787.0,
+    "cb": 178807.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 35
+  },
+  {
+    "code": "254726",
+    "name": "Chuba Phong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namthang",
+    "fy": "2021-22",
+    "ob": 567208.0,
+    "receipts": 0.0,
+    "total_receipts": 2052630.0,
+    "payments": 736127.0,
+    "cb": 1316503.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 36
+  },
+  {
+    "code": "254779",
+    "name": "Kateng Pamphok",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namthang",
+    "fy": "2021-22",
+    "ob": 61884.0,
+    "receipts": 0.0,
+    "total_receipts": 3010245.0,
+    "payments": 2431500.0,
+    "cb": 578745.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 37
+  },
+  {
+    "code": "254771",
+    "name": "Namthang Maneydara",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namthang",
+    "fy": "2021-22",
+    "ob": 121649.0,
+    "receipts": 0.0,
+    "total_receipts": 2147224.0,
+    "payments": 1957154.0,
+    "cb": 190070.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 38
+  },
+  {
+    "code": "254792",
+    "name": "Perbing Dovan",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namthang",
+    "fy": "2021-22",
+    "ob": 382974.24,
+    "receipts": 0.0,
+    "total_receipts": 845424.0,
+    "payments": 563236.0,
+    "cb": 282188.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 39
+  },
+  {
+    "code": "254799",
+    "name": "Rameng Nizrameng",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namthang",
+    "fy": "2021-22",
+    "ob": 214129.0,
+    "receipts": 0.0,
+    "total_receipts": 222257.0,
+    "payments": 0.0,
+    "cb": 222257.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 40
+  },
+  {
+    "code": "254802",
+    "name": "Rateypani",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namthang",
+    "fy": "2021-22",
+    "ob": 0.0,
+    "receipts": 0.0,
+    "total_receipts": 2409324.0,
+    "payments": 819883.0,
+    "cb": 1589441.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 41
+  },
+  {
+    "code": "254843",
+    "name": "Tangzi Bikmat",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namthang",
+    "fy": "2021-22",
+    "ob": 680224.0,
+    "receipts": 0.0,
+    "total_receipts": 2520921.0,
+    "payments": 1239700.0,
+    "cb": 1281221.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 42
+  },
+  {
+    "code": "254819",
+    "name": "Samdong Kambel",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Rakdong Tintek",
+    "fy": "2021-22",
+    "ob": 3979987.0,
+    "receipts": 0.0,
+    "total_receipts": 7843628.0,
+    "payments": 5571904.0,
+    "cb": 2271724.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 43
+  },
+  {
+    "code": "254830",
+    "name": "Patuk Singbel",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Rakdong Tintek",
+    "fy": "2021-22",
+    "ob": 3109278.0,
+    "receipts": 0.0,
+    "total_receipts": 7898245.0,
+    "payments": 5409463.0,
+    "cb": 2488782.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 44
+  },
+  {
+    "code": "254860",
+    "name": "Tumin",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Rakdong Tintek",
+    "fy": "2021-22",
+    "ob": 3178479.0,
+    "receipts": 0.0,
+    "total_receipts": 6043433.0,
+    "payments": 2758656.0,
+    "cb": 3284777.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 45
+  },
+  {
+    "code": "254797",
+    "name": "Rakdong Tintek",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Rakdong Tintek",
+    "fy": "2021-22",
+    "ob": 65957.0,
+    "receipts": 0.0,
+    "total_receipts": 1186090.0,
+    "payments": 1076336.0,
+    "cb": 109754.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 46
+  },
+  {
+    "code": "254806",
+    "name": "Rhenock",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Rhenock",
+    "fy": "2021-22",
+    "ob": 15560285.0,
+    "receipts": 0.0,
+    "total_receipts": 21899831.0,
+    "payments": 11656854.0,
+    "cb": 10242977.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 47
+  },
+  {
+    "code": "254708",
+    "name": "Aritar",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Rhenock",
+    "fy": "2021-22",
+    "ob": 4621565.0,
+    "receipts": 0.0,
+    "total_receipts": 9538755.0,
+    "payments": 6522047.0,
+    "cb": 3016708.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 48
+  },
+  {
+    "code": "254837",
+    "name": "Sudunglakha",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Rhenock",
+    "fy": "2021-22",
+    "ob": 3188395.0,
+    "receipts": 0.0,
+    "total_receipts": 5748889.0,
+    "payments": 2383082.0,
+    "cb": 3365807.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 49
+  },
+  {
+    "code": "254723",
+    "name": "Tarpin",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Rhenock",
+    "fy": "2021-22",
+    "ob": 12345457.0,
+    "receipts": 0.0,
+    "total_receipts": 14492965.0,
+    "payments": 4693831.0,
+    "cb": 9799134.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 50
+  },
+  {
+    "code": "254721",
+    "name": "Central Pendam",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Duga",
+    "fy": "2021-22",
+    "ob": 0.0,
+    "receipts": 0.0,
+    "total_receipts": 8629443.0,
+    "payments": 1856098.0,
+    "cb": 6773345.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 51
+  },
+  {
+    "code": "254865",
+    "name": "West Pendam",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Duga",
+    "fy": "2021-22",
+    "ob": 159895.0,
+    "receipts": 0.0,
+    "total_receipts": 660121.0,
+    "payments": 586920.0,
+    "cb": 73201.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 52
+  },
+  {
+    "code": "254840",
+    "name": "Sumin Lingzey",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Namcheybong",
+    "fy": "2021-22",
+    "ob": 1656414.0,
+    "receipts": 0.0,
+    "total_receipts": 4348768.0,
+    "payments": 633000.0,
+    "cb": 3715768.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 53
+  },
+  {
+    "code": "276337",
+    "name": "Chisopani",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Khamdong",
+    "fy": "2021-22",
+    "ob": 1598031.0,
+    "receipts": 0.0,
+    "total_receipts": 3756946.0,
+    "payments": 0.0,
+    "cb": 3756946.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 54
+  },
+  {
+    "code": "257847",
+    "name": "Dung Dung Thasa",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Khamdong",
+    "fy": "2021-22",
+    "ob": 852071.0,
+    "receipts": 0.0,
+    "total_receipts": 2994211.0,
+    "payments": 554160.0,
+    "cb": 2440051.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 55
+  },
+  {
+    "code": "254833",
+    "name": "Sirwani",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Khamdong",
+    "fy": "2021-22",
+    "ob": 1598208.0,
+    "receipts": 0.0,
+    "total_receipts": 3944157.0,
+    "payments": 1695594.0,
+    "cb": 2248563.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 56
+  },
+  {
+    "code": "254747",
+    "name": "Khamdong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Khamdong",
+    "fy": "2021-22",
+    "ob": 1679078.0,
+    "receipts": 0.0,
+    "total_receipts": 3928963.0,
+    "payments": 0.0,
+    "cb": 3928963.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 57
+  },
+  {
+    "code": "254745",
+    "name": "Namcheybong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Namcheybong",
+    "fy": "2021-22",
+    "ob": 3919459.0,
+    "receipts": 0.0,
+    "total_receipts": 8868927.0,
+    "payments": 4893371.0,
+    "cb": 3975556.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 58
+  },
+  {
+    "code": "254707",
+    "name": "Amba",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "fy": "2021-22",
+    "ob": 608644.0,
+    "receipts": 0.0,
+    "total_receipts": 2895611.0,
+    "payments": 2271896.0,
+    "cb": 623715.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 59
+  },
+  {
+    "code": "254761",
+    "name": "Bering Tareythang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "fy": "2021-22",
+    "ob": 1200376.0,
+    "receipts": 0.0,
+    "total_receipts": 2813874.0,
+    "payments": 0.0,
+    "cb": 2813874.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 60
+  },
+  {
+    "code": "257844",
+    "name": "Pachey Samsing",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "fy": "2021-22",
+    "ob": 1369126.0,
+    "receipts": 0.0,
+    "total_receipts": 3677489.0,
+    "payments": 961344.0,
+    "cb": 2716145.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 61
+  },
+  {
+    "code": "254847",
+    "name": "Taza",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "fy": "2021-22",
+    "ob": 1105908.0,
+    "receipts": 0.0,
+    "total_receipts": 2609888.0,
+    "payments": 0.0,
+    "cb": 2609888.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 62
+  },
+  {
+    "code": "254706",
+    "name": "Aho Yangtam",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Namcheybong",
+    "fy": "2021-22",
+    "ob": 5555512.0,
+    "receipts": 0.0,
+    "total_receipts": 6257261.0,
+    "payments": 4334403.0,
+    "cb": 1922858.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 63
+  },
+  {
+    "code": "254787",
+    "name": "Chalamthang Pacheykhani",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "fy": "2021-22",
+    "ob": 1736100.0,
+    "receipts": 0.0,
+    "total_receipts": 4064220.0,
+    "payments": 1580000.0,
+    "cb": 2484220.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 64
+  },
+  {
+    "code": "254789",
+    "name": "Pakyong Yaakten",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "fy": "2021-22",
+    "ob": 1777812.0,
+    "receipts": 0.0,
+    "total_receipts": 4175212.0,
+    "payments": 2068400.0,
+    "cb": 2106812.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 65
+  },
+  {
+    "code": "254753",
+    "name": "Latuk Barapathing",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Parakha",
+    "fy": "2021-22",
+    "ob": 274122.0,
+    "receipts": 0.0,
+    "total_receipts": 1925627.0,
+    "payments": 18.0,
+    "cb": 1925609.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 66
+  },
+  {
+    "code": "254735",
+    "name": "Dolepchen",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Regu",
+    "fy": "2021-22",
+    "ob": 868157.0,
+    "receipts": 0.0,
+    "total_receipts": 3079705.0,
+    "payments": 2148155.0,
+    "cb": 931550.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 67
+  },
+  {
+    "code": "254810",
+    "name": "Rolep Lamaten",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Regu",
+    "fy": "2021-22",
+    "ob": 2371005.0,
+    "receipts": 0.0,
+    "total_receipts": 4165020.0,
+    "payments": 1830085.0,
+    "cb": 2334935.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 68
+  },
+  {
+    "code": "254795",
+    "name": "Premlakha Subaneydara",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Regu",
+    "fy": "2021-22",
+    "ob": 669924.0,
+    "receipts": 0.0,
+    "total_receipts": 3030765.0,
+    "payments": 1373217.0,
+    "cb": 1657548.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 69
+  },
+  {
+    "code": "254727",
+    "name": "Chujachen",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Regu",
+    "fy": "2021-22",
+    "ob": 2713099.0,
+    "receipts": 0.0,
+    "total_receipts": 5782538.0,
+    "payments": 2906710.0,
+    "cb": 2875828.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 70
+  },
+  {
+    "code": "254759",
+    "name": "Lingtam Phadamchen",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Regu",
+    "fy": "2021-22",
+    "ob": 960616.0,
+    "receipts": 0.0,
+    "total_receipts": 2980374.0,
+    "payments": 1662244.0,
+    "cb": 1318130.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 71
+  },
+  {
+    "code": "254821",
+    "name": "Gelling Baiguney",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Baiguney",
+    "fy": "2021-22",
+    "ob": 703387.0,
+    "receipts": 0.0,
+    "total_receipts": 2287435.0,
+    "payments": 1574953.0,
+    "cb": 712482.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 72
+  },
+  {
+    "code": "254767",
+    "name": "Mabong Segeng",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Baiguney",
+    "fy": "2021-22",
+    "ob": 5747652.0,
+    "receipts": 0.0,
+    "total_receipts": 7912582.0,
+    "payments": 3899187.0,
+    "cb": 4013395.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 73
+  },
+  {
+    "code": "254870",
+    "name": "Zoom",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Baiguney",
+    "fy": "2021-22",
+    "ob": 3081776.0,
+    "receipts": 0.0,
+    "total_receipts": 4213709.0,
+    "payments": 2203355.0,
+    "cb": 2010354.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 74
+  },
+  {
+    "code": "254783",
+    "name": "Namphing",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Temi",
+    "fy": "2021-22",
+    "ob": 1271214.0,
+    "receipts": 0.0,
+    "total_receipts": 2588303.0,
+    "payments": 1862196.0,
+    "cb": 726107.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 75
+  },
+  {
+    "code": "254718",
+    "name": "Bermiok Barthang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Hee Martam",
+    "fy": "2021-22",
+    "ob": 4662645.0,
+    "receipts": 0.0,
+    "total_receipts": 10675457.0,
+    "payments": 5492330.0,
+    "cb": 5183127.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 76
+  },
+  {
+    "code": "254825",
+    "name": "Sardung Lungzik",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Dentam",
+    "fy": "2021-22",
+    "ob": 28737.0,
+    "receipts": 0.0,
+    "total_receipts": 176455.0,
+    "payments": 130750.0,
+    "cb": 45705.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 77
+  },
+  {
+    "code": "254770",
+    "name": "Maneybung",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Dentam",
+    "fy": "2021-22",
+    "ob": 1187043.0,
+    "receipts": 0.0,
+    "total_receipts": 2859560.0,
+    "payments": 18.0,
+    "cb": 2859542.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 78
+  },
+  {
+    "code": "254724",
+    "name": "Chingthang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Hee Martam",
+    "fy": "2021-22",
+    "ob": 1094709.0,
+    "receipts": 0.0,
+    "total_receipts": 6669219.0,
+    "payments": 4449580.0,
+    "cb": 2219639.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 79
+  },
+  {
+    "code": "254744",
+    "name": "Karmatar Gitang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Dentam",
+    "fy": "2021-22",
+    "ob": 273796.0,
+    "receipts": 0.0,
+    "total_receipts": 4610607.0,
+    "payments": 2828287.0,
+    "cb": 1782320.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 80
+  },
+  {
+    "code": "276338",
+    "name": "Sopakha",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Dentam",
+    "fy": "2021-22",
+    "ob": 1206593.0,
+    "receipts": 0.0,
+    "total_receipts": 2843978.0,
+    "payments": 605608.0,
+    "cb": 2238370.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 81
+  },
+  {
+    "code": "254712",
+    "name": "Bongten Sapong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Dentam",
+    "fy": "2021-22",
+    "ob": 1491275.0,
+    "receipts": 0.0,
+    "total_receipts": 3984356.0,
+    "payments": 2116362.0,
+    "cb": 1867994.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 82
+  },
+  {
+    "code": "254731",
+    "name": "Dentam",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Dentam",
+    "fy": "2021-22",
+    "ob": 2717885.0,
+    "receipts": 0.0,
+    "total_receipts": 6266551.0,
+    "payments": 3473332.0,
+    "cb": 2793219.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 83
+  },
+  {
+    "code": "254868",
+    "name": "Yangthang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Gyalshing",
+    "fy": "2021-22",
+    "ob": 2031821.0,
+    "receipts": 0.0,
+    "total_receipts": 3120327.0,
+    "payments": 0.0,
+    "cb": 3120327.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 84
+  },
+  {
+    "code": "254739",
+    "name": "Gyalshing Omchung",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Gyalshing",
+    "fy": "2021-22",
+    "ob": 3035400.0,
+    "receipts": 0.0,
+    "total_receipts": 6454180.0,
+    "payments": 3765793.0,
+    "cb": 2688387.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 85
+  },
+  {
+    "code": "254867",
+    "name": "Yangten",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Gyalshing",
+    "fy": "2021-22",
+    "ob": 116950.0,
+    "receipts": 0.0,
+    "total_receipts": 314531.0,
+    "payments": 133915.0,
+    "cb": 180616.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 86
+  },
+  {
+    "code": "254755",
+    "name": "Lingchom Tikjya",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Gyalshing",
+    "fy": "2021-22",
+    "ob": 409018.0,
+    "receipts": 0.0,
+    "total_receipts": 1202369.0,
+    "payments": 1050519.0,
+    "cb": 151850.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 87
+  },
+  {
+    "code": "254822",
+    "name": "Sangadorji",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Kaluk",
+    "fy": "2021-22",
+    "ob": 45485.0,
+    "receipts": 0.0,
+    "total_receipts": 119197.0,
+    "payments": 73950.0,
+    "cb": 45247.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 88
+  },
+  {
+    "code": "254841",
+    "name": "Tadong Rinchenpong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Kaluk",
+    "fy": "2021-22",
+    "ob": 29196.0,
+    "receipts": 0.0,
+    "total_receipts": 30544.0,
+    "payments": 900.0,
+    "cb": 29644.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 89
+  },
+  {
+    "code": "254732",
+    "name": "Deythang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Kaluk",
+    "fy": "2021-22",
+    "ob": 751562.0,
+    "receipts": 0.0,
+    "total_receipts": 1776335.0,
+    "payments": 0.0,
+    "cb": 1776335.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 90
+  },
+  {
+    "code": "254845",
+    "name": "Tashiding",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Arithang Chongrong",
+    "fy": "2021-22",
+    "ob": 11675.0,
+    "receipts": 0.0,
+    "total_receipts": 716408.0,
+    "payments": 671842.0,
+    "cb": 44566.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 91
+  },
+  {
+    "code": "254709",
+    "name": "Arithang Chongrong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Arithang Chongrong",
+    "fy": "2021-22",
+    "ob": 1383038.0,
+    "receipts": 0.0,
+    "total_receipts": 3256263.0,
+    "payments": 0.0,
+    "cb": 3256263.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 92
+  },
+  {
+    "code": "254737",
+    "name": "Gerethang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Yoksum",
+    "fy": "2021-22",
+    "ob": 2174546.0,
+    "receipts": 0.0,
+    "total_receipts": 3308951.0,
+    "payments": 18.0,
+    "cb": 3308933.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 93
+  },
+  {
+    "code": "254733",
+    "name": "Dhupidara Narkhola",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Arithang Chongrong",
+    "fy": "2021-22",
+    "ob": 7255.0,
+    "receipts": 0.0,
+    "total_receipts": 7530.0,
+    "payments": 0.0,
+    "cb": 7530.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 94
+  },
+  {
+    "code": "254749",
+    "name": "Kongri Labdang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Arithang Chongrong",
+    "fy": "2021-22",
+    "ob": 18520.0,
+    "receipts": 0.0,
+    "total_receipts": 115852.0,
+    "payments": 96350.0,
+    "cb": 19502.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 95
+  },
+  {
+    "code": "254743",
+    "name": "Karzi Mangnam",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Arithang Chongrong",
+    "fy": "2021-22",
+    "ob": 740909.0,
+    "receipts": 0.0,
+    "total_receipts": 2761679.0,
+    "payments": 1901210.0,
+    "cb": 860469.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 96
+  },
+  {
+    "code": "254869",
+    "name": "Yuksom",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Yoksum",
+    "fy": "2021-22",
+    "ob": 75809.0,
+    "receipts": 0.0,
+    "total_receipts": 283253.0,
+    "payments": 186145.0,
+    "cb": 97108.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 97
+  },
+  {
+    "code": "276336",
+    "name": "Rimbi Tingbrum",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Yoksum",
+    "fy": "2021-22",
+    "ob": 730628.0,
+    "receipts": 0.0,
+    "total_receipts": 1716157.0,
+    "payments": 189889.0,
+    "cb": 1526268.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 98
+  },
+  {
+    "code": "254774",
+    "name": "Meli Aching",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Yoksum",
+    "fy": "2021-22",
+    "ob": 20215.0,
+    "receipts": 0.0,
+    "total_receipts": 531753.0,
+    "payments": 513310.0,
+    "cb": 18443.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 99
+  },
+  {
+    "code": "254800",
+    "name": "Ramthang Tanyak",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Mangan",
+    "fy": "2021-22",
+    "ob": 0.0,
+    "receipts": 0.0,
+    "total_receipts": 75353.0,
+    "payments": 45100.0,
+    "cb": 30253.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 100
+  },
+  {
+    "code": "254858",
+    "name": "Toong Naga",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Mangan",
+    "fy": "2021-22",
+    "ob": 472850.0,
+    "receipts": 0.0,
+    "total_receipts": 976801.0,
+    "payments": 285924.0,
+    "cb": 690877.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 101
+  },
+  {
+    "code": "254853",
+    "name": "Mangshila Tibuk",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Mangan",
+    "fy": "2021-22",
+    "ob": 1294851.0,
+    "receipts": 0.0,
+    "total_receipts": 3064176.0,
+    "payments": 849707.0,
+    "cb": 2214469.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 102
+  },
+  {
+    "code": "254782",
+    "name": "Namok Swayem",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Mangan",
+    "fy": "2021-22",
+    "ob": 104555.0,
+    "receipts": 0.0,
+    "total_receipts": 2483106.0,
+    "payments": 1845628.0,
+    "cb": 637478.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 103
+  },
+  {
+    "code": "254808",
+    "name": "Ringhim Nampatam",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Mangan",
+    "fy": "2021-22",
+    "ob": 2126671.0,
+    "receipts": 0.0,
+    "total_receipts": 5765860.0,
+    "payments": 4922045.0,
+    "cb": 843815.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 104
+  },
+  {
+    "code": "257850",
+    "name": "Tingchim Chadey",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Mangan",
+    "fy": "2021-22",
+    "ob": 101234.0,
+    "receipts": 0.0,
+    "total_receipts": 189361.0,
+    "payments": 148976.0,
+    "cb": 40385.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 105
+  },
+  {
+    "code": "254823",
+    "name": "Sanganath",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Sikip",
+    "fy": "2021-22",
+    "ob": 1690817.0,
+    "receipts": 0.0,
+    "total_receipts": 4678017.0,
+    "payments": 2519506.0,
+    "cb": 2158511.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 106
+  },
+  {
+    "code": "254741",
+    "name": "Hee Gyathang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Passingdong",
+    "fy": "2021-22",
+    "ob": 2122949.0,
+    "receipts": 0.0,
+    "total_receipts": 4283068.0,
+    "payments": 2081622.0,
+    "cb": 2201446.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 107
+  },
+  {
+    "code": "254855",
+    "name": "Tingvong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Passingdong",
+    "fy": "2021-22",
+    "ob": 244106.0,
+    "receipts": 0.0,
+    "total_receipts": 1828142.0,
+    "payments": 1625064.0,
+    "cb": 203078.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 108
+  },
+  {
+    "code": "254790",
+    "name": "Passingdang Saffo",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Passingdong",
+    "fy": "2021-22",
+    "ob": 507182.0,
+    "receipts": 0.0,
+    "total_receipts": 1194773.0,
+    "payments": 20000.0,
+    "cb": 1174773.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 109
+  },
+  {
+    "code": "254816",
+    "name": "Sakyong Pentong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Passingdong",
+    "fy": "2021-22",
+    "ob": 1347177.0,
+    "receipts": 0.0,
+    "total_receipts": 3743349.0,
+    "payments": 2249308.0,
+    "cb": 1494041.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 110
+  },
+  {
+    "code": "254760",
+    "name": "Lingthem Lingdem",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Passingdong",
+    "fy": "2021-22",
+    "ob": 1255776.0,
+    "receipts": 0.0,
+    "total_receipts": 2431636.0,
+    "payments": 274481.0,
+    "cb": 2157155.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 111
+  },
+  {
+    "code": "254765",
+    "name": "Lum Gor Sangtok",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Passingdong",
+    "fy": "2021-22",
+    "ob": 1710826.0,
+    "receipts": 0.0,
+    "total_receipts": 4131444.0,
+    "payments": 1503491.0,
+    "cb": 2627953.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 112
+  },
+  {
+    "code": "254838",
+    "name": "Suldung Kamling",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Mangalbaria",
+    "fy": "2021-22",
+    "ob": 92683.0,
+    "receipts": 0.0,
+    "total_receipts": 264450.0,
+    "payments": 251846.0,
+    "cb": 12604.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 113
+  },
+  {
+    "code": "254748",
+    "name": "Khaniserbong Suntoley",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Mangalbaria",
+    "fy": "2021-22",
+    "ob": 35003.0,
+    "receipts": 0.0,
+    "total_receipts": 296112.0,
+    "payments": 243090.0,
+    "cb": 53022.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 114
+  },
+  {
+    "code": "254842",
+    "name": "Takothang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Mangalbaria",
+    "fy": "2021-22",
+    "ob": 206434.0,
+    "receipts": 0.0,
+    "total_receipts": 1210309.0,
+    "payments": 1155022.0,
+    "cb": 55287.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 115
+  },
+  {
+    "code": "276340",
+    "name": "Parengoan",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Mangalbaria",
+    "fy": "2021-22",
+    "ob": 3535209.0,
+    "receipts": 0.0,
+    "total_receipts": 5439656.0,
+    "payments": 2672470.0,
+    "cb": 2767186.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 116
+  },
+  {
+    "code": "254758",
+    "name": "Kolthang Tokday",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Yangang",
+    "fy": "2021-22",
+    "ob": 498000.0,
+    "receipts": 0.0,
+    "total_receipts": 3512439.0,
+    "payments": 30000.0,
+    "cb": 3482439.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 117
+  },
+  {
+    "code": "254775",
+    "name": "Mellidara Paiyong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Sumbuk",
+    "fy": "2021-22",
+    "ob": 2808752.0,
+    "receipts": 0.0,
+    "total_receipts": 5406747.0,
+    "payments": 3890921.0,
+    "cb": 1515826.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 118
+  },
+  {
+    "code": "254836",
+    "name": "Sripatam Gagyong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Yangang",
+    "fy": "2021-22",
+    "ob": 867000.0,
+    "receipts": 0.0,
+    "total_receipts": 3727570.0,
+    "payments": 927430.0,
+    "cb": 2800140.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 119
+  },
+  {
+    "code": "254866",
+    "name": "Yangang Rangang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Yangang",
+    "fy": "2021-22",
+    "ob": 7247334.0,
+    "receipts": 0.0,
+    "total_receipts": 11921760.0,
+    "payments": 8110141.0,
+    "cb": 3811619.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 120
+  },
+  {
+    "code": "254803",
+    "name": "Rawatey Rumtek",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Ranka",
+    "fy": "2021-22",
+    "ob": 2138786.0,
+    "receipts": 0.0,
+    "total_receipts": 5263004.0,
+    "payments": 1409153.0,
+    "cb": 3853851.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 121
+  },
+  {
+    "code": "254805",
+    "name": "Rey Mendu",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Ranka",
+    "fy": "2021-22",
+    "ob": 82189.0,
+    "receipts": 0.0,
+    "total_receipts": 312530.0,
+    "payments": 213270.0,
+    "cb": 99260.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 122
+  },
+  {
+    "code": "254710",
+    "name": "Assam Lingzey",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Namcheybong",
+    "fy": "2021-22",
+    "ob": 156828.0,
+    "receipts": 0.0,
+    "total_receipts": 480938.0,
+    "payments": 160660.0,
+    "cb": 320278.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 123
+  },
+  {
+    "code": "254846",
+    "name": "Rongay Tathangchen",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Nandok",
+    "fy": "2021-22",
+    "ob": 324522.0,
+    "receipts": 0.0,
+    "total_receipts": 334698.0,
+    "payments": 284835.0,
+    "cb": 49863.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 124
+  },
+  {
+    "code": "254780",
+    "name": "Bhusuk Naitam",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Nandok",
+    "fy": "2021-22",
+    "ob": 1198802.0,
+    "receipts": 0.0,
+    "total_receipts": 2821836.0,
+    "payments": 1483129.0,
+    "cb": 1338707.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 125
+  },
+  {
+    "code": "257846",
+    "name": "Kopibari Syari",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Nandok",
+    "fy": "2021-22",
+    "ob": 56201.0,
+    "receipts": 0.0,
+    "total_receipts": 122055.0,
+    "payments": 54339.0,
+    "cb": 67716.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 126
+  },
+  {
+    "code": "254859",
+    "name": "Chungthang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Chungthang",
+    "fy": "2021-22",
+    "ob": 4371357.0,
+    "receipts": 0.0,
+    "total_receipts": 8588281.0,
+    "payments": 3447424.0,
+    "cb": 5140857.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 127
+  },
+  {
+    "code": "254750",
+    "name": "Lachen Dzumsa",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Chungthang",
+    "fy": "2021-22",
+    "ob": 943054.0,
+    "receipts": 0.0,
+    "total_receipts": 1245843.0,
+    "payments": 311102.0,
+    "cb": 934741.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 128
+  },
+  {
+    "code": "254751",
+    "name": "Lachung Dzumsa",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Chungthang",
+    "fy": "2021-22",
+    "ob": 114200.0,
+    "receipts": 0.0,
+    "total_receipts": 2071734.0,
+    "payments": 925235.0,
+    "cb": 1146499.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 129
+  },
+  {
+    "code": "249695",
+    "name": "Singtam Nagar Panchayat",
+    "tier": "Urban Local Body",
+    "district": "Gangtok",
+    "bac": "N/A",
+    "fy": "2020-21",
+    "ob": 1288631.0,
+    "receipts": 3909404.0,
+    "total_receipts": 5198035.0,
+    "payments": 5146284.0,
+    "cb": 51751.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 130
+  },
+  {
+    "code": "249695",
+    "name": "Singtam Nagar Panchayat",
+    "tier": "Urban Local Body",
+    "district": "Gangtok",
+    "bac": "N/A",
+    "fy": "2021-22",
+    "ob": 51751.0,
+    "receipts": 18618707.0,
+    "total_receipts": 18670458.0,
+    "payments": 18670458.0,
+    "cb": 0.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 131
+  },
+  {
+    "code": "254797",
+    "name": "Rakdong Tintek",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Rakdong Tintek",
+    "fy": "2022-23",
+    "ob": 3081568.0,
+    "receipts": 0.0,
+    "total_receipts": 5695122.0,
+    "payments": 1581819.0,
+    "cb": 4113303.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 132
+  },
+  {
+    "code": "254830",
+    "name": "Patuk Singbel",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Rakdong Tintek",
+    "fy": "2022-23",
+    "ob": 334063.0,
+    "receipts": 0.0,
+    "total_receipts": 336211.0,
+    "payments": 336211.0,
+    "cb": 0.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 133
+  },
+  {
+    "code": "254860",
+    "name": "Tumin",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Rakdong Tintek",
+    "fy": "2022-23",
+    "ob": 3330076.0,
+    "receipts": 0.0,
+    "total_receipts": 6257974.0,
+    "payments": 4438579.0,
+    "cb": 1819395.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 134
+  },
+  {
+    "code": "254747",
+    "name": "Khamdong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Khamdong",
+    "fy": "2022-23",
+    "ob": 3948963.0,
+    "receipts": 0.0,
+    "total_receipts": 5786730.0,
+    "payments": 1476163.0,
+    "cb": 4310567.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 135
+  },
+  {
+    "code": "257847",
+    "name": "Dung Dung Thasa",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Khamdong",
+    "fy": "2022-23",
+    "ob": 2440051.0,
+    "receipts": 0.0,
+    "total_receipts": 3831586.0,
+    "payments": 661142.0,
+    "cb": 3170444.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 136
+  },
+  {
+    "code": "276337",
+    "name": "Chisopani",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Khamdong",
+    "fy": "2022-23",
+    "ob": 3756946.0,
+    "receipts": 0.0,
+    "total_receipts": 5499310.0,
+    "payments": 2525745.0,
+    "cb": 2973565.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 137
+  },
+  {
+    "code": "254833",
+    "name": "Sirwani",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Khamdong",
+    "fy": "2022-23",
+    "ob": 1871898.0,
+    "receipts": 0.0,
+    "total_receipts": 3552821.0,
+    "payments": 1263374.0,
+    "cb": 2289447.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 138
+  },
+  {
+    "code": "254773",
+    "name": "Martam Nazitam",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Martam",
+    "fy": "2022-23",
+    "ob": 2024150.0,
+    "receipts": 0.0,
+    "total_receipts": 5282348.0,
+    "payments": 2838301.0,
+    "cb": 2444047.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 139
+  },
+  {
+    "code": "254781",
+    "name": "Namli",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Martam",
+    "fy": "2022-23",
+    "ob": 2130624.0,
+    "receipts": 0.0,
+    "total_receipts": 3841032.0,
+    "payments": 1829520.0,
+    "cb": 2011512.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 140
+  },
+  {
+    "code": "254820",
+    "name": "Samlik Marchak",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Martam",
+    "fy": "2022-23",
+    "ob": 246601.0,
+    "receipts": 0.0,
+    "total_receipts": 2033478.0,
+    "payments": 1240298.0,
+    "cb": 793180.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 141
+  },
+  {
+    "code": "257845",
+    "name": "Nandok Saramsa",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Nandok",
+    "fy": "2022-23",
+    "ob": 991.0,
+    "receipts": 0.0,
+    "total_receipts": 3566247.0,
+    "payments": 3114182.0,
+    "cb": 452065.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 142
+  },
+  {
+    "code": "254738",
+    "name": "Gnathang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Nandok",
+    "fy": "2022-23",
+    "ob": 2844054.0,
+    "receipts": 0.0,
+    "total_receipts": 7654211.0,
+    "payments": 4197296.0,
+    "cb": 3456915.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 143
+  },
+  {
+    "code": "257846",
+    "name": "Kopibari Syari",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Nandok",
+    "fy": "2022-23",
+    "ob": 0.0,
+    "receipts": 0.0,
+    "total_receipts": 2603589.0,
+    "payments": 1305952.0,
+    "cb": 1297637.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 144
+  },
+  {
+    "code": "254780",
+    "name": "Bhusuk Naitam",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Nandok",
+    "fy": "2022-23",
+    "ob": 77520.0,
+    "receipts": 0.0,
+    "total_receipts": 168268.0,
+    "payments": 154566.0,
+    "cb": 13702.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 145
+  },
+  {
+    "code": "254846",
+    "name": "Rongay Tathangchen",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Nandok",
+    "fy": "2022-23",
+    "ob": 1595821.0,
+    "receipts": 0.0,
+    "total_receipts": 6183720.0,
+    "payments": 4659069.0,
+    "cb": 1524651.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 146
+  },
+  {
+    "code": "254710",
+    "name": "Assam Lingzey",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Namcheybong",
+    "fy": "2022-23",
+    "ob": 1995567.0,
+    "receipts": 0.0,
+    "total_receipts": 3977282.0,
+    "payments": 1943856.0,
+    "cb": 2033426.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 147
+  },
+  {
+    "code": "254801",
+    "name": "Ranka",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Ranka",
+    "fy": "2022-23",
+    "ob": 130350.0,
+    "receipts": 0.0,
+    "total_receipts": 248188.0,
+    "payments": 65659.0,
+    "cb": 182529.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 148
+  },
+  {
+    "code": "254721",
+    "name": "Central Pendam",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Duga",
+    "fy": "2022-23",
+    "ob": 6773345.0,
+    "receipts": 0.0,
+    "total_receipts": 10814617.0,
+    "payments": 5147444.0,
+    "cb": 5667173.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 149
+  },
+  {
+    "code": "254865",
+    "name": "West Pendam",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Duga",
+    "fy": "2022-23",
+    "ob": 7420793.0,
+    "receipts": 0.0,
+    "total_receipts": 11769174.0,
+    "payments": 4548778.0,
+    "cb": 7220396.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 150
+  },
+  {
+    "code": "254840",
+    "name": "Sumin Lingzey",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Namcheybong",
+    "fy": "2022-23",
+    "ob": 3715768.0,
+    "receipts": 0.0,
+    "total_receipts": 5521868.0,
+    "payments": 2150389.0,
+    "cb": 3371479.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 151
+  },
+  {
+    "code": "254736",
+    "name": "East Pendam",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "fy": "2022-23",
+    "ob": 326490.0,
+    "receipts": 0.0,
+    "total_receipts": 572964.0,
+    "payments": 544705.0,
+    "cb": 28259.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 152
+  },
+  {
+    "code": "254706",
+    "name": "Aho Yangtam",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Namcheybong",
+    "fy": "2022-23",
+    "ob": 3502750.0,
+    "receipts": 0.0,
+    "total_receipts": 5038311.0,
+    "payments": 1674467.0,
+    "cb": 3363844.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 153
+  },
+  {
+    "code": "254761",
+    "name": "Bering Tareythang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "fy": "2022-23",
+    "ob": 2813874.0,
+    "receipts": 0.0,
+    "total_receipts": 4118389.0,
+    "payments": 2157230.0,
+    "cb": 1961159.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 154
+  },
+  {
+    "code": "254787",
+    "name": "Chalamthang Pacheykhani",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "fy": "2022-23",
+    "ob": 3396256.0,
+    "receipts": 0.0,
+    "total_receipts": 7710215.0,
+    "payments": 6200627.0,
+    "cb": 1509588.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 155
+  },
+  {
+    "code": "257844",
+    "name": "Pachey Samsing",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "fy": "2022-23",
+    "ob": 3785886.0,
+    "receipts": 0.0,
+    "total_receipts": 7807476.0,
+    "payments": 3962246.0,
+    "cb": 3845230.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 156
+  },
+  {
+    "code": "254847",
+    "name": "Taza",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "fy": "2022-23",
+    "ob": 2609888.0,
+    "receipts": 0.0,
+    "total_receipts": 3816142.0,
+    "payments": 1605905.0,
+    "cb": 2210237.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 157
+  },
+  {
+    "code": "254745",
+    "name": "Namcheybong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Namcheybong",
+    "fy": "2022-23",
+    "ob": 3975556.0,
+    "receipts": 0.0,
+    "total_receipts": 8993677.0,
+    "payments": 3643592.0,
+    "cb": 5350085.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 158
+  },
+  {
+    "code": "254850",
+    "name": "Linkey Parakha",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Parakha",
+    "fy": "2022-23",
+    "ob": 2267010.0,
+    "receipts": 0.0,
+    "total_receipts": 3773174.0,
+    "payments": 1730118.0,
+    "cb": 2043056.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 159
+  },
+  {
+    "code": "254809",
+    "name": "Riwa Machong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Parakha",
+    "fy": "2022-23",
+    "ob": 549350.0,
+    "receipts": 0.0,
+    "total_receipts": 3411891.0,
+    "payments": 2645255.0,
+    "cb": 766636.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 160
+  },
+  {
+    "code": "254753",
+    "name": "Latuk Barapathing",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Parakha",
+    "fy": "2022-23",
+    "ob": 1156941.0,
+    "receipts": 0.0,
+    "total_receipts": 2543393.0,
+    "payments": 1579848.0,
+    "cb": 963545.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 161
+  },
+  {
+    "code": "254795",
+    "name": "Premlakha Subaneydara",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Regu",
+    "fy": "2022-23",
+    "ob": 1731319.0,
+    "receipts": 0.0,
+    "total_receipts": 2893001.0,
+    "payments": 1342686.0,
+    "cb": 1550315.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 162
+  },
+  {
+    "code": "254727",
+    "name": "Chujachen",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Regu",
+    "fy": "2022-23",
+    "ob": 5263979.0,
+    "receipts": 0.0,
+    "total_receipts": 8240295.0,
+    "payments": 3457817.0,
+    "cb": 4782478.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 163
+  },
+  {
+    "code": "254759",
+    "name": "Lingtam Phadamchen",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Regu",
+    "fy": "2022-23",
+    "ob": 1018181.0,
+    "receipts": 0.0,
+    "total_receipts": 2089333.0,
+    "payments": 1150506.0,
+    "cb": 938827.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 164
+  },
+  {
+    "code": "254810",
+    "name": "Rolep Lamaten",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Regu",
+    "fy": "2022-23",
+    "ob": 1941133.0,
+    "receipts": 0.0,
+    "total_receipts": 2836946.0,
+    "payments": 1017187.0,
+    "cb": 1819759.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 165
+  },
+  {
+    "code": "254806",
+    "name": "Rhenock",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Rhenock",
+    "fy": "2022-23",
+    "ob": 7449449.0,
+    "receipts": 0.0,
+    "total_receipts": 11189059.0,
+    "payments": 4092851.0,
+    "cb": 7096208.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 166
+  },
+  {
+    "code": "254708",
+    "name": "Aritar",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Rhenock",
+    "fy": "2022-23",
+    "ob": 3016708.0,
+    "receipts": 0.0,
+    "total_receipts": 5227934.0,
+    "payments": 1744516.0,
+    "cb": 3483418.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 167
+  },
+  {
+    "code": "254837",
+    "name": "Sudunglakha",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Rhenock",
+    "fy": "2022-23",
+    "ob": 1989747.0,
+    "receipts": 0.0,
+    "total_receipts": 3130528.0,
+    "payments": 1250379.0,
+    "cb": 1880149.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 168
+  },
+  {
+    "code": "254723",
+    "name": "Tarpin",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Rhenock",
+    "fy": "2022-23",
+    "ob": 2227450.0,
+    "receipts": 0.0,
+    "total_receipts": 4545217.0,
+    "payments": 2227450.0,
+    "cb": 2317767.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 169
+  },
+  {
+    "code": "254849",
+    "name": "Tharpu",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Soreng",
+    "fy": "2022-23",
+    "ob": 1083480.0,
+    "receipts": 0.0,
+    "total_receipts": 1858344.0,
+    "payments": 1152047.0,
+    "cb": 706297.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 170
+  },
+  {
+    "code": "300285",
+    "name": "Lower Timburbong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Soreng",
+    "fy": "2022-23",
+    "ob": 202411.0,
+    "receipts": 0.0,
+    "total_receipts": 383916.0,
+    "payments": 368956.0,
+    "cb": 14960.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 171
+  },
+  {
+    "code": "276344",
+    "name": "Mangsari Mangarjung",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Soreng",
+    "fy": "2022-23",
+    "ob": 559753.0,
+    "receipts": 0.0,
+    "total_receipts": 2145171.0,
+    "payments": 1620800.0,
+    "cb": 524371.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 172
+  },
+  {
+    "code": "257849",
+    "name": "Karthok Bojek",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Soreng",
+    "fy": "2022-23",
+    "ob": 613830.0,
+    "receipts": 0.0,
+    "total_receipts": 1462000.0,
+    "payments": 925745.0,
+    "cb": 536255.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 173
+  },
+  {
+    "code": "254828",
+    "name": "Siktam Tikpur",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "fy": "2022-23",
+    "ob": 2503239.0,
+    "receipts": 0.0,
+    "total_receipts": 2874594.0,
+    "payments": 488567.0,
+    "cb": 2386027.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 174
+  },
+  {
+    "code": "254786",
+    "name": "Okhrey",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "fy": "2022-23",
+    "ob": 2337489.0,
+    "receipts": 0.0,
+    "total_receipts": 3122172.0,
+    "payments": 984812.0,
+    "cb": 2137360.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 175
+  },
+  {
+    "code": "254863",
+    "name": "Upper Thambong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "fy": "2022-23",
+    "ob": 4066446.0,
+    "receipts": 0.0,
+    "total_receipts": 5078149.0,
+    "payments": 1557001.0,
+    "cb": 3521148.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 176
+  },
+  {
+    "code": "254814",
+    "name": "Rumbuk",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "fy": "2022-23",
+    "ob": 2155059.0,
+    "receipts": 0.0,
+    "total_receipts": 3310885.0,
+    "payments": 858025.0,
+    "cb": 2452860.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 177
+  },
+  {
+    "code": "254807",
+    "name": "Ribdi Bhareng",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "fy": "2022-23",
+    "ob": 178807.0,
+    "receipts": 0.0,
+    "total_receipts": 869264.0,
+    "payments": 731841.0,
+    "cb": 137423.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 178
+  },
+  {
+    "code": "254734",
+    "name": "Dodak",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "fy": "2022-23",
+    "ob": 1876823.0,
+    "receipts": 0.0,
+    "total_receipts": 3222350.0,
+    "payments": 1391252.0,
+    "cb": 1831098.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 179
+  },
+  {
+    "code": "254798",
+    "name": "Ralong Namlung",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Ravong",
+    "fy": "2022-23",
+    "ob": 172111.0,
+    "receipts": 0.0,
+    "total_receipts": 2312818.0,
+    "payments": 2158178.0,
+    "cb": 154640.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 180
+  },
+  {
+    "code": "254857",
+    "name": "Tinkitam Rayong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Ravong",
+    "fy": "2022-23",
+    "ob": 291000.0,
+    "receipts": 0.0,
+    "total_receipts": 309296.0,
+    "payments": 0.0,
+    "cb": 309296.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 181
+  },
+  {
+    "code": "254746",
+    "name": "Kewzing Bakhim",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Ravong",
+    "fy": "2022-23",
+    "ob": 2426728.0,
+    "receipts": 0.0,
+    "total_receipts": 4167332.0,
+    "payments": 1756878.0,
+    "cb": 2410454.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 182
+  },
+  {
+    "code": "254725",
+    "name": "Chota Samdong Arubotey",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Chumbong",
+    "fy": "2022-23",
+    "ob": 1906912.0,
+    "receipts": 0.0,
+    "total_receipts": 2933046.0,
+    "payments": 1965232.0,
+    "cb": 967814.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 183
+  },
+  {
+    "code": "254777",
+    "name": "Mendogaon Berbotey",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Chumbong",
+    "fy": "2022-23",
+    "ob": 845834.0,
+    "receipts": 0.0,
+    "total_receipts": 3745337.0,
+    "payments": 2767327.0,
+    "cb": 978010.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 184
+  },
+  {
+    "code": "254832",
+    "name": "Singyang Chumbung",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Gyalshing",
+    "fy": "2022-23",
+    "ob": 4683244.0,
+    "receipts": 0.0,
+    "total_receipts": 7490648.0,
+    "payments": 2649410.0,
+    "cb": 4841238.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 185
+  },
+  {
+    "code": "254722",
+    "name": "Chakung",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Chumbong",
+    "fy": "2022-23",
+    "ob": 2537565.0,
+    "receipts": 0.0,
+    "total_receipts": 3722460.0,
+    "payments": 1708194.0,
+    "cb": 2014266.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 186
+  },
+  {
+    "code": "254750",
+    "name": "Lachen Dzumsa",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Chungthang",
+    "fy": "2022-23",
+    "ob": 3605683.0,
+    "receipts": 0.0,
+    "total_receipts": 5304526.0,
+    "payments": 300000.0,
+    "cb": 5004526.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 187
+  },
+  {
+    "code": "254859",
+    "name": "Chungthang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Chungthang",
+    "fy": "2022-23",
+    "ob": 5453427.0,
+    "receipts": 0.0,
+    "total_receipts": 8042758.0,
+    "payments": 193420.0,
+    "cb": 7849338.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 188
+  },
+  {
+    "code": "254751",
+    "name": "Lachung Dzumsa",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Chungthang",
+    "fy": "2022-23",
+    "ob": 1841029.0,
+    "receipts": 0.0,
+    "total_receipts": 3405174.0,
+    "payments": 1465847.0,
+    "cb": 1939327.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 189
+  },
+  {
+    "code": "254756",
+    "name": "Lingdok Nampong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Kabi",
+    "fy": "2022-23",
+    "ob": 31251.0,
+    "receipts": 0.0,
+    "total_receipts": 31251.0,
+    "payments": 19667.0,
+    "cb": 11584.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 190
+  },
+  {
+    "code": "257833",
+    "name": "Kyongnosla",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Kabi",
+    "fy": "2022-23",
+    "ob": 538449.0,
+    "receipts": 0.0,
+    "total_receipts": 2098976.0,
+    "payments": 1661862.0,
+    "cb": 437114.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 191
+  },
+  {
+    "code": "276335",
+    "name": "Lingchom Tingda",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Kabi",
+    "fy": "2022-23",
+    "ob": 1192489.0,
+    "receipts": 0.0,
+    "total_receipts": 4590586.0,
+    "payments": 3431286.0,
+    "cb": 1159300.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 192
+  },
+  {
+    "code": "254784",
+    "name": "Navey Shotak",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Kabi",
+    "fy": "2022-23",
+    "ob": 207886.0,
+    "receipts": 0.0,
+    "total_receipts": 488390.9,
+    "payments": 198665.0,
+    "cb": 289726.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 193
+  },
+  {
+    "code": "254732",
+    "name": "Deythang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Kaluk",
+    "fy": "2022-23",
+    "ob": 1776335.0,
+    "receipts": 0.0,
+    "total_receipts": 2605194.0,
+    "payments": 1606787.0,
+    "cb": 998407.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 194
+  },
+  {
+    "code": "254818",
+    "name": "Samdong Sribadam",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Kaluk",
+    "fy": "2022-23",
+    "ob": 254712.0,
+    "receipts": 0.0,
+    "total_receipts": 527860.0,
+    "payments": 286920.0,
+    "cb": 240940.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 195
+  },
+  {
+    "code": "254841",
+    "name": "Tadong Rinchenpong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Kaluk",
+    "fy": "2022-23",
+    "ob": 244715.81,
+    "receipts": 0.0,
+    "total_receipts": 797774.8,
+    "payments": 675171.8,
+    "cb": 122603.01,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 196
+  },
+  {
+    "code": "254853",
+    "name": "Mangshila Tibuk",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Mangan",
+    "fy": "2022-23",
+    "ob": 2214469.0,
+    "receipts": 0.0,
+    "total_receipts": 3622191.0,
+    "payments": 1311196.0,
+    "cb": 2310995.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 197
+  },
+  {
+    "code": "254858",
+    "name": "Toong Naga",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Mangan",
+    "fy": "2022-23",
+    "ob": 2402250.0,
+    "receipts": 0.0,
+    "total_receipts": 3668454.0,
+    "payments": 1164941.0,
+    "cb": 2503513.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 198
+  },
+  {
+    "code": "254802",
+    "name": "Rateypani",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namthang",
+    "fy": "2022-23",
+    "ob": 1589441.0,
+    "receipts": 0.0,
+    "total_receipts": 2685999.0,
+    "payments": 1210183.0,
+    "cb": 1475816.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 199
+  },
+  {
+    "code": "254792",
+    "name": "Perbing Dovan",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namthang",
+    "fy": "2022-23",
+    "ob": 282188.0,
+    "receipts": 0.0,
+    "total_receipts": 969424.0,
+    "payments": 552889.0,
+    "cb": 416535.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 200
+  },
+  {
+    "code": "254799",
+    "name": "Rameng Nizrameng",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namthang",
+    "fy": "2022-23",
+    "ob": 842853.0,
+    "receipts": 0.0,
+    "total_receipts": 1126028.0,
+    "payments": 7800.0,
+    "cb": 1118228.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 201
+  },
+  {
+    "code": "257853",
+    "name": "Karek Kabrey",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namthang",
+    "fy": "2022-23",
+    "ob": 2834737.0,
+    "receipts": 0.0,
+    "total_receipts": 4799250.0,
+    "payments": 451018.0,
+    "cb": 4348232.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 202
+  },
+  {
+    "code": "254856",
+    "name": "Tinik Chisopani",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Poklok Nandugaon",
+    "fy": "2022-23",
+    "ob": 2584776.0,
+    "receipts": 0.0,
+    "total_receipts": 4531781.0,
+    "payments": 1522994.0,
+    "cb": 3008787.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 203
+  },
+  {
+    "code": "254760",
+    "name": "Lingthem Lingdem",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Passingdong",
+    "fy": "2022-23",
+    "ob": 1934820.0,
+    "receipts": 0.0,
+    "total_receipts": 2972925.0,
+    "payments": 0.0,
+    "cb": 2972925.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 204
+  },
+  {
+    "code": "254855",
+    "name": "Tingvong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Passingdong",
+    "fy": "2022-23",
+    "ob": 31331.0,
+    "receipts": 0.0,
+    "total_receipts": 117947.0,
+    "payments": 20725.0,
+    "cb": 97222.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 205
+  },
+  {
+    "code": "254816",
+    "name": "Sakyong Pentong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Passingdong",
+    "fy": "2022-23",
+    "ob": 164249.0,
+    "receipts": 0.0,
+    "total_receipts": 705762.0,
+    "payments": 525363.0,
+    "cb": 180399.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 206
+  },
+  {
+    "code": "254775",
+    "name": "Mellidara Paiyong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Sumbuk",
+    "fy": "2022-23",
+    "ob": 75853.0,
+    "receipts": 0.0,
+    "total_receipts": 331384.0,
+    "payments": 300308.0,
+    "cb": 31076.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 207
+  },
+  {
+    "code": "254848",
+    "name": "Temi",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Temi",
+    "fy": "2022-23",
+    "ob": 3873274.0,
+    "receipts": 0.0,
+    "total_receipts": 7614543.0,
+    "payments": 4234462.0,
+    "cb": 3380081.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 208
+  },
+  {
+    "code": "254783",
+    "name": "Namphing",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Temi",
+    "fy": "2022-23",
+    "ob": 5705024.0,
+    "receipts": 0.0,
+    "total_receipts": 10838266.0,
+    "payments": 5626745.0,
+    "cb": 5211521.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 209
+  },
+  {
+    "code": "254836",
+    "name": "Sripatam Gagyong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Yangang",
+    "fy": "2022-23",
+    "ob": 2800140.0,
+    "receipts": 0.0,
+    "total_receipts": 5584922.0,
+    "payments": 2412352.0,
+    "cb": 3172570.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 210
+  },
+  {
+    "code": "254758",
+    "name": "Kolthang Tokday",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Yangang",
+    "fy": "2022-23",
+    "ob": 3482439.0,
+    "receipts": 0.0,
+    "total_receipts": 5125953.0,
+    "payments": 2585555.0,
+    "cb": 2540398.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 211
+  },
+  {
+    "code": "254757",
+    "name": "Lingi",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Yangang",
+    "fy": "2022-23",
+    "ob": 3155337.0,
+    "receipts": 0.0,
+    "total_receipts": 4637291.0,
+    "payments": 1336300.0,
+    "cb": 3300991.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 212
+  },
+  {
+    "code": "254774",
+    "name": "Meli Aching",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Yoksum",
+    "fy": "2022-23",
+    "ob": 1046678.0,
+    "receipts": 0.0,
+    "total_receipts": 1851785.0,
+    "payments": 892777.0,
+    "cb": 959008.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 213
+  },
+  {
+    "code": "254711",
+    "name": "Assangthang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namchi",
+    "fy": "2022-23",
+    "ob": 62084.0,
+    "receipts": 0.0,
+    "total_receipts": 220873.0,
+    "payments": 209868.0,
+    "cb": 11005.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 214
+  },
+  {
+    "code": "276342",
+    "name": "Boomtar Salleybong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namchi",
+    "fy": "2022-23",
+    "ob": 376563.1,
+    "receipts": 0.0,
+    "total_receipts": 535683.1,
+    "payments": 250630.78,
+    "cb": 285052.32,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 215
+  },
+  {
+    "code": "254729",
+    "name": "Damthang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namchi",
+    "fy": "2022-23",
+    "ob": 2026026.0,
+    "receipts": 0.0,
+    "total_receipts": 3034421.0,
+    "payments": 826450.0,
+    "cb": 2207971.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 216
+  },
+  {
+    "code": "254778",
+    "name": "Kitam Manpur",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namchi",
+    "fy": "2022-23",
+    "ob": 1862106.0,
+    "receipts": 0.0,
+    "total_receipts": 3368028.0,
+    "payments": 2364825.0,
+    "cb": 1003203.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 217
+  },
+  {
+    "code": "254772",
+    "name": "Maniram Phalidara",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namchi",
+    "fy": "2022-23",
+    "ob": 6828475.0,
+    "receipts": 0.0,
+    "total_receipts": 9746287.0,
+    "payments": 2023129.0,
+    "cb": 7723158.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 218
+  },
+  {
+    "code": "254835",
+    "name": "Sorok Shyampani",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namchi",
+    "fy": "2022-23",
+    "ob": 126695.5,
+    "receipts": 0.0,
+    "total_receipts": 296270.5,
+    "payments": 144039.0,
+    "cb": 152231.5,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 219
+  },
+  {
+    "code": "254854",
+    "name": "Tingrithang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namchi",
+    "fy": "2022-23",
+    "ob": 1770274.0,
+    "receipts": 0.0,
+    "total_receipts": 2614562.0,
+    "payments": 0.0,
+    "cb": 2614562.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 220
+  },
+  {
+    "code": "254712",
+    "name": "Bongten Sapong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Dentam",
+    "fy": "2022-23",
+    "ob": 1953805.0,
+    "receipts": 0.0,
+    "total_receipts": 3186434.0,
+    "payments": 1614551.0,
+    "cb": 1571883.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 221
+  },
+  {
+    "code": "254731",
+    "name": "Dentam",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Dentam",
+    "fy": "2022-23",
+    "ob": 4599984.0,
+    "receipts": 0.0,
+    "total_receipts": 6752568.0,
+    "payments": 1414654.0,
+    "cb": 5337914.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 222
+  },
+  {
+    "code": "254740",
+    "name": "Hee",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Dentam",
+    "fy": "2022-23",
+    "ob": 3395401.0,
+    "receipts": 0.0,
+    "total_receipts": 4998740.0,
+    "payments": 1641243.0,
+    "cb": 3357497.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 223
+  },
+  {
+    "code": "276338",
+    "name": "Sopakha",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Dentam",
+    "fy": "2022-23",
+    "ob": 1106455.0,
+    "receipts": 0.0,
+    "total_receipts": 3018233.0,
+    "payments": 1361606.0,
+    "cb": 1656627.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 224
+  },
+  {
+    "code": "254868",
+    "name": "Yangthang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Gyalshing",
+    "fy": "2022-23",
+    "ob": 2706257.0,
+    "receipts": 0.0,
+    "total_receipts": 4892792.0,
+    "payments": 2025545.0,
+    "cb": 2867247.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 225
+  },
+  {
+    "code": "254730",
+    "name": "Darap Singpheng",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Gyalshing",
+    "fy": "2022-23",
+    "ob": 4333015.0,
+    "receipts": 0.0,
+    "total_receipts": 6340113.0,
+    "payments": 2808188.0,
+    "cb": 3531925.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 226
+  },
+  {
+    "code": "254755",
+    "name": "Lingchom Tikjya",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Gyalshing",
+    "fy": "2022-23",
+    "ob": 915460.0,
+    "receipts": 0.0,
+    "total_receipts": 1093077.0,
+    "payments": 712028.0,
+    "cb": 381049.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 227
+  },
+  {
+    "code": "254724",
+    "name": "Chingthang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Hee Martam",
+    "fy": "2022-23",
+    "ob": 2219639.0,
+    "receipts": 0.0,
+    "total_receipts": 5813936.0,
+    "payments": 3052035.0,
+    "cb": 2761901.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 228
+  },
+  {
+    "code": "254718",
+    "name": "Bermiok Barthang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Hee Martam",
+    "fy": "2022-23",
+    "ob": 3274814.0,
+    "receipts": 0.0,
+    "total_receipts": 5222443.0,
+    "payments": 2758737.0,
+    "cb": 2463706.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 229
+  },
+  {
+    "code": "257848",
+    "name": "Pecherek Hee Patal",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Hee Martam",
+    "fy": "2022-23",
+    "ob": 1779770.0,
+    "receipts": 0.0,
+    "total_receipts": 2607721.0,
+    "payments": 1213714.0,
+    "cb": 1394007.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 230
+  },
+  {
+    "code": "249690",
+    "name": "Gyalshing Nagar Panchayat",
+    "tier": "Urban Local Body",
+    "district": "Gyalshing",
+    "bac": "N/A",
+    "fy": "2021-22",
+    "ob": 3152818.0,
+    "receipts": 0.0,
+    "total_receipts": 18460566.0,
+    "payments": 10234477.0,
+    "cb": 8226089.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 231
+  },
+  {
+    "code": "276341",
+    "name": "Samsing Pipalay",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Baiguney",
+    "fy": "2023-24",
+    "ob": 2734754.0,
+    "receipts": 550378.0,
+    "total_receipts": 3285132.0,
+    "payments": 0.0,
+    "cb": 3285132.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 232
+  },
+  {
+    "code": "254870",
+    "name": "Zoom",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Baiguney",
+    "fy": "2023-24",
+    "ob": 2634420.0,
+    "receipts": 656432.0,
+    "total_receipts": 3290852.0,
+    "payments": 435515.0,
+    "cb": 2855337.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 233
+  },
+  {
+    "code": "254767",
+    "name": "Mabong Segeng",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Baiguney",
+    "fy": "2023-24",
+    "ob": 1328867.0,
+    "receipts": 1228658.0,
+    "total_receipts": 2557525.0,
+    "payments": 732226.0,
+    "cb": 1825299.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 234
+  },
+  {
+    "code": "254821",
+    "name": "Gelling Baiguney",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Baiguney",
+    "fy": "2023-24",
+    "ob": 1787986.0,
+    "receipts": 529875.0,
+    "total_receipts": 2317861.0,
+    "payments": 470199.0,
+    "cb": 1847662.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 235
+  },
+  {
+    "code": "254838",
+    "name": "Suldung Kamling",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Mangalbaria",
+    "fy": "2023-24",
+    "ob": 3151027.0,
+    "receipts": 1940904.0,
+    "total_receipts": 5091931.0,
+    "payments": 1383471.0,
+    "cb": 3708460.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 236
+  },
+  {
+    "code": "276340",
+    "name": "Parengoan",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Mangalbaria",
+    "fy": "2023-24",
+    "ob": 1401616.0,
+    "receipts": 835264.0,
+    "total_receipts": 2236880.0,
+    "payments": 695652.0,
+    "cb": 1541228.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 237
+  },
+  {
+    "code": "254748",
+    "name": "Khaniserbong Suntoley",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Mangalbaria",
+    "fy": "2023-24",
+    "ob": 2154558.0,
+    "receipts": 962338.0,
+    "total_receipts": 3116896.0,
+    "payments": 1400270.0,
+    "cb": 1716626.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 238
+  },
+  {
+    "code": "254773",
+    "name": "Martam Nazitam",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Martam",
+    "fy": "2023-24",
+    "ob": 5535961.0,
+    "receipts": 2092596.0,
+    "total_receipts": 7628557.0,
+    "payments": 3795791.0,
+    "cb": 3832766.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 239
+  },
+  {
+    "code": "257848",
+    "name": "Pecherek Hee Patal",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Hee Martam",
+    "fy": "2023-24",
+    "ob": 1401825.0,
+    "receipts": 431459.0,
+    "total_receipts": 1833284.0,
+    "payments": 694145.0,
+    "cb": 1139139.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 240
+  },
+  {
+    "code": "254718",
+    "name": "Bermiok Barthang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Hee Martam",
+    "fy": "2023-24",
+    "ob": 2451518.0,
+    "receipts": 995576.0,
+    "total_receipts": 3447094.0,
+    "payments": 1309652.0,
+    "cb": 2137442.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 241
+  },
+  {
+    "code": "254841",
+    "name": "Tadong Rinchenpong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Kaluk",
+    "fy": "2023-24",
+    "ob": 4015255.0,
+    "receipts": 962911.0,
+    "total_receipts": 4978166.0,
+    "payments": 3528218.0,
+    "cb": 1449948.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 242
+  },
+  {
+    "code": "254732",
+    "name": "Deythang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Kaluk",
+    "fy": "2023-24",
+    "ob": 998407.0,
+    "receipts": 410199.0,
+    "total_receipts": 1408606.0,
+    "payments": 919388.0,
+    "cb": 489218.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 243
+  },
+  {
+    "code": "300092",
+    "name": "Bara Samdong Boom Reshi",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Kaluk",
+    "fy": "2023-24",
+    "ob": 0.0,
+    "receipts": 593072.0,
+    "total_receipts": 593072.0,
+    "payments": 0.0,
+    "cb": 593072.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 244
+  },
+  {
+    "code": "254818",
+    "name": "Samdong Sribadam",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Kaluk",
+    "fy": "2023-24",
+    "ob": 3681274.0,
+    "receipts": 653163.0,
+    "total_receipts": 4334437.0,
+    "payments": 1917517.0,
+    "cb": 2416920.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 245
+  },
+  {
+    "code": "254822",
+    "name": "Sangadorji",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Kaluk",
+    "fy": "2023-24",
+    "ob": 3202754.0,
+    "receipts": 927037.0,
+    "total_receipts": 4129791.0,
+    "payments": 3135950.0,
+    "cb": 993841.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 246
+  },
+  {
+    "code": "254733",
+    "name": "Dhupidara Narkhola",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Arithang Chongrong",
+    "fy": "2023-24",
+    "ob": 1963984.0,
+    "receipts": 353442.0,
+    "total_receipts": 2317426.0,
+    "payments": 1524515.0,
+    "cb": 792911.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 247
+  },
+  {
+    "code": "254749",
+    "name": "Kongri Labdang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Arithang Chongrong",
+    "fy": "2023-24",
+    "ob": 859063.0,
+    "receipts": 321988.0,
+    "total_receipts": 1181051.0,
+    "payments": 226271.0,
+    "cb": 954780.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 248
+  },
+  {
+    "code": "254743",
+    "name": "Karzi Mangnam",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Arithang Chongrong",
+    "fy": "2023-24",
+    "ob": 788628.0,
+    "receipts": 199844.0,
+    "total_receipts": 988472.0,
+    "payments": 483485.0,
+    "cb": 504987.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 249
+  },
+  {
+    "code": "254737",
+    "name": "Gerethang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Yoksum",
+    "fy": "2023-24",
+    "ob": 3093842.0,
+    "receipts": 793510.0,
+    "total_receipts": 3887352.0,
+    "payments": 1287568.0,
+    "cb": 2599784.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 250
+  },
+  {
+    "code": "254845",
+    "name": "Tashiding",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Arithang Chongrong",
+    "fy": "2023-24",
+    "ob": 5401577.0,
+    "receipts": 1346151.0,
+    "total_receipts": 6747728.0,
+    "payments": 3167994.0,
+    "cb": 3579734.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 251
+  },
+  {
+    "code": "254709",
+    "name": "Arithang Chongrong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Arithang Chongrong",
+    "fy": "2023-24",
+    "ob": 1826753.0,
+    "receipts": 766375.0,
+    "total_receipts": 2593128.0,
+    "payments": 1477267.0,
+    "cb": 1115861.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 252
+  },
+  {
+    "code": "276336",
+    "name": "Rimbi Tingbrum",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Yoksum",
+    "fy": "2023-24",
+    "ob": 1115116.0,
+    "receipts": 405121.0,
+    "total_receipts": 1520237.0,
+    "payments": 773905.0,
+    "cb": 746332.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 253
+  },
+  {
+    "code": "254774",
+    "name": "Meli Aching",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Yoksum",
+    "fy": "2023-24",
+    "ob": 959008.0,
+    "receipts": 414666.0,
+    "total_receipts": 1373674.0,
+    "payments": 699461.0,
+    "cb": 674213.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 254
+  },
+  {
+    "code": "300082",
+    "name": "Thingling",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Yoksum",
+    "fy": "2023-24",
+    "ob": 0.0,
+    "receipts": 445871.0,
+    "total_receipts": 445871.0,
+    "payments": 0.0,
+    "cb": 445871.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 255
+  },
+  {
+    "code": "254730",
+    "name": "Darap Singpheng",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Gyalshing",
+    "fy": "2023-24",
+    "ob": 3531925.0,
+    "receipts": 644635.0,
+    "total_receipts": 4176560.0,
+    "payments": 1822214.0,
+    "cb": 2354346.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 256
+  },
+  {
+    "code": "254755",
+    "name": "Lingchom Tikjya",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Gyalshing",
+    "fy": "2023-24",
+    "ob": 331457.0,
+    "receipts": 3564573.0,
+    "total_receipts": 3896030.0,
+    "payments": 1461042.0,
+    "cb": 2434988.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 257
+  },
+  {
+    "code": "254832",
+    "name": "Singyang Chumbung",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Gyalshing",
+    "fy": "2023-24",
+    "ob": 4841238.0,
+    "receipts": 2703641.0,
+    "total_receipts": 7544879.0,
+    "payments": 1965186.0,
+    "cb": 5579693.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 258
+  },
+  {
+    "code": "300094",
+    "name": "Tikjuk Kyongsa",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Gyalshing",
+    "fy": "2023-24",
+    "ob": 0.0,
+    "receipts": 481892.0,
+    "total_receipts": 481892.0,
+    "payments": 389.0,
+    "cb": 481503.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 259
+  },
+  {
+    "code": "254867",
+    "name": "Yangten",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Gyalshing",
+    "fy": "2023-24",
+    "ob": 1894103.0,
+    "receipts": 2938666.0,
+    "total_receipts": 4832769.0,
+    "payments": 1883373.0,
+    "cb": 2949396.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 260
+  },
+  {
+    "code": "254868",
+    "name": "Yangthang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Gyalshing",
+    "fy": "2023-24",
+    "ob": 2867247.0,
+    "receipts": 658008.0,
+    "total_receipts": 3525255.0,
+    "payments": 949201.0,
+    "cb": 2576054.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 261
+  },
+  {
+    "code": "254712",
+    "name": "Bongten Sapong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Dentam",
+    "fy": "2023-24",
+    "ob": 1571883.0,
+    "receipts": 629696.0,
+    "total_receipts": 2201579.0,
+    "payments": 983709.0,
+    "cb": 1217870.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 262
+  },
+  {
+    "code": "300095",
+    "name": "Begha",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Dentam",
+    "fy": "2023-24",
+    "ob": 0.0,
+    "receipts": 477277.0,
+    "total_receipts": 477277.0,
+    "payments": 0.0,
+    "cb": 477277.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 263
+  },
+  {
+    "code": "254824",
+    "name": "Sangkhu Radukhandu",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Dentam",
+    "fy": "2023-24",
+    "ob": 3656330.0,
+    "receipts": 1224004.0,
+    "total_receipts": 4880334.0,
+    "payments": 3576104.0,
+    "cb": 1304230.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 264
+  },
+  {
+    "code": "254740",
+    "name": "Hee",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Dentam",
+    "fy": "2023-24",
+    "ob": 3377542.0,
+    "receipts": 813162.0,
+    "total_receipts": 4190704.0,
+    "payments": 2736139.0,
+    "cb": 1454565.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 265
+  },
+  {
+    "code": "276338",
+    "name": "Sopakha",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Dentam",
+    "fy": "2023-24",
+    "ob": 2592018.0,
+    "receipts": 672208.0,
+    "total_receipts": 3264226.0,
+    "payments": 2013088.0,
+    "cb": 1251138.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 266
+  },
+  {
+    "code": "254770",
+    "name": "Maneybung",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Dentam",
+    "fy": "2023-24",
+    "ob": 2718901.0,
+    "receipts": 691278.0,
+    "total_receipts": 3410179.0,
+    "payments": 1903576.0,
+    "cb": 1506603.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 267
+  },
+  {
+    "code": "254825",
+    "name": "Sardung Lungzik",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Dentam",
+    "fy": "2023-24",
+    "ob": 901992.0,
+    "receipts": 511366.0,
+    "total_receipts": 1413358.0,
+    "payments": 248649.0,
+    "cb": 1164709.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 268
+  },
+  {
+    "code": "254721",
+    "name": "Central Pendam",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Duga",
+    "fy": "2023-24",
+    "ob": 5667173.0,
+    "receipts": 2017287.0,
+    "total_receipts": 7684460.0,
+    "payments": 5339525.0,
+    "cb": 2344935.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 269
+  },
+  {
+    "code": "257843",
+    "name": "Budang Kamerey",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Duga",
+    "fy": "2023-24",
+    "ob": 3102406.0,
+    "receipts": 896635.0,
+    "total_receipts": 3999041.0,
+    "payments": 2653323.0,
+    "cb": 1345718.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 270
+  },
+  {
+    "code": "254775",
+    "name": "Mellidara Paiyong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Sumbuk",
+    "fy": "2023-24",
+    "ob": 31076.0,
+    "receipts": 857594.0,
+    "total_receipts": 888670.0,
+    "payments": 839367.0,
+    "cb": 49303.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 271
+  },
+  {
+    "code": "254861",
+    "name": "Turuk Ramabung",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Sumbuk",
+    "fy": "2023-24",
+    "ob": 3106681.0,
+    "receipts": 3124436.0,
+    "total_receipts": 6231117.0,
+    "payments": 2978797.0,
+    "cb": 3252320.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 272
+  },
+  {
+    "code": "254839",
+    "name": "Sumbuk Kartikey",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Sumbuk",
+    "fy": "2023-24",
+    "ob": 4730926.0,
+    "receipts": 833881.0,
+    "total_receipts": 5564807.0,
+    "payments": 1857538.0,
+    "cb": 3707269.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 273
+  },
+  {
+    "code": "254815",
+    "name": "Sukrabarey Suntaley",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Sumbuk",
+    "fy": "2023-24",
+    "ob": 1106098.0,
+    "receipts": 1111691.0,
+    "total_receipts": 2217789.0,
+    "payments": 396571.0,
+    "cb": 1821218.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 274
+  },
+  {
+    "code": "300189",
+    "name": "Sadam Rabitar",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Sumbuk",
+    "fy": "2023-24",
+    "ob": 0.0,
+    "receipts": 339752.0,
+    "total_receipts": 339752.0,
+    "payments": 0.0,
+    "cb": 339752.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 275
+  },
+  {
+    "code": "254766",
+    "name": "Lungchok Kamarey",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Sumbuk",
+    "fy": "2023-24",
+    "ob": 235459.0,
+    "receipts": 12053.0,
+    "total_receipts": 247512.0,
+    "payments": 205815.0,
+    "cb": 41697.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 276
+  },
+  {
+    "code": "276342",
+    "name": "Boomtar Salleybong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namchi",
+    "fy": "2023-24",
+    "ob": 2905484.0,
+    "receipts": 554601.0,
+    "total_receipts": 3460085.0,
+    "payments": 1464103.0,
+    "cb": 1995982.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 277
+  },
+  {
+    "code": "254729",
+    "name": "Damthang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namchi",
+    "fy": "2023-24",
+    "ob": 2207971.0,
+    "receipts": 541318.0,
+    "total_receipts": 2749289.0,
+    "payments": 587335.0,
+    "cb": 2161954.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 278
+  },
+  {
+    "code": "254835",
+    "name": "Sorok Shyampani",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namchi",
+    "fy": "2023-24",
+    "ob": 2286607.0,
+    "receipts": 706862.0,
+    "total_receipts": 2993469.0,
+    "payments": 1206810.0,
+    "cb": 1786659.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 279
+  },
+  {
+    "code": "254772",
+    "name": "Maniram Phalidara",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namchi",
+    "fy": "2023-24",
+    "ob": 7723158.0,
+    "receipts": 1379922.0,
+    "total_receipts": 9103080.0,
+    "payments": 5316867.0,
+    "cb": 3786213.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 280
+  },
+  {
+    "code": "254854",
+    "name": "Tingrithang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namchi",
+    "fy": "2023-24",
+    "ob": 2614562.0,
+    "receipts": 475936.0,
+    "total_receipts": 3090498.0,
+    "payments": 0.0,
+    "cb": 3090498.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 281
+  },
+  {
+    "code": "254811",
+    "name": "Rong Bul",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namchi",
+    "fy": "2023-24",
+    "ob": 1547039.0,
+    "receipts": 443757.0,
+    "total_receipts": 1990796.0,
+    "payments": 662213.0,
+    "cb": 1328583.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 282
+  },
+  {
+    "code": "254778",
+    "name": "Kitam Manpur",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namchi",
+    "fy": "2023-24",
+    "ob": 16365.0,
+    "receipts": 941.0,
+    "total_receipts": 17306.0,
+    "payments": 0.0,
+    "cb": 17306.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 283
+  },
+  {
+    "code": "300196",
+    "name": "Kamrang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namchi",
+    "fy": "2023-24",
+    "ob": 0.0,
+    "receipts": 466573.0,
+    "total_receipts": 466573.0,
+    "payments": 0.0,
+    "cb": 466573.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 284
+  },
+  {
+    "code": "254711",
+    "name": "Assangthang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namchi",
+    "fy": "2023-24",
+    "ob": 1406849.0,
+    "receipts": 541964.0,
+    "total_receipts": 1948813.0,
+    "payments": 561227.0,
+    "cb": 1387586.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 285
+  },
+  {
+    "code": "257852",
+    "name": "Mikkhola Singithang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namchi",
+    "fy": "2023-24",
+    "ob": 2546439.0,
+    "receipts": 3031831.0,
+    "total_receipts": 5578270.0,
+    "payments": 2963138.0,
+    "cb": 2615132.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 286
+  },
+  {
+    "code": "254769",
+    "name": "Mamley",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namchi",
+    "fy": "2023-24",
+    "ob": 3779443.0,
+    "receipts": 401212.0,
+    "total_receipts": 4180655.0,
+    "payments": 1594712.0,
+    "cb": 2585943.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 287
+  },
+  {
+    "code": "254843",
+    "name": "Tangzi Bikmat",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namthang",
+    "fy": "2023-24",
+    "ob": 1761022.0,
+    "receipts": 4059489.0,
+    "total_receipts": 5820511.0,
+    "payments": 4109213.0,
+    "cb": 1711298.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 288
+  },
+  {
+    "code": "254799",
+    "name": "Rameng Nizrameng",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namthang",
+    "fy": "2023-24",
+    "ob": 1311710.0,
+    "receipts": 479177.0,
+    "total_receipts": 1790887.0,
+    "payments": 806726.0,
+    "cb": 984161.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 289
+  },
+  {
+    "code": "254779",
+    "name": "Kateng Pamphok",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namthang",
+    "fy": "2023-24",
+    "ob": 2728744.0,
+    "receipts": 759419.0,
+    "total_receipts": 3488163.0,
+    "payments": 1479319.0,
+    "cb": 2008844.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 290
+  },
+  {
+    "code": "300187",
+    "name": "Nagi Ruchung",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namthang",
+    "fy": "2023-24",
+    "ob": 0.0,
+    "receipts": 297244.0,
+    "total_receipts": 297244.0,
+    "payments": 0.0,
+    "cb": 297244.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 291
+  },
+  {
+    "code": "254771",
+    "name": "Namthang Maneydara",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namthang",
+    "fy": "2023-24",
+    "ob": 828254.0,
+    "receipts": 1597369.0,
+    "total_receipts": 2425623.0,
+    "payments": 1106184.0,
+    "cb": 1319439.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 292
+  },
+  {
+    "code": "254802",
+    "name": "Rateypani",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namthang",
+    "fy": "2023-24",
+    "ob": 1475816.0,
+    "receipts": 575446.0,
+    "total_receipts": 2051262.0,
+    "payments": 503453.0,
+    "cb": 1547809.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 293
+  },
+  {
+    "code": "254862",
+    "name": "Turung Mamring",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namthang",
+    "fy": "2023-24",
+    "ob": 2626328.0,
+    "receipts": 933538.0,
+    "total_receipts": 3559866.0,
+    "payments": 1823280.0,
+    "cb": 1736586.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 294
+  },
+  {
+    "code": "254792",
+    "name": "Perbing Dovan",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namthang",
+    "fy": "2023-24",
+    "ob": 1894596.0,
+    "receipts": 545382.0,
+    "total_receipts": 2439978.0,
+    "payments": 516720.0,
+    "cb": 1923258.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 295
+  },
+  {
+    "code": "254726",
+    "name": "Chuba Phong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namthang",
+    "fy": "2023-24",
+    "ob": 2329215.0,
+    "receipts": 503799.0,
+    "total_receipts": 2833014.0,
+    "payments": 838320.0,
+    "cb": 1994694.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 296
+  },
+  {
+    "code": "254856",
+    "name": "Tinik Chisopani",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Poklok Nandugaon",
+    "fy": "2023-24",
+    "ob": 3008787.0,
+    "receipts": 1026880.0,
+    "total_receipts": 4035667.0,
+    "payments": 1584220.0,
+    "cb": 2451447.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 297
+  },
+  {
+    "code": "254794",
+    "name": "Poklok",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Poklok Nandugaon",
+    "fy": "2023-24",
+    "ob": 2649315.0,
+    "receipts": 571325.0,
+    "total_receipts": 3220640.0,
+    "payments": 1345010.0,
+    "cb": 1875630.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 298
+  },
+  {
+    "code": "254817",
+    "name": "Salghari",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Poklok Nandugaon",
+    "fy": "2023-24",
+    "ob": 0.0,
+    "receipts": 25700.0,
+    "total_receipts": 25700.0,
+    "payments": 472.0,
+    "cb": 25228.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 299
+  },
+  {
+    "code": "300194",
+    "name": "Denchung",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Poklok Nandugaon",
+    "fy": "2023-24",
+    "ob": 0.0,
+    "receipts": 316000.0,
+    "total_receipts": 316000.0,
+    "payments": 0.0,
+    "cb": 316000.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 300
+  },
+  {
+    "code": "254823",
+    "name": "Sanganath",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Sikip",
+    "fy": "2023-24",
+    "ob": 1401438.0,
+    "receipts": 300502.0,
+    "total_receipts": 1701940.0,
+    "payments": 747274.0,
+    "cb": 954666.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 301
+  },
+  {
+    "code": "254752",
+    "name": "Lamting Tingmo",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Sikip",
+    "fy": "2023-24",
+    "ob": 1619288.0,
+    "receipts": 744090.0,
+    "total_receipts": 2363378.0,
+    "payments": 1536631.0,
+    "cb": 826747.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 302
+  },
+  {
+    "code": "254859",
+    "name": "Chungthang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Chungthang",
+    "fy": "2023-24",
+    "ob": 7107926.0,
+    "receipts": 5507069.0,
+    "total_receipts": 12614995.0,
+    "payments": 4164645.0,
+    "cb": 8450350.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 303
+  },
+  {
+    "code": "254750",
+    "name": "Lachen Dzumsa",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Chungthang",
+    "fy": "2023-24",
+    "ob": 4489722.0,
+    "receipts": 1587450.0,
+    "total_receipts": 6077172.0,
+    "payments": 901175.0,
+    "cb": 5175997.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 304
+  },
+  {
+    "code": "254751",
+    "name": "Lachung Dzumsa",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Chungthang",
+    "fy": "2023-24",
+    "ob": 1816960.0,
+    "receipts": 2906567.0,
+    "total_receipts": 4723527.0,
+    "payments": 2734601.0,
+    "cb": 1988926.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 305
+  },
+  {
+    "code": "254827",
+    "name": "Shipgyer",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Chungthang",
+    "fy": "2023-24",
+    "ob": 1056128.0,
+    "receipts": 2771239.0,
+    "total_receipts": 3827367.0,
+    "payments": 2335769.0,
+    "cb": 1491598.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 306
+  },
+  {
+    "code": "254813",
+    "name": "Rongong Tumlong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Kabi",
+    "fy": "2023-24",
+    "ob": 2679254.0,
+    "receipts": 640893.0,
+    "total_receipts": 3320147.0,
+    "payments": 1615007.0,
+    "cb": 1705140.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 307
+  },
+  {
+    "code": "254742",
+    "name": "Kabi Rongpa",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Kabi",
+    "fy": "2023-24",
+    "ob": 1372738.0,
+    "receipts": 675800.0,
+    "total_receipts": 2048538.0,
+    "payments": 966498.0,
+    "cb": 1082040.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 308
+  },
+  {
+    "code": "254776",
+    "name": "Men Rongong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Kabi",
+    "fy": "2023-24",
+    "ob": 0.0,
+    "receipts": 339620.0,
+    "total_receipts": 339620.0,
+    "payments": 0.0,
+    "cb": 339620.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 309
+  },
+  {
+    "code": "257833",
+    "name": "Kyongnosla",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Kabi",
+    "fy": "2023-24",
+    "ob": 437114.0,
+    "receipts": 1215788.0,
+    "total_receipts": 1652902.0,
+    "payments": 1084342.0,
+    "cb": 568560.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 310
+  },
+  {
+    "code": "276335",
+    "name": "Lingchom Tingda",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Kabi",
+    "fy": "2023-24",
+    "ob": 1159300.0,
+    "receipts": 1611542.0,
+    "total_receipts": 2770842.0,
+    "payments": 1048288.0,
+    "cb": 1722554.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 311
+  },
+  {
+    "code": "254793",
+    "name": "Phensang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Kabi",
+    "fy": "2023-24",
+    "ob": 1196331.0,
+    "receipts": 417700.0,
+    "total_receipts": 1614031.0,
+    "payments": 766952.0,
+    "cb": 847079.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 312
+  },
+  {
+    "code": "254784",
+    "name": "Navey Shotak",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Kabi",
+    "fy": "2023-24",
+    "ob": 4949783.0,
+    "receipts": 3609077.0,
+    "total_receipts": 8558860.0,
+    "payments": 3545267.0,
+    "cb": 5013593.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 313
+  },
+  {
+    "code": "254800",
+    "name": "Ramthang Tanyak",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Mangan",
+    "fy": "2023-24",
+    "ob": 1137559.0,
+    "receipts": 365429.0,
+    "total_receipts": 1502988.0,
+    "payments": 713128.0,
+    "cb": 789860.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 314
+  },
+  {
+    "code": "254858",
+    "name": "Toong Naga",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Mangan",
+    "fy": "2023-24",
+    "ob": 2503513.0,
+    "receipts": 661739.0,
+    "total_receipts": 3165252.0,
+    "payments": 995929.0,
+    "cb": 2169323.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 315
+  },
+  {
+    "code": "254808",
+    "name": "Ringhim Nampatam",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Mangan",
+    "fy": "2023-24",
+    "ob": 701900.0,
+    "receipts": 2842250.0,
+    "total_receipts": 3544150.0,
+    "payments": 2468845.0,
+    "cb": 1075305.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 316
+  },
+  {
+    "code": "257850",
+    "name": "Tingchim Chadey",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Mangan",
+    "fy": "2023-24",
+    "ob": 1495666.0,
+    "receipts": 691546.0,
+    "total_receipts": 2187212.0,
+    "payments": 1504400.0,
+    "cb": 682812.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 317
+  },
+  {
+    "code": "254853",
+    "name": "Mangshila Tibuk",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Mangan",
+    "fy": "2023-24",
+    "ob": 2310995.0,
+    "receipts": 717313.0,
+    "total_receipts": 3028308.0,
+    "payments": 2390548.0,
+    "cb": 637760.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 318
+  },
+  {
+    "code": "254782",
+    "name": "Namok Swayem",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Mangan",
+    "fy": "2023-24",
+    "ob": 1567992.0,
+    "receipts": 475101.0,
+    "total_receipts": 2043093.0,
+    "payments": 1701680.0,
+    "cb": 341413.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 319
+  },
+  {
+    "code": "254741",
+    "name": "Hee Gyathang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Passingdong",
+    "fy": "2023-24",
+    "ob": 3182450.0,
+    "receipts": 1770477.0,
+    "total_receipts": 4952927.0,
+    "payments": 1997153.0,
+    "cb": 2955774.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 320
+  },
+  {
+    "code": "254816",
+    "name": "Sakyong Pentong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Passingdong",
+    "fy": "2023-24",
+    "ob": 1612643.0,
+    "receipts": 2471403.0,
+    "total_receipts": 4084046.0,
+    "payments": 2313781.0,
+    "cb": 1770265.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 321
+  },
+  {
+    "code": "254855",
+    "name": "Tingvong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Passingdong",
+    "fy": "2023-24",
+    "ob": 1682926.0,
+    "receipts": 1255498.0,
+    "total_receipts": 2938424.0,
+    "payments": 779506.0,
+    "cb": 2158918.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 322
+  },
+  {
+    "code": "254790",
+    "name": "Passingdang Saffo",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Passingdong",
+    "fy": "2023-24",
+    "ob": 1079029.0,
+    "receipts": 287354.0,
+    "total_receipts": 1366383.0,
+    "payments": 432320.0,
+    "cb": 934063.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 323
+  },
+  {
+    "code": "254765",
+    "name": "Lum Gor Sangtok",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Passingdong",
+    "fy": "2023-24",
+    "ob": 1970136.0,
+    "receipts": 600512.0,
+    "total_receipts": 2570648.0,
+    "payments": 990064.0,
+    "cb": 1580584.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 324
+  },
+  {
+    "code": "254760",
+    "name": "Lingthem Lingdem",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Passingdong",
+    "fy": "2023-24",
+    "ob": 2972925.0,
+    "receipts": 759034.0,
+    "total_receipts": 3731959.0,
+    "payments": 1388587.0,
+    "cb": 2343372.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 325
+  },
+  {
+    "code": "254783",
+    "name": "Namphing",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Temi",
+    "fy": "2023-24",
+    "ob": 7973458.0,
+    "receipts": 2062070.0,
+    "total_receipts": 10035528.0,
+    "payments": 3031073.0,
+    "cb": 7004455.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 326
+  },
+  {
+    "code": "254848",
+    "name": "Temi",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Temi",
+    "fy": "2023-24",
+    "ob": 3287460.0,
+    "receipts": 1093984.0,
+    "total_receipts": 4381444.0,
+    "payments": 1338245.0,
+    "cb": 3043199.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 327
+  },
+  {
+    "code": "254716",
+    "name": "Ben Namprik",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Temi",
+    "fy": "2023-24",
+    "ob": 1993967.0,
+    "receipts": 36516.0,
+    "total_receipts": 2030483.0,
+    "payments": 324580.0,
+    "cb": 1705903.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 328
+  },
+  {
+    "code": "254785",
+    "name": "Niya Mangzing",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Yangang",
+    "fy": "2023-24",
+    "ob": 3993531.0,
+    "receipts": 3103729.0,
+    "total_receipts": 7097260.0,
+    "payments": 3156426.0,
+    "cb": 3940834.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 329
+  },
+  {
+    "code": "254836",
+    "name": "Sripatam Gagyong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Yangang",
+    "fy": "2023-24",
+    "ob": 3172570.0,
+    "receipts": 1430263.0,
+    "total_receipts": 4602833.0,
+    "payments": 1869060.0,
+    "cb": 2733773.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 330
+  },
+  {
+    "code": "254764",
+    "name": "Luing Parbing",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Ranka",
+    "fy": "2023-24",
+    "ob": 3359190.0,
+    "receipts": 5025259.0,
+    "total_receipts": 8384449.0,
+    "payments": 5173064.0,
+    "cb": 3211385.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 331
+  },
+  {
+    "code": "254866",
+    "name": "Yangang Rangang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Yangang",
+    "fy": "2023-24",
+    "ob": 3671974.0,
+    "receipts": 5293790.0,
+    "total_receipts": 8965764.0,
+    "payments": 5121505.0,
+    "cb": 3844259.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 332
+  },
+  {
+    "code": "254758",
+    "name": "Kolthang Tokday",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Yangang",
+    "fy": "2023-24",
+    "ob": 2832413.0,
+    "receipts": 4032336.0,
+    "total_receipts": 6864749.0,
+    "payments": 4221964.0,
+    "cb": 2642785.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 333
+  },
+  {
+    "code": "254805",
+    "name": "Rey Mendu",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Ranka",
+    "fy": "2023-24",
+    "ob": 175817.0,
+    "receipts": 617350.0,
+    "total_receipts": 793167.0,
+    "payments": 528649.0,
+    "cb": 264518.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 334
+  },
+  {
+    "code": "254803",
+    "name": "Rawatey Rumtek",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Ranka",
+    "fy": "2023-24",
+    "ob": 4013308.0,
+    "receipts": 1304265.0,
+    "total_receipts": 5317573.0,
+    "payments": 2152632.0,
+    "cb": 3164941.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 335
+  },
+  {
+    "code": "254801",
+    "name": "Ranka",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Ranka",
+    "fy": "2023-24",
+    "ob": 1118911.0,
+    "receipts": 2510018.0,
+    "total_receipts": 3628929.0,
+    "payments": 1748555.0,
+    "cb": 1880374.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 336
+  },
+  {
+    "code": "300088",
+    "name": "Ravong Barfung",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Ravong",
+    "fy": "2023-24",
+    "ob": 75688.0,
+    "receipts": 3694695.0,
+    "total_receipts": 3770383.0,
+    "payments": 1720689.0,
+    "cb": 2049694.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 337
+  },
+  {
+    "code": "254857",
+    "name": "Tinkitam Rayong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Ravong",
+    "fy": "2023-24",
+    "ob": 309296.0,
+    "receipts": 173295.0,
+    "total_receipts": 482591.0,
+    "payments": 347491.0,
+    "cb": 135100.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 338
+  },
+  {
+    "code": "254746",
+    "name": "Kewzing Bakhim",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Ravong",
+    "fy": "2023-24",
+    "ob": 2410454.0,
+    "receipts": 921481.0,
+    "total_receipts": 3331935.0,
+    "payments": 773709.0,
+    "cb": 2558226.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 339
+  },
+  {
+    "code": "300093",
+    "name": "Sangmo Rankay",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Ravong",
+    "fy": "2023-24",
+    "ob": 34242.0,
+    "receipts": 388903.0,
+    "total_receipts": 423145.0,
+    "payments": 202228.0,
+    "cb": 220917.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 340
+  },
+  {
+    "code": "254798",
+    "name": "Ralong Namlung",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Ravong",
+    "fy": "2023-24",
+    "ob": 721037.0,
+    "receipts": 495582.0,
+    "total_receipts": 1216619.0,
+    "payments": 468946.0,
+    "cb": 747673.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 341
+  },
+  {
+    "code": "254796",
+    "name": "Rabong Khop",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Ravong",
+    "fy": "2023-24",
+    "ob": 3270154.0,
+    "receipts": 813182.0,
+    "total_receipts": 4083336.0,
+    "payments": 1382052.0,
+    "cb": 2701284.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 342
+  },
+  {
+    "code": "254719",
+    "name": "Borong Phamthang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Ravong",
+    "fy": "2023-24",
+    "ob": 463818.0,
+    "receipts": 144696.0,
+    "total_receipts": 608514.0,
+    "payments": 407351.0,
+    "cb": 201163.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 343
+  },
+  {
+    "code": "254754",
+    "name": "Legship",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Ravong",
+    "fy": "2023-24",
+    "ob": 25424.0,
+    "receipts": 551816.0,
+    "total_receipts": 577240.0,
+    "payments": 235444.0,
+    "cb": 341796.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 344
+  },
+  {
+    "code": "257849",
+    "name": "Karthok Bojek",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Soreng",
+    "fy": "2023-24",
+    "ob": 536254.0,
+    "receipts": 1103380.0,
+    "total_receipts": 1639634.0,
+    "payments": 601758.0,
+    "cb": 1037876.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 345
+  },
+  {
+    "code": "254768",
+    "name": "Malbasay",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Soreng",
+    "fy": "2023-24",
+    "ob": 38288.0,
+    "receipts": 42791.0,
+    "total_receipts": 81079.0,
+    "payments": 18733.0,
+    "cb": 62346.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 346
+  },
+  {
+    "code": "254831",
+    "name": "Singling",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Soreng",
+    "fy": "2023-24",
+    "ob": 2000877.0,
+    "receipts": 773755.0,
+    "total_receipts": 2774632.0,
+    "payments": 952568.0,
+    "cb": 1822064.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 347
+  },
+  {
+    "code": "276343",
+    "name": "Bhudang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Soreng",
+    "fy": "2023-24",
+    "ob": 1849312.0,
+    "receipts": 476153.0,
+    "total_receipts": 2325465.0,
+    "payments": 1195137.0,
+    "cb": 1130328.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 348
+  },
+  {
+    "code": "300285",
+    "name": "Lower Timburbong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Soreng",
+    "fy": "2023-24",
+    "ob": 38020.0,
+    "receipts": 1643240.0,
+    "total_receipts": 1681260.0,
+    "payments": 1031800.0,
+    "cb": 649460.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 349
+  },
+  {
+    "code": "254849",
+    "name": "Tharpu",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Soreng",
+    "fy": "2023-24",
+    "ob": 706297.0,
+    "receipts": 362226.0,
+    "total_receipts": 1068523.0,
+    "payments": 0.0,
+    "cb": 1068523.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 350
+  },
+  {
+    "code": "254834",
+    "name": "Soreng",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Soreng",
+    "fy": "2023-24",
+    "ob": 1448560.0,
+    "receipts": 621566.0,
+    "total_receipts": 2070126.0,
+    "payments": 1418573.0,
+    "cb": 651553.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 351
+  },
+  {
+    "code": "254777",
+    "name": "Mendogaon Berbotey",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Chumbong",
+    "fy": "2023-24",
+    "ob": 1101354.0,
+    "receipts": 309000.0,
+    "total_receipts": 1410354.0,
+    "payments": 256067.0,
+    "cb": 1154287.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 352
+  },
+  {
+    "code": "254725",
+    "name": "Chota Samdong Arubotey",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Chumbong",
+    "fy": "2023-24",
+    "ob": 967814.0,
+    "receipts": 508775.0,
+    "total_receipts": 1476589.0,
+    "payments": 931282.0,
+    "cb": 545307.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 353
+  },
+  {
+    "code": "254722",
+    "name": "Chakung",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Chumbong",
+    "fy": "2023-24",
+    "ob": 2014267.0,
+    "receipts": 627769.0,
+    "total_receipts": 2642036.0,
+    "payments": 307731.0,
+    "cb": 2334305.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 354
+  },
+  {
+    "code": "254828",
+    "name": "Siktam Tikpur",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "fy": "2023-24",
+    "ob": 3142241.0,
+    "receipts": 561129.0,
+    "total_receipts": 3703370.0,
+    "payments": 1592822.0,
+    "cb": 2110548.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 355
+  },
+  {
+    "code": "254807",
+    "name": "Ribdi Bhareng",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "fy": "2023-24",
+    "ob": 1170863.0,
+    "receipts": 904060.0,
+    "total_receipts": 2074923.0,
+    "payments": 525034.0,
+    "cb": 1549889.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 356
+  },
+  {
+    "code": "254863",
+    "name": "Upper Thambong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "fy": "2023-24",
+    "ob": 3521148.0,
+    "receipts": 1923460.0,
+    "total_receipts": 5444608.0,
+    "payments": 1564498.0,
+    "cb": 3880110.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 357
+  },
+  {
+    "code": "254786",
+    "name": "Okhrey",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "fy": "2023-24",
+    "ob": 2137360.0,
+    "receipts": 573989.0,
+    "total_receipts": 2711349.0,
+    "payments": 587838.0,
+    "cb": 2123511.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 358
+  },
+  {
+    "code": "254763",
+    "name": "Lower Fambong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "fy": "2023-24",
+    "ob": 46357.0,
+    "receipts": 1756824.0,
+    "total_receipts": 1803181.0,
+    "payments": 1566031.0,
+    "cb": 237150.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 359
+  },
+  {
+    "code": "254814",
+    "name": "Rumbuk",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "fy": "2023-24",
+    "ob": 2452860.0,
+    "receipts": 617397.0,
+    "total_receipts": 3070257.0,
+    "payments": 1292502.0,
+    "cb": 1777755.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 360
+  },
+  {
+    "code": "254734",
+    "name": "Dodak",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "fy": "2023-24",
+    "ob": 1831098.0,
+    "receipts": 717039.0,
+    "total_receipts": 2548137.0,
+    "payments": 0.0,
+    "cb": 2548137.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 361
+  },
+  {
+    "code": "254762",
+    "name": "Lungchok Salyangdang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "fy": "2023-24",
+    "ob": 2168411.0,
+    "receipts": 1268088.0,
+    "total_receipts": 3436499.0,
+    "payments": 1225488.0,
+    "cb": 2211011.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 362
+  },
+  {
+    "code": "254720",
+    "name": "Burikhop",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "fy": "2023-24",
+    "ob": 1165249.0,
+    "receipts": 443873.0,
+    "total_receipts": 1609122.0,
+    "payments": 4639.0,
+    "cb": 1604483.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 363
+  },
+  {
+    "code": "300590",
+    "name": "Sapreynaghi",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "fy": "2023-24",
+    "ob": 78429.0,
+    "receipts": 805519.0,
+    "total_receipts": 883948.0,
+    "payments": 462500.0,
+    "cb": 421448.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 364
+  },
+  {
+    "code": "254781",
+    "name": "Namli",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Martam",
+    "fy": "2023-24",
+    "ob": 2011512.0,
+    "receipts": 878755.0,
+    "total_receipts": 2890267.0,
+    "payments": 1206112.0,
+    "cb": 1684155.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 365
+  },
+  {
+    "code": "254820",
+    "name": "Samlik Marchak",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Martam",
+    "fy": "2023-24",
+    "ob": 1483462.0,
+    "receipts": 823298.0,
+    "total_receipts": 2306760.0,
+    "payments": 1349464.0,
+    "cb": 957296.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 366
+  },
+  {
+    "code": "254717",
+    "name": "Byeng Phegyong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Martam",
+    "fy": "2023-24",
+    "ob": 2017540.0,
+    "receipts": 1090257.0,
+    "total_receipts": 3107797.0,
+    "payments": 1623947.0,
+    "cb": 1483850.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 367
+  },
+  {
+    "code": "254860",
+    "name": "Tumin",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Rakdong Tintek",
+    "fy": "2023-24",
+    "ob": 0.0,
+    "receipts": 417099.0,
+    "total_receipts": 417099.0,
+    "payments": 295076.0,
+    "cb": 122023.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 368
+  },
+  {
+    "code": "254797",
+    "name": "Rakdong Tintek",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Rakdong Tintek",
+    "fy": "2023-24",
+    "ob": 4113303.0,
+    "receipts": 1368535.0,
+    "total_receipts": 5481838.0,
+    "payments": 2688594.0,
+    "cb": 2793244.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 369
+  },
+  {
+    "code": "254819",
+    "name": "Samdong Kambel",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Rakdong Tintek",
+    "fy": "2023-24",
+    "ob": 2856557.0,
+    "receipts": 1532664.0,
+    "total_receipts": 4389221.0,
+    "payments": 2895835.0,
+    "cb": 1493386.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 370
+  },
+  {
+    "code": "254830",
+    "name": "Patuk Singbel",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Rakdong Tintek",
+    "fy": "2023-24",
+    "ob": 2145219.0,
+    "receipts": 1324430.0,
+    "total_receipts": 3469649.0,
+    "payments": 1183878.0,
+    "cb": 2285771.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 371
+  },
+  {
+    "code": "276337",
+    "name": "Chisopani",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Khamdong",
+    "fy": "2023-24",
+    "ob": 2973565.0,
+    "receipts": 894702.0,
+    "total_receipts": 3868267.0,
+    "payments": 2047290.0,
+    "cb": 1820977.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 372
+  },
+  {
+    "code": "254829",
+    "name": "Simik Lingzey",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Khamdong",
+    "fy": "2023-24",
+    "ob": 913087.0,
+    "receipts": 478457.0,
+    "total_receipts": 1391544.0,
+    "payments": 0.0,
+    "cb": 1391544.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 373
+  },
+  {
+    "code": "254833",
+    "name": "Sirwani",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Khamdong",
+    "fy": "2023-24",
+    "ob": 0.0,
+    "receipts": 1579310.0,
+    "total_receipts": 1579310.0,
+    "payments": 1413685.0,
+    "cb": 165625.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 374
+  },
+  {
+    "code": "254747",
+    "name": "Khamdong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Khamdong",
+    "fy": "2023-24",
+    "ob": 4310567.0,
+    "receipts": 992930.0,
+    "total_receipts": 5303497.0,
+    "payments": 1038564.0,
+    "cb": 4264933.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 375
+  },
+  {
+    "code": "257847",
+    "name": "Dung Dung Thasa",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Khamdong",
+    "fy": "2023-24",
+    "ob": 50249.0,
+    "receipts": 176411.0,
+    "total_receipts": 226660.0,
+    "payments": 55071.0,
+    "cb": 171589.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 376
+  },
+  {
+    "code": "254738",
+    "name": "Gnathang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Nandok",
+    "fy": "2023-24",
+    "ob": 10237575.0,
+    "receipts": 2917145.0,
+    "total_receipts": 13154720.0,
+    "payments": 4668970.0,
+    "cb": 8485750.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 377
+  },
+  {
+    "code": "254846",
+    "name": "Rongay Tathangchen",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Nandok",
+    "fy": "2023-24",
+    "ob": 7176358.0,
+    "receipts": 2663214.0,
+    "total_receipts": 9839572.0,
+    "payments": 4109370.0,
+    "cb": 5730202.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 378
+  },
+  {
+    "code": "254780",
+    "name": "Bhusuk Naitam",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Nandok",
+    "fy": "2023-24",
+    "ob": 13702.0,
+    "receipts": 148321.0,
+    "total_receipts": 162023.0,
+    "payments": 99402.0,
+    "cb": 62621.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 379
+  },
+  {
+    "code": "257845",
+    "name": "Nandok Saramsa",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Nandok",
+    "fy": "2023-24",
+    "ob": 862898.0,
+    "receipts": 2206258.0,
+    "total_receipts": 3069156.0,
+    "payments": 772000.0,
+    "cb": 2297156.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 380
+  },
+  {
+    "code": "254850",
+    "name": "Linkey Parakha",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Parakha",
+    "fy": "2023-24",
+    "ob": 205379.0,
+    "receipts": 75370.0,
+    "total_receipts": 280749.0,
+    "payments": 1520.0,
+    "cb": 279229.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 381
+  },
+  {
+    "code": "254809",
+    "name": "Riwa Machong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Parakha",
+    "fy": "2023-24",
+    "ob": 481261.0,
+    "receipts": 490844.0,
+    "total_receipts": 972105.0,
+    "payments": 283166.0,
+    "cb": 688939.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 382
+  },
+  {
+    "code": "254812",
+    "name": "Rongli Chengeylakha",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Regu",
+    "fy": "2023-24",
+    "ob": 990055.0,
+    "receipts": 1268018.0,
+    "total_receipts": 2258073.0,
+    "payments": 1396653.0,
+    "cb": 861420.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 383
+  },
+  {
+    "code": "254727",
+    "name": "Chujachen",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Regu",
+    "fy": "2023-24",
+    "ob": 1312565.0,
+    "receipts": 3377907.0,
+    "total_receipts": 4690472.0,
+    "payments": 2264659.0,
+    "cb": 2425813.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 384
+  },
+  {
+    "code": "254795",
+    "name": "Premlakha Subaneydara",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Regu",
+    "fy": "2023-24",
+    "ob": 1859105.0,
+    "receipts": 2372318.0,
+    "total_receipts": 4231423.0,
+    "payments": 2530889.0,
+    "cb": 1700534.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 385
+  },
+  {
+    "code": "254759",
+    "name": "Lingtam Phadamchen",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Regu",
+    "fy": "2023-24",
+    "ob": 943835.0,
+    "receipts": 550500.0,
+    "total_receipts": 1494335.0,
+    "payments": 1055024.0,
+    "cb": 439311.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 386
+  },
+  {
+    "code": "254810",
+    "name": "Rolep Lamaten",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Regu",
+    "fy": "2023-24",
+    "ob": 1830570.0,
+    "receipts": 484325.0,
+    "total_receipts": 2314895.0,
+    "payments": 1325282.0,
+    "cb": 989613.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 387
+  },
+  {
+    "code": "254847",
+    "name": "Taza",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "fy": "2023-24",
+    "ob": 184336.0,
+    "receipts": 601107.0,
+    "total_receipts": 785443.0,
+    "payments": 249970.0,
+    "cb": 535473.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 388
+  },
+  {
+    "code": "254707",
+    "name": "Amba",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "fy": "2023-24",
+    "ob": 2034455.0,
+    "receipts": 706253.0,
+    "total_receipts": 2740708.0,
+    "payments": 1379549.0,
+    "cb": 1361159.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 389
+  },
+  {
+    "code": "254761",
+    "name": "Bering Tareythang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "fy": "2023-24",
+    "ob": 680284.0,
+    "receipts": 118145.0,
+    "total_receipts": 798429.0,
+    "payments": 92209.0,
+    "cb": 706220.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 390
+  },
+  {
+    "code": "254736",
+    "name": "East Pendam",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "fy": "2023-24",
+    "ob": 3475975.0,
+    "receipts": 1116360.0,
+    "total_receipts": 4592335.0,
+    "payments": 1902987.0,
+    "cb": 2689348.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 391
+  },
+  {
+    "code": "257844",
+    "name": "Pachey Samsing",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "fy": "2023-24",
+    "ob": 2588364.0,
+    "receipts": 960790.0,
+    "total_receipts": 3549154.0,
+    "payments": 1463321.0,
+    "cb": 2085833.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 392
+  },
+  {
+    "code": "254787",
+    "name": "Chalamthang Pacheykhani",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "fy": "2023-24",
+    "ob": 3682625.0,
+    "receipts": 984832.0,
+    "total_receipts": 4667457.0,
+    "payments": 2667304.0,
+    "cb": 2000153.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 393
+  },
+  {
+    "code": "254745",
+    "name": "Namcheybong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Namcheybong",
+    "fy": "2023-24",
+    "ob": 5350085.0,
+    "receipts": 5546339.0,
+    "total_receipts": 10896424.0,
+    "payments": 5707713.0,
+    "cb": 5188711.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 394
+  },
+  {
+    "code": "254840",
+    "name": "Sumin Lingzey",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Namcheybong",
+    "fy": "2023-24",
+    "ob": 3371479.0,
+    "receipts": 940794.0,
+    "total_receipts": 4312273.0,
+    "payments": 1723317.0,
+    "cb": 2588956.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 395
+  },
+  {
+    "code": "254710",
+    "name": "Assam Lingzey",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Namcheybong",
+    "fy": "2023-24",
+    "ob": 128099.0,
+    "receipts": 404200.0,
+    "total_receipts": 532299.0,
+    "payments": 236213.0,
+    "cb": 296086.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 396
+  },
+  {
+    "code": "254706",
+    "name": "Aho Yangtam",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Namcheybong",
+    "fy": "2023-24",
+    "ob": 1794163.0,
+    "receipts": 986820.0,
+    "total_receipts": 2780983.0,
+    "payments": 1187933.0,
+    "cb": 1593050.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 397
+  },
+  {
+    "code": "254837",
+    "name": "Sudunglakha",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Rhenock",
+    "fy": "2023-24",
+    "ob": 1880149.0,
+    "receipts": 588826.0,
+    "total_receipts": 2468975.0,
+    "payments": 906625.0,
+    "cb": 1562350.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 398
+  },
+  {
+    "code": "254806",
+    "name": "Rhenock",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Rhenock",
+    "fy": "2023-24",
+    "ob": 7096208.0,
+    "receipts": 1961013.0,
+    "total_receipts": 9057221.0,
+    "payments": 3702920.0,
+    "cb": 5354301.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 399
+  },
+  {
+    "code": "254723",
+    "name": "Tarpin",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Rhenock",
+    "fy": "2023-24",
+    "ob": 340775.0,
+    "receipts": 576387.0,
+    "total_receipts": 917162.0,
+    "payments": 413055.0,
+    "cb": 504107.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 400
+  },
+  {
+    "code": "254708",
+    "name": "Aritar",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Rhenock",
+    "fy": "2023-24",
+    "ob": 3483418.0,
+    "receipts": 1887646.0,
+    "total_receipts": 5371064.0,
+    "payments": 1407560.0,
+    "cb": 3963504.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 401
+  },
+  {
+    "code": "300084",
+    "name": "Soreng Zilla Panchayat",
+    "tier": "Zilla Panchayat",
+    "district": "Soreng",
+    "bac": "N/A",
+    "fy": "2023-24",
+    "ob": 0.0,
+    "receipts": 3366186.0,
+    "total_receipts": 3366186.0,
+    "payments": 0.0,
+    "cb": 3366186.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 402
+  },
+  {
+    "code": "249693",
+    "name": "Jorethang Nayabazar Nagar Panchayat",
+    "tier": "Urban Local Body",
+    "district": "Namchi",
+    "bac": "N/A",
+    "fy": "2022-23",
+    "ob": 3129194.0,
+    "receipts": 16707613.0,
+    "total_receipts": 19836807.0,
+    "payments": 18393610.0,
+    "cb": 1443197.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 403
+  },
+  {
+    "code": "249689",
+    "name": "Mangan Nagar Panchayat",
+    "tier": "Urban Local Body",
+    "district": "Mangan",
+    "bac": "N/A",
+    "fy": "2022-23",
+    "ob": 3211103.0,
+    "receipts": 4862644.0,
+    "total_receipts": 8073747.0,
+    "payments": 7564355.0,
+    "cb": 509392.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 404
+  },
+  {
+    "code": "290460",
+    "name": "Rangpo Nagar Panchayat",
+    "tier": "Urban Local Body",
+    "district": "Pakyong",
+    "bac": "N/A",
+    "fy": "2022-23",
+    "ob": 845017.0,
+    "receipts": 18847017.0,
+    "total_receipts": 19692034.0,
+    "payments": 16072811.0,
+    "cb": 3619223.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 405
+  },
+  {
+    "code": "249693",
+    "name": "Jorethang Nayabazar Nagar Panchayat",
+    "tier": "Urban Local Body",
+    "district": "Namchi",
+    "bac": "N/A",
+    "fy": "2023-24",
+    "ob": 1443197.0,
+    "receipts": 5078231.0,
+    "total_receipts": 6521428.0,
+    "payments": 1584123.0,
+    "cb": 4937305.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 406
+  },
+  {
+    "code": "249689",
+    "name": "Mangan Nagar Panchayat",
+    "tier": "Urban Local Body",
+    "district": "Mangan",
+    "bac": "N/A",
+    "fy": "2023-24",
+    "ob": 509392.0,
+    "receipts": 2540835.0,
+    "total_receipts": 3050227.0,
+    "payments": 509427.0,
+    "cb": 2540800.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 407
+  },
+  {
+    "code": "290460",
+    "name": "Rangpo Nagar Panchayat",
+    "tier": "Urban Local Body",
+    "district": "Pakyong",
+    "bac": "N/A",
+    "fy": "2023-24",
+    "ob": 3619223.0,
+    "receipts": 13720882.0,
+    "total_receipts": 17340105.0,
+    "payments": 16941892.0,
+    "cb": 398213.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 408
+  }
+]
