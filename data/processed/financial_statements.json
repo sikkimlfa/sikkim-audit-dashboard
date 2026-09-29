@@ -1,5 +1,260 @@
 [
   {
+    "code": "254719",
+    "name": "Borong Phamthang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Ravong",
+    "fy": "2019-20",
+    "ob": 0.0,
+    "receipts": 0.0,
+    "total_receipts": 93.0,
+    "payments": 36.19,
+    "cb": 56.81,
+    "sources": [
+      "CARR 2022.pdf"
+    ],
+    "id": 1
+  },
+  {
+    "code": "254746",
+    "name": "Kewzing Bakhim",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Ravong",
+    "fy": "2019-20",
+    "ob": 0.0,
+    "receipts": 0.0,
+    "total_receipts": 113.0,
+    "payments": 32.92,
+    "cb": 80.08,
+    "sources": [
+      "CARR 2022.pdf"
+    ],
+    "id": 2
+  },
+  {
+    "code": "254754",
+    "name": "Legship",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Ravong",
+    "fy": "2019-20",
+    "ob": 0.0,
+    "receipts": 0.0,
+    "total_receipts": 33.42,
+    "payments": 10.34,
+    "cb": 23.08,
+    "sources": [
+      "CARR 2022.pdf"
+    ],
+    "id": 3
+  },
+  {
+    "code": "254857",
+    "name": "Tinkitam Rayong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Ravong",
+    "fy": "2019-20",
+    "ob": 0.0,
+    "receipts": 0.0,
+    "total_receipts": 25.85,
+    "payments": 8.55,
+    "cb": 17.3,
+    "sources": [
+      "CARR 2022.pdf"
+    ],
+    "id": 4
+  },
+  {
+    "code": "254733",
+    "name": "Dhupidara Narkhola",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Arithang Chongrong",
+    "fy": "2019-20",
+    "ob": 0.0,
+    "receipts": 0.0,
+    "total_receipts": 52.49,
+    "payments": 0.26,
+    "cb": 52.23,
+    "sources": [
+      "CARR 2022.pdf"
+    ],
+    "id": 5
+  },
+  {
+    "code": "254737",
+    "name": "Gerethang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Yoksum",
+    "fy": "2019-20",
+    "ob": 0.0,
+    "receipts": 0.0,
+    "total_receipts": 86.68,
+    "payments": 0.2,
+    "cb": 86.48,
+    "sources": [
+      "CARR 2022.pdf"
+    ],
+    "id": 6
+  },
+  {
+    "code": "254767",
+    "name": "Mabong Segeng",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Baiguney",
+    "fy": "2019-20",
+    "ob": 0.0,
+    "receipts": 0.0,
+    "total_receipts": 77.99,
+    "payments": 0.15,
+    "cb": 77.84,
+    "sources": [
+      "CARR 2022.pdf"
+    ],
+    "id": 7
+  },
+  {
+    "code": "254707",
+    "name": "Amba",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "fy": "2020-21",
+    "ob": 0.0,
+    "receipts": 0.0,
+    "total_receipts": 65.86,
+    "payments": 12.82,
+    "cb": 53.04,
+    "sources": [
+      "CARR 2022.pdf"
+    ],
+    "id": 8
+  },
+  {
+    "code": "254745",
+    "name": "Namcheybong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Namcheybong",
+    "fy": "2020-21",
+    "ob": 0.0,
+    "receipts": 0.0,
+    "total_receipts": 10945331.0,
+    "payments": 3836415.0,
+    "cb": 7108916.0,
+    "sources": [
+      "CARR 2022.pdf"
+    ],
+    "id": 9
+  },
+  {
+    "code": "300083",
+    "name": "Pakyong Zilla Panchayat",
+    "tier": "Zilla Panchayat",
+    "district": "Pakyong",
+    "bac": "N/A",
+    "fy": "2020-21",
+    "ob": 0.0,
+    "receipts": 0.0,
+    "total_receipts": 11294604.0,
+    "payments": 3891824.0,
+    "cb": 7402780.0,
+    "sources": [
+      "CARR 2022.pdf"
+    ],
+    "id": 10
+  },
+  {
+    "code": "254847",
+    "name": "Taza",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "fy": "2020-21",
+    "ob": 0.0,
+    "receipts": 0.0,
+    "total_receipts": 96.44,
+    "payments": 35.34,
+    "cb": 61.1,
+    "sources": [
+      "CARR 2022.pdf"
+    ],
+    "id": 11
+  },
+  {
+    "code": "257844",
+    "name": "Pachey Samsing",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "fy": "2020-21",
+    "ob": 0.0,
+    "receipts": 0.0,
+    "total_receipts": 90.2,
+    "payments": 31.58,
+    "cb": 58.62,
+    "sources": [
+      "CARR 2022.pdf"
+    ],
+    "id": 12
+  },
+  {
+    "code": "254761",
+    "name": "Bering Tareythang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "fy": "2020-21",
+    "ob": 0.0,
+    "receipts": 0.0,
+    "total_receipts": 75.73,
+    "payments": 24.3,
+    "cb": 51.43,
+    "sources": [
+      "CARR 2022.pdf"
+    ],
+    "id": 13
+  },
+  {
+    "code": "254706",
+    "name": "Aho Yangtam",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Namcheybong",
+    "fy": "2020-21",
+    "ob": 0.0,
+    "receipts": 0.0,
+    "total_receipts": 15.01,
+    "payments": 40.39,
+    "cb": -25.38,
+    "sources": [
+      "CARR 2022.pdf"
+    ],
+    "id": 14
+  },
+  {
+    "code": "254787",
+    "name": "Chalamthang Pacheykhani",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "fy": "2020-21",
+    "ob": 0.0,
+    "receipts": 0.0,
+    "total_receipts": 162.39,
+    "payments": 53.46,
+    "cb": 108.93,
+    "sources": [
+      "CARR 2022.pdf"
+    ],
+    "id": 15
+  },
+  {
     "code": "257833",
     "name": "Kyongnosla",
     "tier": "Gram Panchayat Unit",
@@ -14,7 +269,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 1
+    "id": 16
   },
   {
     "code": "254776",
@@ -31,7 +286,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 2
+    "id": 17
   },
   {
     "code": "254793",
@@ -48,7 +303,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 3
+    "id": 18
   },
   {
     "code": "254756",
@@ -65,7 +320,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 4
+    "id": 19
   },
   {
     "code": "276335",
@@ -82,7 +337,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 5
+    "id": 20
   },
   {
     "code": "254813",
@@ -99,7 +354,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 6
+    "id": 21
   },
   {
     "code": "254742",
@@ -116,7 +371,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 7
+    "id": 22
   },
   {
     "code": "254784",
@@ -133,7 +388,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 8
+    "id": 23
   },
   {
     "code": "254773",
@@ -150,7 +405,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 9
+    "id": 24
   },
   {
     "code": "254781",
@@ -167,7 +422,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 10
+    "id": 25
   },
   {
     "code": "254820",
@@ -184,7 +439,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 11
+    "id": 26
   },
   {
     "code": "254717",
@@ -201,7 +456,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 12
+    "id": 27
   },
   {
     "code": "254831",
@@ -218,7 +473,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 13
+    "id": 28
   },
   {
     "code": "257849",
@@ -235,7 +490,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 14
+    "id": 29
   },
   {
     "code": "254834",
@@ -252,7 +507,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 15
+    "id": 30
   },
   {
     "code": "276344",
@@ -269,7 +524,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 16
+    "id": 31
   },
   {
     "code": "254720",
@@ -286,7 +541,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 17
+    "id": 32
   },
   {
     "code": "257843",
@@ -303,7 +558,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 18
+    "id": 33
   },
   {
     "code": "254768",
@@ -320,7 +575,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 19
+    "id": 34
   },
   {
     "code": "254746",
@@ -337,7 +592,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 20
+    "id": 35
   },
   {
     "code": "254798",
@@ -354,7 +609,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 21
+    "id": 36
   },
   {
     "code": "254857",
@@ -371,7 +626,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 22
+    "id": 37
   },
   {
     "code": "254714",
@@ -388,7 +643,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 23
+    "id": 38
   },
   {
     "code": "254719",
@@ -405,7 +660,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 24
+    "id": 39
   },
   {
     "code": "254722",
@@ -422,7 +677,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 25
+    "id": 40
   },
   {
     "code": "254725",
@@ -439,7 +694,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 26
+    "id": 41
   },
   {
     "code": "254832",
@@ -456,7 +711,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 27
+    "id": 42
   },
   {
     "code": "254777",
@@ -473,7 +728,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 28
+    "id": 43
   },
   {
     "code": "254734",
@@ -490,7 +745,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 29
+    "id": 44
   },
   {
     "code": "254786",
@@ -507,7 +762,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 30
+    "id": 45
   },
   {
     "code": "254814",
@@ -524,7 +779,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 31
+    "id": 46
   },
   {
     "code": "254828",
@@ -541,7 +796,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 32
+    "id": 47
   },
   {
     "code": "254863",
@@ -558,7 +813,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 33
+    "id": 48
   },
   {
     "code": "254763",
@@ -575,7 +830,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 34
+    "id": 49
   },
   {
     "code": "254807",
@@ -592,7 +847,24 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 35
+    "id": 50
+  },
+  {
+    "code": "254762",
+    "name": "Lungchok Salyangdang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "fy": "2021-22",
+    "ob": 1771405.0,
+    "receipts": 0.0,
+    "total_receipts": 4427271.0,
+    "payments": 1674090.0,
+    "cb": 2753181.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 51
   },
   {
     "code": "254726",
@@ -609,7 +881,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 36
+    "id": 52
   },
   {
     "code": "254779",
@@ -626,7 +898,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 37
+    "id": 53
   },
   {
     "code": "254771",
@@ -643,7 +915,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 38
+    "id": 54
   },
   {
     "code": "254792",
@@ -660,7 +932,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 39
+    "id": 55
   },
   {
     "code": "254799",
@@ -677,7 +949,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 40
+    "id": 56
   },
   {
     "code": "254802",
@@ -694,7 +966,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 41
+    "id": 57
   },
   {
     "code": "254843",
@@ -711,7 +983,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 42
+    "id": 58
   },
   {
     "code": "254819",
@@ -728,7 +1000,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 43
+    "id": 59
   },
   {
     "code": "254830",
@@ -745,7 +1017,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 44
+    "id": 60
   },
   {
     "code": "254860",
@@ -762,7 +1034,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 45
+    "id": 61
   },
   {
     "code": "254797",
@@ -779,7 +1051,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 46
+    "id": 62
   },
   {
     "code": "254806",
@@ -796,7 +1068,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 47
+    "id": 63
   },
   {
     "code": "254708",
@@ -813,7 +1085,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 48
+    "id": 64
   },
   {
     "code": "254837",
@@ -830,7 +1102,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 49
+    "id": 65
   },
   {
     "code": "254723",
@@ -847,7 +1119,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 50
+    "id": 66
   },
   {
     "code": "254721",
@@ -864,24 +1136,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 51
-  },
-  {
-    "code": "254865",
-    "name": "West Pendam",
-    "tier": "Gram Panchayat Unit",
-    "district": "Pakyong",
-    "bac": "Duga",
-    "fy": "2021-22",
-    "ob": 159895.0,
-    "receipts": 0.0,
-    "total_receipts": 660121.0,
-    "payments": 586920.0,
-    "cb": 73201.0,
-    "sources": [
-      "CARR 2023.pdf"
-    ],
-    "id": 52
+    "id": 67
   },
   {
     "code": "254840",
@@ -898,7 +1153,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 53
+    "id": 68
   },
   {
     "code": "276337",
@@ -915,7 +1170,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 54
+    "id": 69
   },
   {
     "code": "257847",
@@ -932,7 +1187,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 55
+    "id": 70
   },
   {
     "code": "254833",
@@ -949,7 +1204,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 56
+    "id": 71
   },
   {
     "code": "254747",
@@ -966,7 +1221,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 57
+    "id": 72
   },
   {
     "code": "254745",
@@ -983,7 +1238,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 58
+    "id": 73
   },
   {
     "code": "254707",
@@ -1000,7 +1255,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 59
+    "id": 74
   },
   {
     "code": "254761",
@@ -1017,7 +1272,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 60
+    "id": 75
   },
   {
     "code": "257844",
@@ -1034,7 +1289,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 61
+    "id": 76
   },
   {
     "code": "254847",
@@ -1051,7 +1306,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 62
+    "id": 77
   },
   {
     "code": "254706",
@@ -1068,7 +1323,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 63
+    "id": 78
   },
   {
     "code": "254787",
@@ -1085,14 +1340,14 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 64
+    "id": 79
   },
   {
-    "code": "254789",
-    "name": "Pakyong Yaakten",
-    "tier": "Gram Panchayat Unit",
+    "code": "300083",
+    "name": "Pakyong Zilla Panchayat",
+    "tier": "Zilla Panchayat",
     "district": "Pakyong",
-    "bac": "Pakyong",
+    "bac": "N/A",
     "fy": "2021-22",
     "ob": 1777812.0,
     "receipts": 0.0,
@@ -1102,7 +1357,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 65
+    "id": 80
   },
   {
     "code": "254753",
@@ -1119,7 +1374,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 66
+    "id": 81
   },
   {
     "code": "254735",
@@ -1136,7 +1391,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 67
+    "id": 82
   },
   {
     "code": "254810",
@@ -1153,7 +1408,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 68
+    "id": 83
   },
   {
     "code": "254795",
@@ -1170,7 +1425,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 69
+    "id": 84
   },
   {
     "code": "254727",
@@ -1187,7 +1442,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 70
+    "id": 85
   },
   {
     "code": "254759",
@@ -1204,7 +1459,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 71
+    "id": 86
   },
   {
     "code": "254821",
@@ -1221,7 +1476,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 72
+    "id": 87
   },
   {
     "code": "254767",
@@ -1238,7 +1493,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 73
+    "id": 88
   },
   {
     "code": "254870",
@@ -1255,7 +1510,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 74
+    "id": 89
   },
   {
     "code": "254783",
@@ -1272,7 +1527,24 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 75
+    "id": 90
+  },
+  {
+    "code": "254844",
+    "name": "Tarku",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Temi",
+    "fy": "2021-22",
+    "ob": 3971033.0,
+    "receipts": 0.0,
+    "total_receipts": 6538536.0,
+    "payments": 1480336.0,
+    "cb": 5058200.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 91
   },
   {
     "code": "254718",
@@ -1289,7 +1561,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 76
+    "id": 92
   },
   {
     "code": "254825",
@@ -1306,7 +1578,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 77
+    "id": 93
   },
   {
     "code": "254770",
@@ -1323,7 +1595,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 78
+    "id": 94
   },
   {
     "code": "254724",
@@ -1340,7 +1612,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 79
+    "id": 95
   },
   {
     "code": "254744",
@@ -1357,7 +1629,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 80
+    "id": 96
   },
   {
     "code": "276338",
@@ -1374,7 +1646,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 81
+    "id": 97
   },
   {
     "code": "254712",
@@ -1391,7 +1663,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 82
+    "id": 98
   },
   {
     "code": "254731",
@@ -1408,7 +1680,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 83
+    "id": 99
   },
   {
     "code": "254868",
@@ -1425,7 +1697,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 84
+    "id": 100
   },
   {
     "code": "254739",
@@ -1434,15 +1706,16 @@
     "district": "Gyalshing",
     "bac": "Gyalshing",
     "fy": "2021-22",
-    "ob": 3035400.0,
+    "ob": 6188218.0,
     "receipts": 0.0,
-    "total_receipts": 6454180.0,
-    "payments": 3765793.0,
-    "cb": 2688387.0,
+    "total_receipts": 24914746.0,
+    "payments": 14000270.0,
+    "cb": 10914476.0,
     "sources": [
-      "CARR 2023.pdf"
+      "CARR 2023.pdf",
+      "CARR 2024.pdf"
     ],
-    "id": 85
+    "id": 101
   },
   {
     "code": "254867",
@@ -1459,7 +1732,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 86
+    "id": 102
   },
   {
     "code": "254755",
@@ -1476,7 +1749,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 87
+    "id": 103
   },
   {
     "code": "254822",
@@ -1493,7 +1766,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 88
+    "id": 104
   },
   {
     "code": "254841",
@@ -1510,7 +1783,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 89
+    "id": 105
   },
   {
     "code": "254732",
@@ -1527,7 +1800,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 90
+    "id": 106
   },
   {
     "code": "254845",
@@ -1544,7 +1817,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 91
+    "id": 107
   },
   {
     "code": "254709",
@@ -1561,7 +1834,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 92
+    "id": 108
   },
   {
     "code": "254737",
@@ -1578,7 +1851,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 93
+    "id": 109
   },
   {
     "code": "254733",
@@ -1595,7 +1868,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 94
+    "id": 110
   },
   {
     "code": "254749",
@@ -1612,7 +1885,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 95
+    "id": 111
   },
   {
     "code": "254743",
@@ -1629,7 +1902,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 96
+    "id": 112
   },
   {
     "code": "254869",
@@ -1646,7 +1919,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 97
+    "id": 113
   },
   {
     "code": "276336",
@@ -1663,7 +1936,24 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 98
+    "id": 114
+  },
+  {
+    "code": "300082",
+    "name": "Thingling",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Yoksum",
+    "fy": "2021-22",
+    "ob": 3374809.0,
+    "receipts": 0.0,
+    "total_receipts": 6708377.0,
+    "payments": 4734296.0,
+    "cb": 1974081.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 115
   },
   {
     "code": "254774",
@@ -1680,7 +1970,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 99
+    "id": 116
   },
   {
     "code": "254800",
@@ -1697,7 +1987,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 100
+    "id": 117
   },
   {
     "code": "254858",
@@ -1714,7 +2004,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 101
+    "id": 118
   },
   {
     "code": "254853",
@@ -1731,7 +2021,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 102
+    "id": 119
   },
   {
     "code": "254782",
@@ -1748,7 +2038,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 103
+    "id": 120
   },
   {
     "code": "254808",
@@ -1765,7 +2055,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 104
+    "id": 121
   },
   {
     "code": "257850",
@@ -1782,7 +2072,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 105
+    "id": 122
   },
   {
     "code": "254823",
@@ -1799,14 +2089,14 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 106
+    "id": 123
   },
   {
-    "code": "254741",
-    "name": "Hee Gyathang",
+    "code": "254740",
+    "name": "Hee",
     "tier": "Gram Panchayat Unit",
-    "district": "Mangan",
-    "bac": "Passingdong",
+    "district": "Gyalshing",
+    "bac": "Dentam",
     "fy": "2021-22",
     "ob": 2122949.0,
     "receipts": 0.0,
@@ -1816,7 +2106,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 107
+    "id": 124
   },
   {
     "code": "254855",
@@ -1833,7 +2123,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 108
+    "id": 125
   },
   {
     "code": "254790",
@@ -1850,7 +2140,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 109
+    "id": 126
   },
   {
     "code": "254816",
@@ -1867,7 +2157,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 110
+    "id": 127
   },
   {
     "code": "254760",
@@ -1884,7 +2174,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 111
+    "id": 128
   },
   {
     "code": "254765",
@@ -1901,7 +2191,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 112
+    "id": 129
   },
   {
     "code": "254838",
@@ -1918,7 +2208,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 113
+    "id": 130
   },
   {
     "code": "254748",
@@ -1935,7 +2225,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 114
+    "id": 131
   },
   {
     "code": "254842",
@@ -1952,7 +2242,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 115
+    "id": 132
   },
   {
     "code": "276340",
@@ -1969,7 +2259,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 116
+    "id": 133
   },
   {
     "code": "254758",
@@ -1986,7 +2276,24 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 117
+    "id": 134
+  },
+  {
+    "code": "254757",
+    "name": "Lingi",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Yangang",
+    "fy": "2021-22",
+    "ob": 1610624.0,
+    "receipts": 0.0,
+    "total_receipts": 4476159.0,
+    "payments": 3470821.0,
+    "cb": 1005338.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 135
   },
   {
     "code": "254775",
@@ -2003,7 +2310,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 118
+    "id": 136
   },
   {
     "code": "254836",
@@ -2020,7 +2327,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 119
+    "id": 137
   },
   {
     "code": "254866",
@@ -2037,7 +2344,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 120
+    "id": 138
   },
   {
     "code": "254803",
@@ -2054,7 +2361,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 121
+    "id": 139
   },
   {
     "code": "254805",
@@ -2071,7 +2378,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 122
+    "id": 140
   },
   {
     "code": "254710",
@@ -2088,7 +2395,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 123
+    "id": 141
   },
   {
     "code": "254846",
@@ -2105,7 +2412,24 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 124
+    "id": 142
+  },
+  {
+    "code": "254738",
+    "name": "Gnathang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Nandok",
+    "fy": "2021-22",
+    "ob": 2115126.0,
+    "receipts": 0.0,
+    "total_receipts": 7632969.0,
+    "payments": 4788915.0,
+    "cb": 2844054.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 143
   },
   {
     "code": "254780",
@@ -2122,7 +2446,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 125
+    "id": 144
   },
   {
     "code": "257846",
@@ -2139,7 +2463,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 126
+    "id": 145
   },
   {
     "code": "254859",
@@ -2156,7 +2480,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 127
+    "id": 146
   },
   {
     "code": "254750",
@@ -2173,7 +2497,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 128
+    "id": 147
   },
   {
     "code": "254751",
@@ -2190,7 +2514,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 129
+    "id": 148
   },
   {
     "code": "249695",
@@ -2207,7 +2531,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 130
+    "id": 149
   },
   {
     "code": "249695",
@@ -2224,7 +2548,24 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 131
+    "id": 150
+  },
+  {
+    "code": "254740",
+    "name": "Hee",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Dentam",
+    "fy": "2022-23",
+    "ob": 5367373.0,
+    "receipts": 0.0,
+    "total_receipts": 8204355.0,
+    "payments": 10184070.0,
+    "cb": -1979715.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 151
   },
   {
     "code": "254797",
@@ -2241,7 +2582,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 132
+    "id": 152
   },
   {
     "code": "254830",
@@ -2258,7 +2599,24 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 133
+    "id": 153
+  },
+  {
+    "code": "254707",
+    "name": "Amba",
+    "tier": "Gram Panchayat Unit",
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "fy": "2022-23",
+    "ob": 7442052.0,
+    "receipts": 0.0,
+    "total_receipts": 12537073.0,
+    "payments": 7646061.0,
+    "cb": 4891012.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 154
   },
   {
     "code": "254860",
@@ -2275,7 +2633,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 134
+    "id": 155
   },
   {
     "code": "254747",
@@ -2292,7 +2650,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 135
+    "id": 156
   },
   {
     "code": "257847",
@@ -2309,7 +2667,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 136
+    "id": 157
   },
   {
     "code": "276337",
@@ -2318,15 +2676,15 @@
     "district": "Gangtok",
     "bac": "Khamdong",
     "fy": "2022-23",
-    "ob": 3756946.0,
+    "ob": 6341722.0,
     "receipts": 0.0,
-    "total_receipts": 5499310.0,
-    "payments": 2525745.0,
-    "cb": 2973565.0,
+    "total_receipts": 10031091.0,
+    "payments": 4048739.0,
+    "cb": 5982352.0,
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 137
+    "id": 158
   },
   {
     "code": "254833",
@@ -2343,7 +2701,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 138
+    "id": 159
   },
   {
     "code": "254773",
@@ -2360,7 +2718,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 139
+    "id": 160
   },
   {
     "code": "254781",
@@ -2377,7 +2735,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 140
+    "id": 161
   },
   {
     "code": "254820",
@@ -2394,7 +2752,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 141
+    "id": 162
   },
   {
     "code": "257845",
@@ -2411,7 +2769,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 142
+    "id": 163
   },
   {
     "code": "254738",
@@ -2428,7 +2786,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 143
+    "id": 164
   },
   {
     "code": "257846",
@@ -2445,7 +2803,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 144
+    "id": 165
   },
   {
     "code": "254780",
@@ -2462,7 +2820,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 145
+    "id": 166
   },
   {
     "code": "254846",
@@ -2479,7 +2837,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 146
+    "id": 167
   },
   {
     "code": "254710",
@@ -2496,7 +2854,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 147
+    "id": 168
   },
   {
     "code": "254801",
@@ -2513,7 +2871,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 148
+    "id": 169
   },
   {
     "code": "254721",
@@ -2530,14 +2888,14 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 149
+    "id": 170
   },
   {
-    "code": "254865",
-    "name": "West Pendam",
-    "tier": "Gram Panchayat Unit",
-    "district": "Pakyong",
-    "bac": "Duga",
+    "code": "219",
+    "name": "Gyalshing Zilla Panchayat",
+    "tier": "Zilla Panchayat",
+    "district": "Gyalshing",
+    "bac": "N/A",
     "fy": "2022-23",
     "ob": 7420793.0,
     "receipts": 0.0,
@@ -2547,7 +2905,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 150
+    "id": 171
   },
   {
     "code": "254840",
@@ -2564,24 +2922,24 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 151
+    "id": 172
   },
   {
-    "code": "254736",
-    "name": "East Pendam",
-    "tier": "Gram Panchayat Unit",
+    "code": "300083",
+    "name": "Pakyong Zilla Panchayat",
+    "tier": "Zilla Panchayat",
     "district": "Pakyong",
-    "bac": "Pakyong",
+    "bac": "N/A",
     "fy": "2022-23",
-    "ob": 326490.0,
+    "ob": 2106812.0,
     "receipts": 0.0,
-    "total_receipts": 572964.0,
-    "payments": 544705.0,
-    "cb": 28259.0,
+    "total_receipts": 4005543.0,
+    "payments": 1064500.0,
+    "cb": 2941043.0,
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 152
+    "id": 173
   },
   {
     "code": "254706",
@@ -2598,7 +2956,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 153
+    "id": 174
   },
   {
     "code": "254761",
@@ -2615,7 +2973,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 154
+    "id": 175
   },
   {
     "code": "254787",
@@ -2632,7 +2990,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 155
+    "id": 176
   },
   {
     "code": "257844",
@@ -2649,7 +3007,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 156
+    "id": 177
   },
   {
     "code": "254847",
@@ -2666,7 +3024,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 157
+    "id": 178
   },
   {
     "code": "254745",
@@ -2683,7 +3041,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 158
+    "id": 179
   },
   {
     "code": "254850",
@@ -2700,7 +3058,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 159
+    "id": 180
   },
   {
     "code": "254809",
@@ -2717,7 +3075,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 160
+    "id": 181
   },
   {
     "code": "254753",
@@ -2734,7 +3092,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 161
+    "id": 182
   },
   {
     "code": "254795",
@@ -2751,7 +3109,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 162
+    "id": 183
   },
   {
     "code": "254727",
@@ -2768,7 +3126,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 163
+    "id": 184
   },
   {
     "code": "254759",
@@ -2785,7 +3143,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 164
+    "id": 185
   },
   {
     "code": "254810",
@@ -2802,7 +3160,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 165
+    "id": 186
   },
   {
     "code": "254806",
@@ -2819,7 +3177,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 166
+    "id": 187
   },
   {
     "code": "254708",
@@ -2836,7 +3194,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 167
+    "id": 188
   },
   {
     "code": "254837",
@@ -2853,7 +3211,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 168
+    "id": 189
   },
   {
     "code": "254723",
@@ -2870,7 +3228,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 169
+    "id": 190
   },
   {
     "code": "254849",
@@ -2887,7 +3245,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 170
+    "id": 191
   },
   {
     "code": "300285",
@@ -2904,7 +3262,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 171
+    "id": 192
   },
   {
     "code": "276344",
@@ -2921,7 +3279,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 172
+    "id": 193
   },
   {
     "code": "257849",
@@ -2938,7 +3296,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 173
+    "id": 194
   },
   {
     "code": "254828",
@@ -2955,7 +3313,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 174
+    "id": 195
   },
   {
     "code": "254786",
@@ -2972,7 +3330,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 175
+    "id": 196
   },
   {
     "code": "254863",
@@ -2989,7 +3347,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 176
+    "id": 197
   },
   {
     "code": "254814",
@@ -3006,7 +3364,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 177
+    "id": 198
   },
   {
     "code": "254807",
@@ -3023,7 +3381,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 178
+    "id": 199
   },
   {
     "code": "254734",
@@ -3040,7 +3398,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 179
+    "id": 200
   },
   {
     "code": "254798",
@@ -3057,7 +3415,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 180
+    "id": 201
   },
   {
     "code": "254857",
@@ -3074,7 +3432,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 181
+    "id": 202
   },
   {
     "code": "254746",
@@ -3091,7 +3449,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 182
+    "id": 203
   },
   {
     "code": "254725",
@@ -3108,7 +3466,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 183
+    "id": 204
   },
   {
     "code": "254777",
@@ -3125,7 +3483,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 184
+    "id": 205
   },
   {
     "code": "254832",
@@ -3142,7 +3500,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 185
+    "id": 206
   },
   {
     "code": "254722",
@@ -3159,7 +3517,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 186
+    "id": 207
   },
   {
     "code": "254750",
@@ -3176,7 +3534,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 187
+    "id": 208
   },
   {
     "code": "254859",
@@ -3193,7 +3551,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 188
+    "id": 209
   },
   {
     "code": "254751",
@@ -3210,7 +3568,24 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 189
+    "id": 210
+  },
+  {
+    "code": "254793",
+    "name": "Phensang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Kabi",
+    "fy": "2022-23",
+    "ob": 2781767.0,
+    "receipts": 0.0,
+    "total_receipts": 6353417.0,
+    "payments": 3793067.0,
+    "cb": 2560350.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 211
   },
   {
     "code": "254756",
@@ -3227,7 +3602,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 190
+    "id": 212
   },
   {
     "code": "257833",
@@ -3244,7 +3619,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 191
+    "id": 213
   },
   {
     "code": "276335",
@@ -3261,7 +3636,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 192
+    "id": 214
   },
   {
     "code": "254784",
@@ -3278,7 +3653,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 193
+    "id": 215
   },
   {
     "code": "254732",
@@ -3295,7 +3670,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 194
+    "id": 216
   },
   {
     "code": "254818",
@@ -3312,7 +3687,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 195
+    "id": 217
   },
   {
     "code": "254841",
@@ -3329,7 +3704,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 196
+    "id": 218
   },
   {
     "code": "254853",
@@ -3346,7 +3721,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 197
+    "id": 219
   },
   {
     "code": "254858",
@@ -3363,7 +3738,24 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 198
+    "id": 220
+  },
+  {
+    "code": "254826",
+    "name": "Singhik",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Mangan",
+    "fy": "2022-23",
+    "ob": 3413931.0,
+    "receipts": 0.0,
+    "total_receipts": 5078129.0,
+    "payments": 1861716.0,
+    "cb": 3216413.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 221
   },
   {
     "code": "254802",
@@ -3380,7 +3772,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 199
+    "id": 222
   },
   {
     "code": "254792",
@@ -3397,7 +3789,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 200
+    "id": 223
   },
   {
     "code": "254799",
@@ -3414,7 +3806,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 201
+    "id": 224
   },
   {
     "code": "257853",
@@ -3431,24 +3823,24 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 202
+    "id": 225
   },
   {
-    "code": "254856",
-    "name": "Tinik Chisopani",
+    "code": "300194",
+    "name": "Denchung",
     "tier": "Gram Panchayat Unit",
     "district": "Namchi",
     "bac": "Poklok Nandugaon",
     "fy": "2022-23",
-    "ob": 2584776.0,
+    "ob": 2514035.0,
     "receipts": 0.0,
-    "total_receipts": 4531781.0,
-    "payments": 1522994.0,
-    "cb": 3008787.0,
+    "total_receipts": 4230815.0,
+    "payments": 1581500.0,
+    "cb": 2649315.0,
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 203
+    "id": 226
   },
   {
     "code": "254760",
@@ -3465,7 +3857,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 204
+    "id": 227
   },
   {
     "code": "254855",
@@ -3482,7 +3874,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 205
+    "id": 228
   },
   {
     "code": "254816",
@@ -3499,7 +3891,24 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 206
+    "id": 229
+  },
+  {
+    "code": "254861",
+    "name": "Turuk Ramabung",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Sumbuk",
+    "fy": "2022-23",
+    "ob": 3610700.0,
+    "receipts": 0.0,
+    "total_receipts": 6268037.0,
+    "payments": 3161356.0,
+    "cb": 3106681.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 230
   },
   {
     "code": "254775",
@@ -3516,7 +3925,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 207
+    "id": 231
   },
   {
     "code": "254848",
@@ -3533,7 +3942,24 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 208
+    "id": 232
+  },
+  {
+    "code": "254844",
+    "name": "Tarku",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Temi",
+    "fy": "2022-23",
+    "ob": 3692820.0,
+    "receipts": 0.0,
+    "total_receipts": 5419081.0,
+    "payments": 2264287.0,
+    "cb": 3154794.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 233
   },
   {
     "code": "254783",
@@ -3550,7 +3976,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 209
+    "id": 234
   },
   {
     "code": "254836",
@@ -3567,7 +3993,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 210
+    "id": 235
   },
   {
     "code": "254758",
@@ -3584,7 +4010,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 211
+    "id": 236
   },
   {
     "code": "254757",
@@ -3601,7 +4027,24 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 212
+    "id": 237
+  },
+  {
+    "code": "254788",
+    "name": "Paiyong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Yangang",
+    "fy": "2022-23",
+    "ob": 57412.5,
+    "receipts": 0.0,
+    "total_receipts": 222895.5,
+    "payments": 166750.0,
+    "cb": 56145.5,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 238
   },
   {
     "code": "254774",
@@ -3618,7 +4061,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 213
+    "id": 239
   },
   {
     "code": "254711",
@@ -3635,7 +4078,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 214
+    "id": 240
   },
   {
     "code": "276342",
@@ -3652,7 +4095,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 215
+    "id": 241
   },
   {
     "code": "254729",
@@ -3669,7 +4112,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 216
+    "id": 242
   },
   {
     "code": "254778",
@@ -3686,7 +4129,24 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 217
+    "id": 243
+  },
+  {
+    "code": "300196",
+    "name": "Kamrang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Namchi",
+    "fy": "2022-23",
+    "ob": 45139.0,
+    "receipts": 0.0,
+    "total_receipts": 153723.0,
+    "payments": 130234.0,
+    "cb": 23489.0,
+    "sources": [
+      "CARR 2024.pdf"
+    ],
+    "id": 244
   },
   {
     "code": "254772",
@@ -3703,7 +4163,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 218
+    "id": 245
   },
   {
     "code": "254835",
@@ -3720,7 +4180,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 219
+    "id": 246
   },
   {
     "code": "254854",
@@ -3737,7 +4197,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 220
+    "id": 247
   },
   {
     "code": "254712",
@@ -3754,7 +4214,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 221
+    "id": 248
   },
   {
     "code": "254731",
@@ -3771,24 +4231,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 222
-  },
-  {
-    "code": "254740",
-    "name": "Hee",
-    "tier": "Gram Panchayat Unit",
-    "district": "Gyalshing",
-    "bac": "Dentam",
-    "fy": "2022-23",
-    "ob": 3395401.0,
-    "receipts": 0.0,
-    "total_receipts": 4998740.0,
-    "payments": 1641243.0,
-    "cb": 3357497.0,
-    "sources": [
-      "CARR 2024.pdf"
-    ],
-    "id": 223
+    "id": 249
   },
   {
     "code": "276338",
@@ -3805,7 +4248,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 224
+    "id": 250
   },
   {
     "code": "254868",
@@ -3822,7 +4265,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 225
+    "id": 251
   },
   {
     "code": "254730",
@@ -3839,7 +4282,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 226
+    "id": 252
   },
   {
     "code": "254755",
@@ -3856,7 +4299,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 227
+    "id": 253
   },
   {
     "code": "254724",
@@ -3873,7 +4316,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 228
+    "id": 254
   },
   {
     "code": "254718",
@@ -3890,7 +4333,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 229
+    "id": 255
   },
   {
     "code": "257848",
@@ -3907,24 +4350,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 230
-  },
-  {
-    "code": "249690",
-    "name": "Gyalshing Nagar Panchayat",
-    "tier": "Urban Local Body",
-    "district": "Gyalshing",
-    "bac": "N/A",
-    "fy": "2021-22",
-    "ob": 3152818.0,
-    "receipts": 0.0,
-    "total_receipts": 18460566.0,
-    "payments": 10234477.0,
-    "cb": 8226089.0,
-    "sources": [
-      "CARR 2024.pdf"
-    ],
-    "id": 231
+    "id": 256
   },
   {
     "code": "276341",
@@ -3941,7 +4367,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 232
+    "id": 257
   },
   {
     "code": "254870",
@@ -3958,7 +4384,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 233
+    "id": 258
   },
   {
     "code": "254767",
@@ -3975,7 +4401,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 234
+    "id": 259
   },
   {
     "code": "254821",
@@ -3992,7 +4418,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 235
+    "id": 260
   },
   {
     "code": "254838",
@@ -4009,7 +4435,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 236
+    "id": 261
   },
   {
     "code": "276340",
@@ -4026,7 +4452,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 237
+    "id": 262
   },
   {
     "code": "254748",
@@ -4043,7 +4469,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 238
+    "id": 263
   },
   {
     "code": "254773",
@@ -4060,24 +4486,24 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 239
+    "id": 264
   },
   {
-    "code": "257848",
-    "name": "Pecherek Hee Patal",
+    "code": "254740",
+    "name": "Hee",
     "tier": "Gram Panchayat Unit",
     "district": "Gyalshing",
-    "bac": "Hee Martam",
+    "bac": "Dentam",
     "fy": "2023-24",
-    "ob": 1401825.0,
-    "receipts": 431459.0,
-    "total_receipts": 1833284.0,
-    "payments": 694145.0,
-    "cb": 1139139.0,
+    "ob": 7961817.0,
+    "receipts": 3015098.0,
+    "total_receipts": 10976915.0,
+    "payments": 5427437.0,
+    "cb": 5549478.0,
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 240
+    "id": 265
   },
   {
     "code": "254718",
@@ -4094,7 +4520,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 241
+    "id": 266
   },
   {
     "code": "254841",
@@ -4111,7 +4537,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 242
+    "id": 267
   },
   {
     "code": "254732",
@@ -4128,7 +4554,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 243
+    "id": 268
   },
   {
     "code": "300092",
@@ -4145,7 +4571,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 244
+    "id": 269
   },
   {
     "code": "254818",
@@ -4162,7 +4588,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 245
+    "id": 270
   },
   {
     "code": "254822",
@@ -4179,7 +4605,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 246
+    "id": 271
   },
   {
     "code": "254733",
@@ -4196,7 +4622,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 247
+    "id": 272
   },
   {
     "code": "254749",
@@ -4213,7 +4639,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 248
+    "id": 273
   },
   {
     "code": "254743",
@@ -4230,7 +4656,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 249
+    "id": 274
   },
   {
     "code": "254737",
@@ -4247,7 +4673,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 250
+    "id": 275
   },
   {
     "code": "254845",
@@ -4264,7 +4690,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 251
+    "id": 276
   },
   {
     "code": "254709",
@@ -4281,7 +4707,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 252
+    "id": 277
   },
   {
     "code": "276336",
@@ -4298,7 +4724,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 253
+    "id": 278
   },
   {
     "code": "254774",
@@ -4315,7 +4741,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 254
+    "id": 279
   },
   {
     "code": "300082",
@@ -4332,7 +4758,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 255
+    "id": 280
   },
   {
     "code": "254730",
@@ -4349,7 +4775,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 256
+    "id": 281
   },
   {
     "code": "254755",
@@ -4366,7 +4792,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 257
+    "id": 282
   },
   {
     "code": "254832",
@@ -4383,7 +4809,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 258
+    "id": 283
   },
   {
     "code": "300094",
@@ -4400,7 +4826,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 259
+    "id": 284
   },
   {
     "code": "254867",
@@ -4417,7 +4843,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 260
+    "id": 285
   },
   {
     "code": "254868",
@@ -4434,7 +4860,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 261
+    "id": 286
   },
   {
     "code": "254712",
@@ -4451,7 +4877,24 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 262
+    "id": 287
+  },
+  {
+    "code": "254731",
+    "name": "Dentam",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Dentam",
+    "fy": "2023-24",
+    "ob": 5304212.0,
+    "receipts": 678762.0,
+    "total_receipts": 5982974.0,
+    "payments": 3059470.0,
+    "cb": 2923504.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 288
   },
   {
     "code": "300095",
@@ -4468,7 +4911,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 263
+    "id": 289
   },
   {
     "code": "254824",
@@ -4485,24 +4928,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 264
-  },
-  {
-    "code": "254740",
-    "name": "Hee",
-    "tier": "Gram Panchayat Unit",
-    "district": "Gyalshing",
-    "bac": "Dentam",
-    "fy": "2023-24",
-    "ob": 3377542.0,
-    "receipts": 813162.0,
-    "total_receipts": 4190704.0,
-    "payments": 2736139.0,
-    "cb": 1454565.0,
-    "sources": [
-      "CARR 2025.pdf"
-    ],
-    "id": 265
+    "id": 290
   },
   {
     "code": "276338",
@@ -4519,7 +4945,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 266
+    "id": 291
   },
   {
     "code": "254770",
@@ -4536,7 +4962,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 267
+    "id": 292
   },
   {
     "code": "254825",
@@ -4553,7 +4979,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 268
+    "id": 293
   },
   {
     "code": "254721",
@@ -4570,7 +4996,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 269
+    "id": 294
   },
   {
     "code": "257843",
@@ -4587,7 +5013,24 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 270
+    "id": 295
+  },
+  {
+    "code": "219",
+    "name": "Gyalshing Zilla Panchayat",
+    "tier": "Zilla Panchayat",
+    "district": "Gyalshing",
+    "bac": "N/A",
+    "fy": "2023-24",
+    "ob": 138813.0,
+    "receipts": 735945.0,
+    "total_receipts": 874758.0,
+    "payments": 874758.0,
+    "cb": 0.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 296
   },
   {
     "code": "254775",
@@ -4604,7 +5047,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 271
+    "id": 297
   },
   {
     "code": "254861",
@@ -4621,7 +5064,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 272
+    "id": 298
   },
   {
     "code": "254839",
@@ -4638,7 +5081,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 273
+    "id": 299
   },
   {
     "code": "254815",
@@ -4655,7 +5098,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 274
+    "id": 300
   },
   {
     "code": "300189",
@@ -4672,7 +5115,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 275
+    "id": 301
   },
   {
     "code": "254766",
@@ -4689,7 +5132,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 276
+    "id": 302
   },
   {
     "code": "276342",
@@ -4706,7 +5149,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 277
+    "id": 303
   },
   {
     "code": "254729",
@@ -4723,7 +5166,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 278
+    "id": 304
   },
   {
     "code": "254835",
@@ -4740,7 +5183,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 279
+    "id": 305
   },
   {
     "code": "254772",
@@ -4757,7 +5200,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 280
+    "id": 306
   },
   {
     "code": "254854",
@@ -4774,7 +5217,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 281
+    "id": 307
   },
   {
     "code": "254811",
@@ -4791,7 +5234,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 282
+    "id": 308
   },
   {
     "code": "254778",
@@ -4808,7 +5251,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 283
+    "id": 309
   },
   {
     "code": "300196",
@@ -4825,7 +5268,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 284
+    "id": 310
   },
   {
     "code": "254711",
@@ -4842,7 +5285,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 285
+    "id": 311
   },
   {
     "code": "257852",
@@ -4859,7 +5302,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 286
+    "id": 312
   },
   {
     "code": "254769",
@@ -4876,7 +5319,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 287
+    "id": 313
   },
   {
     "code": "254843",
@@ -4893,7 +5336,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 288
+    "id": 314
   },
   {
     "code": "254799",
@@ -4910,7 +5353,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 289
+    "id": 315
   },
   {
     "code": "254779",
@@ -4927,7 +5370,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 290
+    "id": 316
   },
   {
     "code": "300187",
@@ -4944,7 +5387,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 291
+    "id": 317
   },
   {
     "code": "254771",
@@ -4961,7 +5404,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 292
+    "id": 318
   },
   {
     "code": "254802",
@@ -4978,7 +5421,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 293
+    "id": 319
   },
   {
     "code": "254862",
@@ -4995,7 +5438,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 294
+    "id": 320
   },
   {
     "code": "254792",
@@ -5012,7 +5455,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 295
+    "id": 321
   },
   {
     "code": "254726",
@@ -5029,24 +5472,24 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 296
+    "id": 322
   },
   {
-    "code": "254856",
-    "name": "Tinik Chisopani",
+    "code": "276337",
+    "name": "Chisopani",
     "tier": "Gram Panchayat Unit",
-    "district": "Namchi",
-    "bac": "Poklok Nandugaon",
+    "district": "Gangtok",
+    "bac": "Khamdong",
     "fy": "2023-24",
-    "ob": 3008787.0,
-    "receipts": 1026880.0,
-    "total_receipts": 4035667.0,
-    "payments": 1584220.0,
-    "cb": 2451447.0,
+    "ob": 5982352.0,
+    "receipts": 1921582.0,
+    "total_receipts": 7903934.0,
+    "payments": 3631510.0,
+    "cb": 4272424.0,
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 297
+    "id": 323
   },
   {
     "code": "254794",
@@ -5063,7 +5506,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 298
+    "id": 324
   },
   {
     "code": "254817",
@@ -5072,15 +5515,15 @@
     "district": "Namchi",
     "bac": "Poklok Nandugaon",
     "fy": "2023-24",
-    "ob": 0.0,
-    "receipts": 25700.0,
-    "total_receipts": 25700.0,
-    "payments": 472.0,
-    "cb": 25228.0,
+    "ob": 524371.0,
+    "receipts": 1325483.0,
+    "total_receipts": 1849854.0,
+    "payments": 1398784.0,
+    "cb": 451070.0,
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 299
+    "id": 325
   },
   {
     "code": "300194",
@@ -5097,7 +5540,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 300
+    "id": 326
   },
   {
     "code": "254823",
@@ -5114,7 +5557,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 301
+    "id": 327
   },
   {
     "code": "254752",
@@ -5131,7 +5574,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 302
+    "id": 328
   },
   {
     "code": "254859",
@@ -5148,7 +5591,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 303
+    "id": 329
   },
   {
     "code": "254750",
@@ -5165,7 +5608,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 304
+    "id": 330
   },
   {
     "code": "254751",
@@ -5182,7 +5625,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 305
+    "id": 331
   },
   {
     "code": "254827",
@@ -5199,7 +5642,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 306
+    "id": 332
   },
   {
     "code": "254813",
@@ -5216,7 +5659,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 307
+    "id": 333
   },
   {
     "code": "254742",
@@ -5233,7 +5676,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 308
+    "id": 334
   },
   {
     "code": "254776",
@@ -5250,7 +5693,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 309
+    "id": 335
   },
   {
     "code": "257833",
@@ -5267,7 +5710,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 310
+    "id": 336
   },
   {
     "code": "276335",
@@ -5284,7 +5727,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 311
+    "id": 337
   },
   {
     "code": "254793",
@@ -5301,7 +5744,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 312
+    "id": 338
   },
   {
     "code": "254784",
@@ -5318,7 +5761,24 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 313
+    "id": 339
+  },
+  {
+    "code": "254826",
+    "name": "Singhik",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Mangan",
+    "fy": "2023-24",
+    "ob": 3216413.0,
+    "receipts": 885882.0,
+    "total_receipts": 4102295.0,
+    "payments": 1598573.0,
+    "cb": 2503722.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 340
   },
   {
     "code": "254800",
@@ -5335,7 +5795,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 314
+    "id": 341
   },
   {
     "code": "254858",
@@ -5352,7 +5812,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 315
+    "id": 342
   },
   {
     "code": "254808",
@@ -5369,7 +5829,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 316
+    "id": 343
   },
   {
     "code": "257850",
@@ -5386,7 +5846,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 317
+    "id": 344
   },
   {
     "code": "254853",
@@ -5403,7 +5863,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 318
+    "id": 345
   },
   {
     "code": "254782",
@@ -5420,24 +5880,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 319
-  },
-  {
-    "code": "254741",
-    "name": "Hee Gyathang",
-    "tier": "Gram Panchayat Unit",
-    "district": "Mangan",
-    "bac": "Passingdong",
-    "fy": "2023-24",
-    "ob": 3182450.0,
-    "receipts": 1770477.0,
-    "total_receipts": 4952927.0,
-    "payments": 1997153.0,
-    "cb": 2955774.0,
-    "sources": [
-      "CARR 2025.pdf"
-    ],
-    "id": 320
+    "id": 346
   },
   {
     "code": "254816",
@@ -5454,7 +5897,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 321
+    "id": 347
   },
   {
     "code": "254855",
@@ -5471,7 +5914,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 322
+    "id": 348
   },
   {
     "code": "254790",
@@ -5488,7 +5931,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 323
+    "id": 349
   },
   {
     "code": "254765",
@@ -5505,7 +5948,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 324
+    "id": 350
   },
   {
     "code": "254760",
@@ -5522,7 +5965,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 325
+    "id": 351
   },
   {
     "code": "254783",
@@ -5539,7 +5982,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 326
+    "id": 352
   },
   {
     "code": "254848",
@@ -5556,7 +5999,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 327
+    "id": 353
   },
   {
     "code": "254716",
@@ -5573,7 +6016,24 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 328
+    "id": 354
+  },
+  {
+    "code": "254844",
+    "name": "Tarku",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Temi",
+    "fy": "2023-24",
+    "ob": 3154793.0,
+    "receipts": 901060.0,
+    "total_receipts": 4055853.0,
+    "payments": 1550516.0,
+    "cb": 2505337.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 355
   },
   {
     "code": "254785",
@@ -5590,7 +6050,24 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 329
+    "id": 356
+  },
+  {
+    "code": "254757",
+    "name": "Lingi",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Yangang",
+    "fy": "2023-24",
+    "ob": 1224362.0,
+    "receipts": 2857606.0,
+    "total_receipts": 4081968.0,
+    "payments": 1742454.0,
+    "cb": 2339514.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 357
   },
   {
     "code": "254836",
@@ -5607,24 +6084,24 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 330
+    "id": 358
   },
   {
-    "code": "254764",
-    "name": "Luing Parbing",
+    "code": "254788",
+    "name": "Paiyong",
     "tier": "Gram Panchayat Unit",
-    "district": "Gangtok",
-    "bac": "Ranka",
+    "district": "Namchi",
+    "bac": "Yangang",
     "fy": "2023-24",
-    "ob": 3359190.0,
-    "receipts": 5025259.0,
-    "total_receipts": 8384449.0,
-    "payments": 5173064.0,
-    "cb": 3211385.0,
+    "ob": 1561014.0,
+    "receipts": 3120386.0,
+    "total_receipts": 4681400.0,
+    "payments": 3364607.0,
+    "cb": 1316793.0,
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 331
+    "id": 359
   },
   {
     "code": "254866",
@@ -5641,7 +6118,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 332
+    "id": 360
   },
   {
     "code": "254758",
@@ -5658,7 +6135,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 333
+    "id": 361
   },
   {
     "code": "254805",
@@ -5675,7 +6152,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 334
+    "id": 362
   },
   {
     "code": "254803",
@@ -5692,7 +6169,24 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 335
+    "id": 363
+  },
+  {
+    "code": "254764",
+    "name": "Luing Parbing",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gangtok",
+    "bac": "Ranka",
+    "fy": "2023-24",
+    "ob": 1798176.0,
+    "receipts": 1904873.0,
+    "total_receipts": 3703049.0,
+    "payments": 1808457.0,
+    "cb": 1894592.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 364
   },
   {
     "code": "254801",
@@ -5701,15 +6195,15 @@
     "district": "Gangtok",
     "bac": "Ranka",
     "fy": "2023-24",
-    "ob": 1118911.0,
-    "receipts": 2510018.0,
-    "total_receipts": 3628929.0,
-    "payments": 1748555.0,
-    "cb": 1880374.0,
+    "ob": 1153153.0,
+    "receipts": 2898921.0,
+    "total_receipts": 4052074.0,
+    "payments": 1950783.0,
+    "cb": 2101291.0,
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 336
+    "id": 365
   },
   {
     "code": "300088",
@@ -5726,7 +6220,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 337
+    "id": 366
   },
   {
     "code": "254857",
@@ -5743,7 +6237,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 338
+    "id": 367
   },
   {
     "code": "254746",
@@ -5760,24 +6254,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 339
-  },
-  {
-    "code": "300093",
-    "name": "Sangmo Rankay",
-    "tier": "Gram Panchayat Unit",
-    "district": "Namchi",
-    "bac": "Ravong",
-    "fy": "2023-24",
-    "ob": 34242.0,
-    "receipts": 388903.0,
-    "total_receipts": 423145.0,
-    "payments": 202228.0,
-    "cb": 220917.0,
-    "sources": [
-      "CARR 2025.pdf"
-    ],
-    "id": 340
+    "id": 368
   },
   {
     "code": "254798",
@@ -5794,7 +6271,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 341
+    "id": 369
   },
   {
     "code": "254796",
@@ -5811,7 +6288,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 342
+    "id": 370
   },
   {
     "code": "254719",
@@ -5828,7 +6305,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 343
+    "id": 371
   },
   {
     "code": "254754",
@@ -5845,7 +6322,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 344
+    "id": 372
   },
   {
     "code": "257849",
@@ -5862,7 +6339,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 345
+    "id": 373
   },
   {
     "code": "254768",
@@ -5879,7 +6356,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 346
+    "id": 374
   },
   {
     "code": "254831",
@@ -5896,7 +6373,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 347
+    "id": 375
   },
   {
     "code": "276343",
@@ -5913,7 +6390,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 348
+    "id": 376
   },
   {
     "code": "300285",
@@ -5930,7 +6407,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 349
+    "id": 377
   },
   {
     "code": "254849",
@@ -5947,7 +6424,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 350
+    "id": 378
   },
   {
     "code": "254834",
@@ -5957,14 +6434,14 @@
     "bac": "Soreng",
     "fy": "2023-24",
     "ob": 1448560.0,
-    "receipts": 621566.0,
-    "total_receipts": 2070126.0,
+    "receipts": 3987752.0,
+    "total_receipts": 5436312.0,
     "payments": 1418573.0,
-    "cb": 651553.0,
+    "cb": 4017739.0,
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 351
+    "id": 379
   },
   {
     "code": "254777",
@@ -5981,7 +6458,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 352
+    "id": 380
   },
   {
     "code": "254725",
@@ -5998,7 +6475,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 353
+    "id": 381
   },
   {
     "code": "254722",
@@ -6015,7 +6492,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 354
+    "id": 382
   },
   {
     "code": "254828",
@@ -6032,7 +6509,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 355
+    "id": 383
   },
   {
     "code": "254807",
@@ -6049,7 +6526,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 356
+    "id": 384
   },
   {
     "code": "254863",
@@ -6066,7 +6543,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 357
+    "id": 385
   },
   {
     "code": "254786",
@@ -6083,7 +6560,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 358
+    "id": 386
   },
   {
     "code": "254763",
@@ -6100,7 +6577,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 359
+    "id": 387
   },
   {
     "code": "254814",
@@ -6117,7 +6594,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 360
+    "id": 388
   },
   {
     "code": "254734",
@@ -6134,7 +6611,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 361
+    "id": 389
   },
   {
     "code": "254762",
@@ -6151,7 +6628,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 362
+    "id": 390
   },
   {
     "code": "254720",
@@ -6168,7 +6645,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 363
+    "id": 391
   },
   {
     "code": "300590",
@@ -6185,7 +6662,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 364
+    "id": 392
   },
   {
     "code": "254781",
@@ -6202,7 +6679,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 365
+    "id": 393
   },
   {
     "code": "254820",
@@ -6219,7 +6696,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 366
+    "id": 394
   },
   {
     "code": "254717",
@@ -6236,7 +6713,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 367
+    "id": 395
   },
   {
     "code": "254860",
@@ -6253,7 +6730,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 368
+    "id": 396
   },
   {
     "code": "254797",
@@ -6270,24 +6747,24 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 369
+    "id": 397
   },
   {
-    "code": "254819",
-    "name": "Samdong Kambel",
+    "code": "254707",
+    "name": "Amba",
     "tier": "Gram Panchayat Unit",
-    "district": "Gangtok",
-    "bac": "Rakdong Tintek",
+    "district": "Pakyong",
+    "bac": "Pakyong",
     "fy": "2023-24",
-    "ob": 2856557.0,
-    "receipts": 1532664.0,
-    "total_receipts": 4389221.0,
-    "payments": 2895835.0,
-    "cb": 1493386.0,
+    "ob": 4891012.0,
+    "receipts": 2238917.0,
+    "total_receipts": 7129929.0,
+    "payments": 4275384.0,
+    "cb": 2854545.0,
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 370
+    "id": 398
   },
   {
     "code": "254830",
@@ -6304,24 +6781,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 371
-  },
-  {
-    "code": "276337",
-    "name": "Chisopani",
-    "tier": "Gram Panchayat Unit",
-    "district": "Gangtok",
-    "bac": "Khamdong",
-    "fy": "2023-24",
-    "ob": 2973565.0,
-    "receipts": 894702.0,
-    "total_receipts": 3868267.0,
-    "payments": 2047290.0,
-    "cb": 1820977.0,
-    "sources": [
-      "CARR 2025.pdf"
-    ],
-    "id": 372
+    "id": 399
   },
   {
     "code": "254829",
@@ -6338,7 +6798,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 373
+    "id": 400
   },
   {
     "code": "254833",
@@ -6355,7 +6815,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 374
+    "id": 401
   },
   {
     "code": "254747",
@@ -6372,7 +6832,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 375
+    "id": 402
   },
   {
     "code": "257847",
@@ -6389,7 +6849,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 376
+    "id": 403
   },
   {
     "code": "254738",
@@ -6406,7 +6866,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 377
+    "id": 404
   },
   {
     "code": "254846",
@@ -6423,7 +6883,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 378
+    "id": 405
   },
   {
     "code": "254780",
@@ -6440,7 +6900,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 379
+    "id": 406
   },
   {
     "code": "257845",
@@ -6457,7 +6917,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 380
+    "id": 407
   },
   {
     "code": "254850",
@@ -6474,7 +6934,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 381
+    "id": 408
   },
   {
     "code": "254809",
@@ -6491,7 +6951,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 382
+    "id": 409
   },
   {
     "code": "254812",
@@ -6508,7 +6968,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 383
+    "id": 410
   },
   {
     "code": "254727",
@@ -6525,7 +6985,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 384
+    "id": 411
   },
   {
     "code": "254795",
@@ -6542,7 +7002,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 385
+    "id": 412
   },
   {
     "code": "254759",
@@ -6559,7 +7019,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 386
+    "id": 413
   },
   {
     "code": "254810",
@@ -6576,7 +7036,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 387
+    "id": 414
   },
   {
     "code": "254847",
@@ -6593,24 +7053,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 388
-  },
-  {
-    "code": "254707",
-    "name": "Amba",
-    "tier": "Gram Panchayat Unit",
-    "district": "Pakyong",
-    "bac": "Pakyong",
-    "fy": "2023-24",
-    "ob": 2034455.0,
-    "receipts": 706253.0,
-    "total_receipts": 2740708.0,
-    "payments": 1379549.0,
-    "cb": 1361159.0,
-    "sources": [
-      "CARR 2025.pdf"
-    ],
-    "id": 389
+    "id": 415
   },
   {
     "code": "254761",
@@ -6627,24 +7070,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 390
-  },
-  {
-    "code": "254736",
-    "name": "East Pendam",
-    "tier": "Gram Panchayat Unit",
-    "district": "Pakyong",
-    "bac": "Pakyong",
-    "fy": "2023-24",
-    "ob": 3475975.0,
-    "receipts": 1116360.0,
-    "total_receipts": 4592335.0,
-    "payments": 1902987.0,
-    "cb": 2689348.0,
-    "sources": [
-      "CARR 2025.pdf"
-    ],
-    "id": 391
+    "id": 416
   },
   {
     "code": "257844",
@@ -6661,7 +7087,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 392
+    "id": 417
   },
   {
     "code": "254787",
@@ -6678,7 +7104,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 393
+    "id": 418
   },
   {
     "code": "254745",
@@ -6695,7 +7121,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 394
+    "id": 419
   },
   {
     "code": "254840",
@@ -6712,7 +7138,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 395
+    "id": 420
   },
   {
     "code": "254710",
@@ -6729,7 +7155,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 396
+    "id": 421
   },
   {
     "code": "254706",
@@ -6746,7 +7172,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 397
+    "id": 422
   },
   {
     "code": "254837",
@@ -6763,7 +7189,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 398
+    "id": 423
   },
   {
     "code": "254806",
@@ -6780,7 +7206,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 399
+    "id": 424
   },
   {
     "code": "254723",
@@ -6797,7 +7223,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 400
+    "id": 425
   },
   {
     "code": "254708",
@@ -6814,24 +7240,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 401
-  },
-  {
-    "code": "300084",
-    "name": "Soreng Zilla Panchayat",
-    "tier": "Zilla Panchayat",
-    "district": "Soreng",
-    "bac": "N/A",
-    "fy": "2023-24",
-    "ob": 0.0,
-    "receipts": 3366186.0,
-    "total_receipts": 3366186.0,
-    "payments": 0.0,
-    "cb": 3366186.0,
-    "sources": [
-      "CARR 2025.pdf"
-    ],
-    "id": 402
+    "id": 426
   },
   {
     "code": "249693",
@@ -6848,24 +7257,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 403
-  },
-  {
-    "code": "249689",
-    "name": "Mangan Nagar Panchayat",
-    "tier": "Urban Local Body",
-    "district": "Mangan",
-    "bac": "N/A",
-    "fy": "2022-23",
-    "ob": 3211103.0,
-    "receipts": 4862644.0,
-    "total_receipts": 8073747.0,
-    "payments": 7564355.0,
-    "cb": 509392.0,
-    "sources": [
-      "CARR 2025.pdf"
-    ],
-    "id": 404
+    "id": 427
   },
   {
     "code": "290460",
@@ -6882,7 +7274,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 405
+    "id": 428
   },
   {
     "code": "249693",
@@ -6899,24 +7291,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 406
-  },
-  {
-    "code": "249689",
-    "name": "Mangan Nagar Panchayat",
-    "tier": "Urban Local Body",
-    "district": "Mangan",
-    "bac": "N/A",
-    "fy": "2023-24",
-    "ob": 509392.0,
-    "receipts": 2540835.0,
-    "total_receipts": 3050227.0,
-    "payments": 509427.0,
-    "cb": 2540800.0,
-    "sources": [
-      "CARR 2025.pdf"
-    ],
-    "id": 407
+    "id": 429
   },
   {
     "code": "290460",
@@ -6933,6 +7308,6 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 408
+    "id": 430
   }
 ]
