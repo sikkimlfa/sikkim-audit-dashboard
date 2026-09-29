@@ -59,13 +59,13 @@ def detect_tier(unit_name):
     # 1. Urban Local Bodies (ULBs) - Check Nagar Panchayat BEFORE Gram Panchayat!
     ulb_keywords = [
         'municipal', 'corporation', 'gmc', 'council', 'nagar panchayat', 
-        'nagar', 'ulb', 'town', 'notified area', 'np'
+        'nagar', 'ulb', 'town', 'notified area', 'np', 'nmc', 'mc'
     ]
     if any(k in nl for k in ulb_keywords):
         return "Urban Local Body"
 
     # 2. Zilla Panchayats (ZPs)
-    zilla_keywords = ['zilla', 'zp', 'district panchayat', 'district parishad']
+    zilla_keywords = ['zilla', 'zp', 'district panchayat', 'district parishad', 'district']
     if any(k in nl for k in zilla_keywords):
         return "Zilla Panchayat"
 
