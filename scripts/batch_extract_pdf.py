@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
-batch_extract_pdf.py - Enhanced Bulk Extraction Engine
+batch_extract_pdf.py - Audit Math Verifier & Extraction Engine
 Directorate of Local Fund Audit — Government of Sikkim
 
-Fixes applied:
- - Precise Tier classification (ULB vs Zilla Panchayat vs Gram Panchayat)
- - Ignores NIL / Zero monetary records
- - Cleans and normalizes Local Body unit names (removes numbers, prefixes, noise)
+Features:
+ - Verifies Total Receipts = OB + Receipts
+ - Verifies Closing Balance = Total Receipts - Payments
+ - Separates verified records from mathematically inconsistent entries
+ - Generates data/processed/records.json and data/processed/audit_discrepancies.json
 """
 
 import sys
@@ -18,158 +19,152 @@ try:
     import pdfplumber
     import pandas as pd
 except ImportError:
-    print("Error: Missing packages in active environment. Run 'pip install pdfplumber pandas'")
+    print("Error: Missing required packages. Run 'pip install pdfplumber pandas'")
     sys.exit(1)
 
 
-def clean_currency_val(val):
-    """Strip currency symbols (₹), commas, 'nil', and whitespace into standard float."""
+def clean_val(val):
+    """Clean monetary strings to float."""
     if val is None or pd.isna(val):
         return 0.0
-    
     val_str = str(val).strip().lower()
     if val_str in ['nil', 'null', '-', '--', 'n/a', '']:
         return 0.0
-
     if isinstance(val, (int, float)):
         return float(val)
-
-    cleaned_str = re.sub(r'[^\d.-]', '', val_str)
+    cleaned = re.sub(r'[^\d.-]', '', val_str)
     try:
-        return float(cleaned_str)
+        return float(cleaned)
     except ValueError:
         return 0.0
 
 
-def clean_unit_name(raw_name):
-    """Clean and normalize Local Body unit names."""
-    if not raw_name:
+def clean_unit_name(raw):
+    """Normalize unit names."""
+    if not raw:
         return ""
-
-    # Replace newlines with spaces
-    name = str(raw_name).replace('\n', ' ').strip()
-
-    # Remove leading serial numbers like "1.", "01-", "Sl No 5", "1 )"
+    name = str(raw).replace('\n', ' ').strip()
     name = re.sub(r'^(?:sl\.?\s*no\.?|sno\.?|\d+[\.\-\)]|\d+\s+)\s*', '', name, flags=re.IGNORECASE)
-
-    # Remove repeated whitespaces
     name = re.sub(r'\s+', ' ', name).strip()
-
-    # Proper casing if string is ALL CAPS
-    if name.isupper():
-        name = name.title()
-
-    return name
+    return name.title() if name.isupper() else name
 
 
-def detect_tier(unit_name):
-    """Classify Local Body tier based on keyword analysis."""
-    name_lower = unit_name.lower()
-
-    if any(k in name_lower for k in ['zilla', 'zp', 'district panchayat']):
+def detect_tier(name):
+    """Detect tier category."""
+    nl = name.lower()
+    if 'zilla' in nl or 'district' in nl:
         return "Zilla Panchayat"
-    elif any(k in name_lower for k in ['gram', 'gpu', 'gp', 'panchayat']):
+    elif 'gram' in nl or 'gpu' in nl or 'panchayat' in nl:
         return "Gram Panchayat Unit"
-    elif any(k in name_lower for k in ['municipal', 'corporation', 'gmc', 'council', 'nagar', 'ulb']):
-        return "Urban Local Body"
-    
-    # Default fallback based on common Sikkim local body naming
-    return "Gram Panchayat Unit" if "panchayat" in name_lower else "Urban Local Body"
+    return "Urban Local Body"
 
 
-def extract_tables_from_pdf(pdf_path):
-    """Extract and normalize rows from a single PDF report."""
-    extracted = []
-    filename = pdf_path.name
-    
-    fy_match = re.search(r'20\d{2}[-_]\d{2,4}', filename)
-    default_fy = fy_match.group(0).replace('_', '-') if fy_match else "2024-25"
-
-    with pdfplumber.open(pdf_path) as pdf:
-        for page in pdf.pages:
-            tables = page.extract_tables()
-            for table in tables:
-                for row in table:
-                    if not row or len(row) < 4:
-                        continue
-
-                    # Header/Footer filter
-                    row_str = " ".join([str(cell) for cell in row if cell])
-                    if any(header in row_str.lower() for header in ["opening balance", "particulars", "total", "sl. no", "grand total"]):
-                        continue
-
-                    raw_unit = row[0] if row[0] else ''
-                    unit_name = clean_unit_name(raw_unit)
-
-                    # Filter out invalid name entries
-                    if not unit_name or len(unit_name) < 3 or unit_name.isdigit():
-                        continue
-
-                    ob = clean_currency_val(row[1] if len(row) > 1 else 0)
-                    receipts = clean_currency_val(row[2] if len(row) > 2 else 0)
-                    payments = clean_currency_val(row[3] if len(row) > 3 else 0)
-
-                    # FIX: Skip NIL records where all balances are zero
-                    if ob == 0.0 and receipts == 0.0 and payments == 0.0:
-                        continue
-
-                    # FIX: Precise Tier assignment
-                    tier = detect_tier(unit_name)
-
-                    extracted.append({
-                        "body": unit_name,
-                        "tier": tier,
-                        "year": default_fy,
-                        "ob": ob,
-                        "receipts": receipts,
-                        "payments": payments,
-                        "source_file": filename
-                    })
-
-    return extracted
-
-
-def main():
+def process_pdf_reports():
     raw_dir = Path("data/raw")
-    output_file = Path("data/processed/records.json")
-
     pdf_files = sorted(list(raw_dir.glob("*.pdf")) + list(raw_dir.glob("*.PDF")))
 
     if not pdf_files:
         print(f"[!] No PDF files found in {raw_dir.resolve()}")
         sys.exit(1)
 
-    print(f"[*] Processing {len(pdf_files)} PDF reports from {raw_dir}/...")
+    verified_records = []
+    discrepancy_records = []
 
-    all_records = []
-    for pdf in pdf_files:
-        print(f"  -> Extracting & cleaning: {pdf.name}")
-        records = extract_tables_from_pdf(pdf)
-        all_records.extend(records)
+    record_id = 1
+    discrepancy_id = 1
 
-    # Re-index clean records and calculate closing balance
-    final_output = []
-    for idx, rec in enumerate(all_records, start=1):
-        cb = rec["ob"] + rec["receipts"] - rec["payments"]
-        final_output.append({
-            "id": idx,
-            "body": rec["body"],
-            "tier": rec["tier"],
-            "year": rec["year"],
-            "ob": round(rec["ob"], 2),
-            "receipts": round(rec["receipts"], 2),
-            "payments": round(rec["payments"], 2),
-            "cb": round(cb, 2),
-            "source": rec["source_file"]
-        })
+    for pdf_path in pdf_files:
+        filename = pdf_path.name
+        fy_match = re.search(r'20\d{2}[-_]\d{2,4}', filename)
+        fy = fy_match.group(0).replace('_', '-') if fy_match else "2024-25"
 
-    output_file.parent.mkdir(parents=True, exist_ok=True)
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(final_output, f, indent=2, ensure_ascii=False)
+        print(f"[*] Auditing and extracting: {filename}")
 
-    print(f"\n[✓] Extracted {len(final_output)} non-nil records with tier classification.")
-    print(f"[✓] File saved to: {output_file.resolve()}")
+        with pdfplumber.open(pdf_path) as pdf:
+            for page in pdf.pages:
+                tables = page.extract_tables()
+                for table in tables:
+                    for row in table:
+                        if not row or len(row) < 5:
+                            continue
+
+                        row_str = " ".join([str(c) for c in row if c])
+                        if any(h in row_str.lower() for h in ["opening balance", "particulars", "total", "sl. no", "grand total"]):
+                            continue
+
+                        unit_name = clean_unit_name(row[0])
+                        if not unit_name or len(unit_name) < 3 or unit_name.isdigit():
+                            continue
+
+                        # Read Extracted Financial Values
+                        ob = clean_val(row[1] if len(row) > 1 else 0)
+                        receipts = clean_val(row[2] if len(row) > 2 else 0)
+                        reported_total_receipts = clean_val(row[3] if len(row) > 3 else 0)
+                        payments = clean_val(row[4] if len(row) > 4 else 0)
+                        reported_cb = clean_val(row[5] if len(row) > 5 else 0)
+
+                        # Skip completely empty/nil entries
+                        if ob == 0 and receipts == 0 and payments == 0:
+                            continue
+
+                        tier = detect_tier(unit_name)
+
+                        # Mathematical Verification Checks
+                        expected_total_receipts = round(ob + receipts, 2)
+                        
+                        # Use reported total receipts if present; otherwise fallback to expected
+                        effective_total_receipts = reported_total_receipts if reported_total_receipts > 0 else expected_total_receipts
+                        expected_cb = round(effective_total_receipts - payments, 2)
+
+                        # Check for math discrepancy (tolerance of 1.0 for rounding)
+                        math_error = False
+                        reason = []
+
+                        if reported_total_receipts > 0 and abs(reported_total_receipts - expected_total_receipts) > 1.0:
+                            math_error = True
+                            reason.append(f"Total Receipts mismatch: Reported ₹{reported_total_receipts}, Expected ₹{expected_total_receipts} (OB+Receipts)")
+
+                        if reported_cb > 0 and abs(reported_cb - expected_cb) > 1.0:
+                            math_error = True
+                            reason.append(f"Closing Balance mismatch: Reported ₹{reported_cb}, Expected ₹{expected_cb} (Total Receipts - Payments)")
+
+                        item = {
+                            "body": unit_name,
+                            "tier": tier,
+                            "year": fy,
+                            "ob": round(ob, 2),
+                            "receipts": round(receipts, 2),
+                            "total_receipts": expected_total_receipts if reported_total_receipts == 0 else round(reported_total_receipts, 2),
+                            "payments": round(payments, 2),
+                            "cb": expected_cb if reported_cb == 0 else round(reported_cb, 2),
+                            "source": filename
+                        }
+
+                        if math_error:
+                            item["id"] = discrepancy_id
+                            item["error_reason"] = " | ".join(reason)
+                            item["expected_cb"] = expected_cb
+                            item["expected_total_receipts"] = expected_total_receipts
+                            discrepancy_records.append(item)
+                            discrepancy_id += 1
+                        else:
+                            item["id"] = record_id
+                            verified_records.append(item)
+                            record_id += 1
+
+    # Write output files
+    Path("data/processed").mkdir(parents=True, exist_ok=True)
+
+    with open("data/processed/records.json", "w", encoding="utf-8") as f:
+        json.dump(verified_records, f, indent=2, ensure_ascii=False)
+
+    with open("data/processed/audit_discrepancies.json", "w", encoding="utf-8") as f:
+        json.dump(discrepancy_records, f, indent=2, ensure_ascii=False)
+
+    print(f"\n[✓] Audit Complete!")
+    print(f"    • Verified Valid Records   : {len(verified_records)} -> data/processed/records.json")
+    print(f"    • Flagged Discrepancies    : {len(discrepancy_records)} -> data/processed/audit_discrepancies.json")
 
 
 if __name__ == "__main__":
-    main()
+    process_pdf_reports()

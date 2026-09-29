@@ -234,3 +234,70 @@
   </script>
 </body>
 </html>
+<!-- Toggle Button for Discrepancy Table -->
+<div class="flex justify-between items-center mt-8 bg-amber-50 border border-amber-200 p-4 rounded-xl">
+  <div>
+    <h4 class="text-sm font-bold text-amber-900">Audit Verification Safeguard</h4>
+    <p class="text-xs text-amber-700">Records with mathematical discrepancies in report sources are isolated automatically.</p>
+  </div>
+  <button onclick="toggleDiscrepancyTable()" class="px-3 py-1.5 bg-amber-600 hover:bg-amber-700 text-white text-xs font-medium rounded-lg shadow-sm">
+    Toggle Flagged Records (<span id="discCount">0</span>)
+  </button>
+</div>
+
+<!-- Collapsible Hidden Discrepancies Drawer -->
+<div id="discrepancyDrawer" class="hidden mt-4 bg-white rounded-xl shadow-sm border border-rose-200 overflow-hidden">
+  <div class="bg-rose-50 px-6 py-4 border-b border-rose-100">
+    <h3 class="text-sm font-bold text-rose-900">Flagged Audit Discrepancies (Source Report Errors)</h3>
+  </div>
+  <div class="overflow-x-auto">
+    <table class="w-full text-left border-collapse">
+      <thead>
+        <tr class="bg-rose-50/50 text-rose-700 text-xs uppercase font-semibold border-b border-rose-100">
+          <th class="py-3 px-4">Local Body</th>
+          <th class="py-3 px-4">FY</th>
+          <th class="py-3 px-4 text-right">OB</th>
+          <th class="py-3 px-4 text-right">Receipts</th>
+          <th class="py-3 px-4 text-right">Total Receipts</th>
+          <th class="py-3 px-4 text-right">Payments</th>
+          <th class="py-3 px-4 text-right">Reported CB</th>
+          <th class="py-3 px-4">Audit Violation Reason</th>
+        </tr>
+      </thead>
+      <tbody id="discrepancyTableBody" class="divide-y divide-rose-50 text-xs"></tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+  async function loadDiscrepancies() {
+    try {
+      const res = await fetch('data/processed/audit_discrepancies.json');
+      const disc = await res.json();
+      document.getElementById('discCount').textContent = disc.length;
+
+      const tbody = document.getElementById('discrepancyTableBody');
+      tbody.innerHTML = disc.map(d => `
+        <tr class="hover:bg-rose-50/30">
+          <td class="py-3 px-4 font-medium text-gray-900">${d.body}</td>
+          <td class="py-3 px-4">${d.year}</td>
+          <td class="py-3 px-4 text-right font-mono">${d.ob}</td>
+          <td class="py-3 px-4 text-right font-mono">${d.receipts}</td>
+          <td class="py-3 px-4 text-right font-mono">${d.total_receipts}</td>
+          <td class="py-3 px-4 text-right font-mono text-rose-600">${d.payments}</td>
+          <td class="py-3 px-4 text-right font-mono font-bold text-rose-700">${d.cb}</td>
+          <td class="py-3 px-4 text-rose-600 italic text-[11px]">${d.error_reason}</td>
+        </tr>
+      `).join('');
+    } catch (e) {
+      console.log('No discrepancy file found or empty.');
+    }
+  }
+
+  function toggleDiscrepancyTable() {
+    const drawer = document.getElementById('discrepancyDrawer');
+    drawer.classList.toggle('hidden');
+  }
+
+  document.addEventListener('DOMContentLoaded', loadDiscrepancies);
+</script>
