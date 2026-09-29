@@ -131,6 +131,6 @@ git push -u origin main --force-with-lease
 ## 📖 Extended Documentation
 
 * [Installation Guide (Linux Mint & Windows 11)](INSTALL.md)
-* [Troubleshooting & Diagnostics](https://www.google.com/search?q=TROUBLESHOOTING.md)
-* [Contribution Guidelines](https://www.google.com/search?q=CONTRIBUTING.md)
+* [Troubleshooting & Diagnostics](TROUBLESHOOTING.md)
+* [Contribution Guidelines](CONTRIBUTING.md)
 
