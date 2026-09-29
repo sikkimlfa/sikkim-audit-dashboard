@@ -50,13 +50,32 @@ def clean_unit_name(raw):
 
 
 def detect_tier(name):
-    """Detect tier category."""
-    nl = name.lower()
-    if 'zilla' in nl or 'district' in nl:
+    """
+    Precise tier classification for Sikkim Local Bodies.
+    Order matters: ULB specific terms (including Nagar Panchayat) must be checked BEFORE general 'panchayat'.
+    """
+    nl = unit_name.lower()
+
+    # 1. Urban Local Bodies (ULBs) - Check Nagar Panchayat BEFORE Gram Panchayat!
+    ulb_keywords = [
+        'municipal', 'corporation', 'gmc', 'council', 'nagar panchayat', 
+        'nagar', 'ulb', 'town', 'notified area', 'np'
+    ]
+    if any(k in nl for k in ulb_keywords):
+        return "Urban Local Body"
+
+    # 2. Zilla Panchayats (ZPs)
+    zilla_keywords = ['zilla', 'zp', 'district panchayat', 'district parishad']
+    if any(k in nl for k in zilla_keywords):
         return "Zilla Panchayat"
-    elif 'gram' in nl or 'gpu' in nl or 'panchayat' in nl:
+
+    # 3. Gram Panchayat Units (GPUs)
+    gpu_keywords = ['gram', 'gpu', 'gp', 'panchayat', 'unit', 'ward']
+    if any(k in nl for k in gpu_keywords):
         return "Gram Panchayat Unit"
-    return "Urban Local Body"
+
+    # Default fallback for Sikkim rural units
+    return "Gram Panchayat Unit"
 
 
 def process_pdf_reports():
