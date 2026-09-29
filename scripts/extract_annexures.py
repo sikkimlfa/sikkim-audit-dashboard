@@ -165,8 +165,8 @@ def detect_fy(text):
     if not text:
         return None
 
-    # Matches only FYs starting from 2015 up to 2025
-    match = re.search(r'\b(20(?:1[5-9]|2[0-5]))[-–/](\d{2,4})\b', text)
+    # Matches only FYs starting from 2015 up to 2026
+    match = re.search(r'\b(20(?:1[5-9]|2[0-6]))[-–/](\d{2,4})\b', text)
     if match:
         start_yr = match.group(1)
         end_yr = match.group(2)
