@@ -3,94 +3,171 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Local Fund Audit Dashboard - Govt of Sikkim</title>
-
+  <title>Directorate of Local Fund Audit — Govt of Sikkim</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-  <style>
-    @media print {
-      .no-print { display: none !important; }
-      body { background-color: #ffffff !important; color: #000000 !important; }
-    }
-  </style>
 </head>
-<body class="bg-gray-100 text-gray-800 font-sans min-h-screen p-4 sm:p-6 lg:p-8">
+<body class="bg-slate-50 text-slate-800 font-sans min-h-screen p-4 md:p-8">
 
   <div class="max-w-7xl mx-auto space-y-6">
     
     <!-- Header -->
-    <header class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+    <header class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
       <div>
-        <h1 class="text-2xl font-bold text-gray-900">Directorate of Local Fund Audit</h1>
-        <p class="text-xs text-gray-500 mt-1">Government of Sikkim — Financial Analytics & Local Body Audit Dashboard</p>
+        <div class="flex items-center gap-2">
+          <span class="px-2.5 py-0.5 text-[11px] font-bold uppercase tracking-wider bg-emerald-100 text-emerald-800 rounded-md">Audit Plan 2026-27 Whitelist Active</span>
+          <span class="text-xs text-slate-400">212 Mandated Local Bodies</span>
+        </div>
+        <h1 class="text-2xl font-black text-slate-900 mt-1">Directorate of Local Fund Audit</h1>
+        <p class="text-xs text-slate-500">Government of Sikkim — Financial Statement Analytics Dashboard</p>
       </div>
-
-      <div class="flex flex-wrap items-center gap-2 no-print">
-        <button onclick="exportFilteredToCSV()" class="inline-flex items-center px-3.5 py-2 border border-gray-300 text-xs font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50">
-          Export CSV
-        </button>
-      </div>
+      <button onclick="exportCSV()" class="px-4 py-2 bg-slate-900 hover:bg-slate-800 text-white rounded-xl text-xs font-semibold shadow-sm transition">
+        Export Clean CSV
+      </button>
     </header>
 
-    <!-- Visualizations Section -->
-    <section class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-      <!-- Receipts vs Payments Bar Chart -->
-      <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
-        <div class="flex justify-between items-center mb-4">
-          <h3 class="text-base font-bold text-gray-800">Top 10 Units: Receipts vs Payments</h3>
-        </div>
-        <div class="relative h-72">
-          <canvas id="barChart" aria-label="Receipts vs Payments"></canvas>
-        </div>
+    <!-- Filters Bar -->
+    <section class="bg-white p-4 rounded-xl shadow-sm border border-slate-200 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
+      <!-- FY Filter -->
+      <div>
+        <label class="block text-[11px] font-bold text-slate-500 uppercase mb-1">Financial Year</label>
+        <select id="fySelect" onchange="applyFilters()" class="w-full text-xs border border-slate-300 rounded-lg p-2 bg-slate-50">
+          <option value="ALL">All Financial Years</option>
+        </select>
       </div>
 
-      <!-- Tier Breakdown Doughnut Chart (ULB, Zilla, GPU) -->
-      <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
-        <div class="flex justify-between items-center mb-4">
-          <h3 class="text-base font-bold text-gray-800">Closing Balance Share by Tier</h3>
+      <!-- Tier Filter -->
+      <div>
+        <label class="block text-[11px] font-bold text-slate-500 uppercase mb-1">Tier Category</label>
+        <select id="tierSelect" onchange="applyFilters()" class="w-full text-xs border border-slate-300 rounded-lg p-2 bg-slate-50">
+          <option value="ALL">All Tiers (199 GPU, 6 ZP, 7 ULB)</option>
+          <option value="Gram Panchayat Unit">Gram Panchayat Units (199)</option>
+          <option value="Zilla Panchayat">Zilla Panchayats (6)</option>
+          <option value="Urban Local Body">Urban Local Bodies (7)</option>
+        </select>
+      </div>
+
+      <!-- District Filter -->
+      <div>
+        <label class="block text-[11px] font-bold text-slate-500 uppercase mb-1">District</label>
+        <select id="districtSelect" onchange="applyFilters()" class="w-full text-xs border border-slate-300 rounded-lg p-2 bg-slate-50">
+          <option value="ALL">All Districts</option>
+          <option value="Gangtok">Gangtok</option>
+          <option value="Gyalshing">Gyalshing</option>
+          <option value="Mangan">Mangan</option>
+          <option value="Namchi">Namchi</option>
+          <option value="Pakyong">Pakyong</option>
+          <option value="Soreng">Soreng</option>
+        </select>
+      </div>
+
+      <!-- Unit Search -->
+      <div>
+        <label class="block text-[11px] font-bold text-slate-500 uppercase mb-1">Search Unit / Code</label>
+        <input type="text" id="searchInput" oninput="applyFilters()" placeholder="Name or LB Code..." class="w-full text-xs border border-slate-300 rounded-lg p-2 focus:ring-1 focus:ring-indigo-500" />
+      </div>
+    </section>
+
+    <!-- KPI Metric Cards -->
+    <section class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+      <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+        <p class="text-[11px] font-bold text-slate-400 uppercase">Opening Bal</p>
+        <p id="kpiOB" class="text-base font-black text-slate-900 mt-1">₹0</p>
+      </div>
+      <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+        <p class="text-[11px] font-bold text-slate-400 uppercase">Receipts</p>
+        <p id="kpiRec" class="text-base font-black text-indigo-600 mt-1">₹0</p>
+      </div>
+      <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+        <p class="text-[11px] font-bold text-slate-400 uppercase">Total Receipts</p>
+        <p id="kpiTR" class="text-base font-black text-blue-600 mt-1">₹0</p>
+      </div>
+      <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+        <p class="text-[11px] font-bold text-slate-400 uppercase">Payments</p>
+        <p id="kpiPay" class="text-base font-black text-rose-600 mt-1">₹0</p>
+      </div>
+      <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+        <p class="text-[11px] font-bold text-slate-400 uppercase">Closing Bal</p>
+        <p id="kpiCB" class="text-base font-black text-emerald-600 mt-1">₹0</p>
+      </div>
+      <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+        <p class="text-[11px] font-bold text-slate-400 uppercase">Utilization</p>
+        <p id="kpiUtil" class="text-base font-black text-amber-600 mt-1">0%</p>
+      </div>
+    </section>
+
+    <!-- Visual Charts -->
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-200">
+        <h3 class="text-xs font-bold text-slate-900 uppercase tracking-wider mb-4">Total Receipts vs Payments (Top 10 Units)</h3>
+        <div class="h-72">
+          <canvas id="barChart"></canvas>
         </div>
-        <div class="relative h-72">
-          <canvas id="doughnutChart" aria-label="Closing Balance Share by Tier"></canvas>
+      </div>
+      <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-200">
+        <h3 class="text-xs font-bold text-slate-900 uppercase tracking-wider mb-4">Closing Balance Share by Tier</h3>
+        <div class="h-72">
+          <canvas id="doughnutChart"></canvas>
         </div>
       </div>
     </section>
 
-    <!-- Financial Table Card -->
-    <section class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
-      <!-- Table Controls -->
-      <div class="p-4 sm:p-6 border-b border-gray-100 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 no-print">
-        <div class="flex flex-col sm:flex-row items-center gap-3 w-full sm:w-auto">
-          <!-- Text Search Input -->
-          <input type="text" id="searchInput" placeholder="Search local body or FY..." class="block w-full sm:w-72 px-3 py-2 border border-gray-300 rounded-lg text-xs focus:ring-1 focus:ring-indigo-500" />
-          
-          <!-- Tier Filter Dropdown -->
-          <select id="tierFilter" class="block w-full sm:w-48 px-3 py-2 border border-gray-300 rounded-lg text-xs bg-white focus:ring-1 focus:ring-indigo-500">
-            <option value="ALL">All Tiers</option>
-            <option value="Urban Local Body">Urban Local Bodies (ULB)</option>
-            <option value="Zilla Panchayat">Zilla Panchayats (ZP)</option>
-            <option value="Gram Panchayat Unit">Gram Panchayat Units (GPU)</option>
-          </select>
+    <!-- Main Table -->
+    <section class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
+      <div class="px-6 py-4 border-b border-slate-100 flex justify-between items-center">
+        <div>
+          <h2 class="text-sm font-bold text-slate-900">Validated Financial Statements</h2>
+          <p class="text-xs text-slate-400">Strictly verified: Total Receipts = OB + Receipts | Closing Balance = Total Receipts - Payments</p>
         </div>
-
-        <span id="dataStatus" class="text-xs text-gray-500 italic">Loading dynamic audit data...</span>
+        <span id="recordCount" class="text-xs font-semibold px-2.5 py-1 bg-slate-100 rounded-md text-slate-600">0 records</span>
       </div>
 
-      <!-- Table -->
-      <div class="overflow-x-auto">
+      <div class="overflow-x-auto max-h-[550px]">
         <table class="w-full text-left border-collapse">
-          <thead>
-            <tr class="bg-gray-50 border-b border-gray-200 text-gray-600 text-xs uppercase font-semibold">
-              <th class="py-3.5 px-4">Local Body / Unit Name</th>
-              <th class="py-3.5 px-4">Tier Category</th>
-              <th class="py-3.5 px-4 text-center">FY</th>
-              <th class="py-3.5 px-4 text-right">Opening Bal (₹)</th>
-              <th class="py-3.5 px-4 text-right">Receipts (₹)</th>
-              <th class="py-3.5 px-4 text-right">Payments (₹)</th>
-              <th class="py-3.5 px-4 text-right">Closing Bal (₹)</th>
+          <thead class="sticky top-0 bg-slate-50 border-b border-slate-200 text-[11px] font-bold text-slate-500 uppercase">
+            <tr>
+              <th class="py-3 px-4">Local Body Name</th>
+              <th class="py-3 px-4">District / BAC</th>
+              <th class="py-3 px-4">Tier</th>
+              <th class="py-3 px-4 text-center">FY</th>
+              <th class="py-3 px-4 text-right">OB (₹)</th>
+              <th class="py-3 px-4 text-right">Receipts (₹)</th>
+              <th class="py-3 px-4 text-right">Total Receipts (₹)</th>
+              <th class="py-3 px-4 text-right">Payments (₹)</th>
+              <th class="py-3 px-4 text-right">Closing Bal (₹)</th>
             </tr>
           </thead>
-          <tbody id="tableBody" class="divide-y divide-gray-100"></tbody>
+          <tbody id="tableBody" class="divide-y divide-slate-100 text-xs"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Mathematical Discrepancy Drawer -->
+    <section class="bg-rose-50/70 border border-rose-200 rounded-2xl p-5">
+      <div class="flex items-center justify-between">
+        <div>
+          <h3 class="text-sm font-bold text-rose-900">Annual Report Calculation Discrepancies</h3>
+          <p class="text-xs text-rose-700">Flagged units where printed report arithmetic does not reconcile.</p>
+        </div>
+        <button onclick="toggleDiscrepancies()" class="px-3.5 py-1.5 bg-rose-600 hover:bg-rose-700 text-white rounded-lg text-xs font-bold shadow-sm transition">
+          Toggle Math Anomalies (<span id="discCount">0</span>)
+        </button>
+      </div>
+
+      <div id="discrepancyDrawer" class="hidden mt-4 bg-white rounded-xl border border-rose-200 overflow-x-auto">
+        <table class="w-full text-left text-xs border-collapse">
+          <thead class="bg-rose-100/60 text-rose-800 text-[11px] font-bold uppercase">
+            <tr>
+              <th class="py-2.5 px-3">Unit</th>
+              <th class="py-2.5 px-3">FY</th>
+              <th class="py-2.5 px-3 text-right">Reported TR</th>
+              <th class="py-2.5 px-3 text-right">Expected TR</th>
+              <th class="py-2.5 px-3 text-right">Reported CB</th>
+              <th class="py-2.5 px-3 text-right">Expected CB</th>
+              <th class="py-2.5 px-3">Audit Violation</th>
+            </tr>
+          </thead>
+          <tbody id="discTableBody" class="divide-y divide-rose-100"></tbody>
         </table>
       </div>
     </section>
@@ -98,206 +175,160 @@
   </div>
 
   <script>
-    let allRecords = [];
-    let filteredRecords = [];
-    let barChartInstance = null;
-    let doughnutChartInstance = null;
+    let rawStatements = [];
+    let discrepancies = [];
+    let barChart = null, doughnutChart = null;
 
-    function formatCurrency(val) {
-      return new Intl.NumberFormat('en-IN', { maximumFractionDigits: 0 }).format(val || 0);
-    }
+    const inr = val => new Intl.NumberFormat('en-IN', { maximumFractionDigits: 0 }).format(val || 0);
 
-    function getTierBadgeHTML(tier) {
-      if (tier.includes('Gram') || tier.includes('GPU')) {
-        return `<span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-medium bg-emerald-100 text-emerald-800">Gram Panchayat</span>`;
-      } else if (tier.includes('Zilla')) {
-        return `<span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-medium bg-amber-100 text-amber-800">Zilla Panchayat</span>`;
-      } else {
-        return `<span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-medium bg-purple-100 text-purple-800">Urban Local Body</span>`;
-      }
-    }
-
-    async function loadDynamicData() {
-      const statusEl = document.getElementById('dataStatus');
+    async function init() {
       try {
-        const response = await fetch('data/processed/records.json');
-        if (!response.ok) throw new Error('Processed data file not found.');
-        allRecords = await response.json();
-        filteredRecords = [...allRecords];
-        
-        statusEl.textContent = `Showing ${allRecords.length} extracted audit records.`;
-        renderTable();
-        initCharts();
-      } catch (err) {
-        statusEl.textContent = 'Error loading dataset. Please run batch extraction script.';
-      }
+        const res1 = await fetch('data/processed/financial_statements.json');
+        rawStatements = await res1.json();
+      } catch(e) { rawStatements = []; }
+
+      try {
+        const res2 = await fetch('data/processed/audit_discrepancies.json');
+        discrepancies = await res2.json();
+      } catch(e) { discrepancies = []; }
+
+      populateFYDropdown();
+      document.getElementById('discCount').textContent = discrepancies.length;
+      populateDiscrepanciesTable();
+      applyFilters();
     }
 
-    function renderTable() {
-      const tbody = document.getElementById('tableBody');
-      const query = (document.getElementById('searchInput')?.value || '').toLowerCase();
-      const selectedTier = document.getElementById('tierFilter')?.value || 'ALL';
+    function populateFYDropdown() {
+      const fySet = [...new Set(rawStatements.map(r => r.fy))].sort();
+      const select = document.getElementById('fySelect');
+      fySet.forEach(fy => {
+        const opt = document.createElement('option');
+        opt.value = fy;
+        opt.textContent = fy;
+        select.appendChild(opt);
+      });
+    }
 
-      filteredRecords = allRecords.filter(r => {
-        const matchesQuery = r.body.toLowerCase().includes(query) || r.year.toLowerCase().includes(query);
-        const matchesTier = selectedTier === 'ALL' || r.tier === selectedTier;
-        return matchesQuery && matchesTier;
+    function applyFilters() {
+      const selectedFY = document.getElementById('fySelect').value;
+      const selectedTier = document.getElementById('tierSelect').value;
+      const selectedDist = document.getElementById('districtSelect').value;
+      const query = (document.getElementById('searchInput').value || '').toLowerCase().trim();
+
+      const filtered = rawStatements.filter(r => {
+        const matchFY = selectedFY === 'ALL' || r.fy === selectedFY;
+        const matchTier = selectedTier === 'ALL' || r.tier === selectedTier;
+        const matchDist = selectedDist === 'ALL' || r.district === selectedDist;
+        const matchQuery = !query || r.name.toLowerCase().includes(query) || (r.code && r.code.includes(query));
+        return matchFY && matchTier && matchDist && matchQuery;
       });
 
-      if (!filteredRecords.length) {
-        tbody.innerHTML = `<tr><td colspan="7" class="py-8 text-center text-xs text-gray-500">No records found matching filters.</td></tr>`;
+      renderKPIs(filtered);
+      renderTable(filtered);
+      renderCharts(filtered);
+    }
+
+    function renderKPIs(data) {
+      const sumOB = data.reduce((a, b) => a + b.ob, 0);
+      const sumRec = data.reduce((a, b) => a + b.receipts, 0);
+      const sumTR = data.reduce((a, b) => a + b.total_receipts, 0);
+      const sumPay = data.reduce((a, b) => a + b.payments, 0);
+      const sumCB = data.reduce((a, b) => a + b.cb, 0);
+      const util = sumTR > 0 ? ((sumPay / sumTR) * 100).toFixed(1) : 0;
+
+      document.getElementById('kpiOB').textContent = '₹' + inr(sumOB);
+      document.getElementById('kpiRec').textContent = '₹' + inr(sumRec);
+      document.getElementById('kpiTR').textContent = '₹' + inr(sumTR);
+      document.getElementById('kpiPay').textContent = '₹' + inr(sumPay);
+      document.getElementById('kpiCB').textContent = '₹' + inr(sumCB);
+      document.getElementById('kpiUtil').textContent = util + '%';
+      document.getElementById('recordCount').textContent = data.length + ' records';
+    }
+
+    function renderTable(data) {
+      const tbody = document.getElementById('tableBody');
+      if (!data.length) {
+        tbody.innerHTML = '<tr><td colspan="9" class="text-center py-6 text-slate-400">No authorized audit records match this filter.</td></tr>';
         return;
       }
-
-      tbody.innerHTML = filteredRecords.map(row => `
-        <tr class="hover:bg-gray-50 text-xs text-gray-800">
-          <td class="py-3 px-4 font-medium text-gray-900">${row.body}</td>
-          <td class="py-3 px-4">${getTierBadgeHTML(row.tier)}</td>
-          <td class="py-3 px-4 text-center font-mono">${row.year}</td>
-          <td class="py-3 px-4 text-right font-mono">${formatCurrency(row.ob)}</td>
-          <td class="py-3 px-4 text-right font-mono text-emerald-700">${formatCurrency(row.receipts)}</td>
-          <td class="py-3 px-4 text-right font-mono text-rose-700">${formatCurrency(row.payments)}</td>
-          <td class="py-3 px-4 text-right font-mono font-bold text-gray-900">${formatCurrency(row.cb)}</td>
+      tbody.innerHTML = data.map(r => `
+        <tr class="hover:bg-slate-50 transition">
+          <td class="py-2.5 px-4 font-semibold text-slate-900">${r.name} <span class="text-[10px] text-slate-400 font-mono">(${r.code})</span></td>
+          <td class="py-2.5 px-4 text-slate-500">${r.district} ${r.bac !== 'N/A' ? '• ' + r.bac : ''}</td>
+          <td class="py-2.5 px-4"><span class="px-2 py-0.5 rounded text-[10px] font-bold ${
+            r.tier === 'Gram Panchayat Unit' ? 'bg-emerald-100 text-emerald-800' :
+            r.tier === 'Zilla Panchayat' ? 'bg-amber-100 text-amber-800' : 'bg-purple-100 text-purple-800'
+          }">${r.tier}</span></td>
+          <td class="py-2.5 px-4 text-center font-mono">${r.fy}</td>
+          <td class="py-2.5 px-4 text-right font-mono text-slate-600">${inr(r.ob)}</td>
+          <td class="py-2.5 px-4 text-right font-mono text-indigo-600">${inr(r.receipts)}</td>
+          <td class="py-2.5 px-4 text-right font-mono font-medium text-blue-700">${inr(r.total_receipts)}</td>
+          <td class="py-2.5 px-4 text-right font-mono text-rose-600">${inr(r.payments)}</td>
+          <td class="py-2.5 px-4 text-right font-mono font-bold text-emerald-700">${inr(r.cb)}</td>
         </tr>
       `).join('');
     }
 
-    function initCharts() {
-      if (barChartInstance) barChartInstance.destroy();
-      if (doughnutChartInstance) doughnutChartInstance.destroy();
+    function renderCharts(data) {
+      if (barChart) barChart.destroy();
+      if (doughnutChart) doughnutChart.destroy();
 
-      // Top 10 by Receipts Bar Chart
-      const top10 = [...allRecords].sort((a, b) => b.receipts - a.receipts).slice(0, 10);
-
-      barChartInstance = new Chart(document.getElementById('barChart').getContext('2d'), {
+      const top10 = [...data].sort((a,b) => b.total_receipts - a.total_receipts).slice(0, 10);
+      barChart = new Chart(document.getElementById('barChart').getContext('2d'), {
         type: 'bar',
         data: {
-          labels: top10.map(r => r.body.length > 18 ? r.body.substring(0, 16) + '...' : r.body),
+          labels: top10.map(r => r.name.length > 15 ? r.name.substr(0,14)+'...' : r.name),
           datasets: [
-            { label: 'Receipts (₹)', data: top10.map(r => r.receipts), backgroundColor: '#10b981' },
+            { label: 'Total Receipts (₹)', data: top10.map(r => r.total_receipts), backgroundColor: '#3b82f6' },
             { label: 'Payments (₹)', data: top10.map(r => r.payments), backgroundColor: '#f43f5e' }
           ]
         },
         options: { responsive: true, maintainAspectRatio: false }
       });
 
-      // Tier Closing Balance Aggregation (ULB vs Zilla vs GPU)
-      const gpuCb = allRecords.filter(r => r.tier.includes('Gram')).reduce((sum, r) => sum + r.cb, 0);
-      const zillaCb = allRecords.filter(r => r.tier.includes('Zilla')).reduce((sum, r) => sum + r.cb, 0);
-      const ulbCb = allRecords.filter(r => r.tier.includes('Urban')).reduce((sum, r) => sum + r.cb, 0);
+      const tiers = ['Gram Panchayat Unit', 'Zilla Panchayat', 'Urban Local Body'];
+      const cbByTier = tiers.map(t => data.filter(r => r.tier === t).reduce((s, r) => s + r.cb, 0));
 
-      doughnutChartInstance = new Chart(document.getElementById('doughnutChart').getContext('2d'), {
+      doughnutChart = new Chart(document.getElementById('doughnutChart').getContext('2d'), {
         type: 'doughnut',
         data: {
-          labels: ['Gram Panchayat Units (GPU)', 'Zilla Panchayats (ZP)', 'Urban Local Bodies (ULB)'],
-          datasets: [{
-            data: [gpuCb, zillaCb, ulbCb],
-            backgroundColor: ['#10b981', '#f59e0b', '#8b5cf6']
-          }]
+          labels: ['Gram Panchayats (199)', 'Zilla Panchayats (6)', 'ULBs (7)'],
+          datasets: [{ data: cbByTier, backgroundColor: ['#10b981', '#f59e0b', '#8b5cf6'] }]
         },
         options: { responsive: true, maintainAspectRatio: false }
       });
     }
 
-    function exportFilteredToCSV() {
-      if (!filteredRecords.length) return;
-      
-      const headers = ["ID", "Local Body", "Tier", "Financial Year", "Opening Balance", "Receipts", "Payments", "Closing Balance"];
-      const csvRows = [headers.join(",")];
+    function populateDiscrepanciesTable() {
+      const tbody = document.getElementById('discTableBody');
+      tbody.innerHTML = discrepancies.map(d => `
+        <tr class="hover:bg-rose-50/50">
+          <td class="py-2 px-3 font-medium text-slate-800">${d.name}</td>
+          <td class="py-2 px-3">${d.fy}</td>
+          <td class="py-2 px-3 text-right font-mono text-rose-600">${inr(d.total_receipts)}</td>
+          <td class="py-2 px-3 text-right font-mono text-slate-500">${inr(d.calc_total_receipts)}</td>
+          <td class="py-2 px-3 text-right font-mono text-rose-600">${inr(d.cb)}</td>
+          <td class="py-2 px-3 text-right font-mono text-slate-500">${inr(d.calc_cb)}</td>
+          <td class="py-2 px-3 text-rose-600 text-[11px] italic">${d.error_reason}</td>
+        </tr>
+      `).join('');
+    }
 
-      filteredRecords.forEach(r => {
-        csvRows.push([
-          r.id,
-          `"${r.body.replace(/"/g, '""')}"`,
-          `"${r.tier}"`,
-          `"${r.year}"`,
-          r.ob,
-          r.receipts,
-          r.payments,
-          r.cb
-        ].join(","));
-      });
+    function toggleDiscrepancies() {
+      document.getElementById('discrepancyDrawer').classList.toggle('hidden');
+    }
 
-      const blob = new Blob([csvRows.join("\n")], { type: "text/csv" });
-      const url = window.URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = `sikkim_lfa_audit_records.csv`;
+    function exportCSV() {
+      const rows = [["Local Body Code", "Unit Name", "District", "BAC", "Tier", "Financial Year", "Opening Balance", "Receipts", "Total Receipts", "Payments", "Closing Balance"]];
+      rawStatements.forEach(r => rows.push([`"${r.code}"`, `"${r.name}"`, `"${r.district}"`, `"${r.bac}"`, `"${r.tier}"`, `"${r.fy}"`, r.ob, r.receipts, r.total_receipts, r.payments, r.cb]));
+      const blob = new Blob(["\uFEFF" + rows.map(e => e.join(",")).join("\n")], { type: 'text/csv;charset=utf-8;' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = "Sikkim_Audit_Plan_Authorized_Records.csv";
       a.click();
     }
 
-    document.addEventListener('DOMContentLoaded', () => {
-      loadDynamicData();
-      document.getElementById('searchInput')?.addEventListener('input', renderTable);
-      document.getElementById('tierFilter')?.addEventListener('change', renderTable);
-    });
+    document.addEventListener('DOMContentLoaded', init);
   </script>
 </body>
 </html>
-<!-- Toggle Button for Discrepancy Table -->
-<div class="flex justify-between items-center mt-8 bg-amber-50 border border-amber-200 p-4 rounded-xl">
-  <div>
-    <h4 class="text-sm font-bold text-amber-900">Audit Verification Safeguard</h4>
-    <p class="text-xs text-amber-700">Records with mathematical discrepancies in report sources are isolated automatically.</p>
-  </div>
-  <button onclick="toggleDiscrepancyTable()" class="px-3 py-1.5 bg-amber-600 hover:bg-amber-700 text-white text-xs font-medium rounded-lg shadow-sm">
-    Toggle Flagged Records (<span id="discCount">0</span>)
-  </button>
-</div>
-
-<!-- Collapsible Hidden Discrepancies Drawer -->
-<div id="discrepancyDrawer" class="hidden mt-4 bg-white rounded-xl shadow-sm border border-rose-200 overflow-hidden">
-  <div class="bg-rose-50 px-6 py-4 border-b border-rose-100">
-    <h3 class="text-sm font-bold text-rose-900">Flagged Audit Discrepancies (Source Report Errors)</h3>
-  </div>
-  <div class="overflow-x-auto">
-    <table class="w-full text-left border-collapse">
-      <thead>
-        <tr class="bg-rose-50/50 text-rose-700 text-xs uppercase font-semibold border-b border-rose-100">
-          <th class="py-3 px-4">Local Body</th>
-          <th class="py-3 px-4">FY</th>
-          <th class="py-3 px-4 text-right">OB</th>
-          <th class="py-3 px-4 text-right">Receipts</th>
-          <th class="py-3 px-4 text-right">Total Receipts</th>
-          <th class="py-3 px-4 text-right">Payments</th>
-          <th class="py-3 px-4 text-right">Reported CB</th>
-          <th class="py-3 px-4">Audit Violation Reason</th>
-        </tr>
-      </thead>
-      <tbody id="discrepancyTableBody" class="divide-y divide-rose-50 text-xs"></tbody>
-    </table>
-  </div>
-</div>
-
-<script>
-  async function loadDiscrepancies() {
-    try {
-      const res = await fetch('data/processed/audit_discrepancies.json');
-      const disc = await res.json();
-      document.getElementById('discCount').textContent = disc.length;
-
-      const tbody = document.getElementById('discrepancyTableBody');
-      tbody.innerHTML = disc.map(d => `
-        <tr class="hover:bg-rose-50/30">
-          <td class="py-3 px-4 font-medium text-gray-900">${d.body}</td>
-          <td class="py-3 px-4">${d.year}</td>
-          <td class="py-3 px-4 text-right font-mono">${d.ob}</td>
-          <td class="py-3 px-4 text-right font-mono">${d.receipts}</td>
-          <td class="py-3 px-4 text-right font-mono">${d.total_receipts}</td>
-          <td class="py-3 px-4 text-right font-mono text-rose-600">${d.payments}</td>
-          <td class="py-3 px-4 text-right font-mono font-bold text-rose-700">${d.cb}</td>
-          <td class="py-3 px-4 text-rose-600 italic text-[11px]">${d.error_reason}</td>
-        </tr>
-      `).join('');
-    } catch (e) {
-      console.log('No discrepancy file found or empty.');
-    }
-  }
-
-  function toggleDiscrepancyTable() {
-    const drawer = document.getElementById('discrepancyDrawer');
-    drawer.classList.toggle('hidden');
-  }
-
-  document.addEventListener('DOMContentLoaded', loadDiscrepancies);
-</script>
