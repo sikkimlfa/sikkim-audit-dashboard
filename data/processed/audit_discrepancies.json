@@ -1,5 +1,66 @@
 [
   {
+    "code": "254869",
+    "name": "Yuksom",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Yoksum",
+    "fy": "2019-20",
+    "ob": 3367770.0,
+    "receipts": 14245814.0,
+    "total_receipts": 17830563.93,
+    "payments": 12606119.43,
+    "cb": 5224444.5,
+    "sources": [
+      "CARR 2022.pdf"
+    ],
+    "id": 1,
+    "calc_total_receipts": 17613584.0,
+    "calc_cb": 5224444.5,
+    "error_reason": "Total Receipts mismatch: Reported ₹17,830,563.93 != (OB ₹3,367,770.00 + Receipts ₹14,245,814.00 = ₹17,613,584.00)"
+  },
+  {
+    "code": "254859",
+    "name": "Chungthang",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Chungthang",
+    "fy": "2019-20",
+    "ob": 9300259.0,
+    "receipts": 30459966.0,
+    "total_receipts": 48402551.0,
+    "payments": 32308259.0,
+    "cb": 16094292.0,
+    "sources": [
+      "CARR 2022.pdf"
+    ],
+    "id": 2,
+    "calc_total_receipts": 39760225.0,
+    "calc_cb": 16094292.0,
+    "error_reason": "Total Receipts mismatch: Reported ₹48,402,551.00 != (OB ₹9,300,259.00 + Receipts ₹30,459,966.00 = ₹39,760,225.00)"
+  },
+  {
+    "code": "216",
+    "name": "Gangtok Zilla Panchayat",
+    "tier": "Zilla Panchayat",
+    "district": "Gangtok",
+    "bac": "N/A",
+    "fy": "2020-21",
+    "ob": 625822.3,
+    "receipts": 34105275.0,
+    "total_receipts": 43434796.3,
+    "payments": 35214290.1,
+    "cb": 8220506.2,
+    "sources": [
+      "CARR 2022.pdf",
+      "CARR 2023.pdf"
+    ],
+    "id": 3,
+    "calc_total_receipts": 34731097.3,
+    "calc_cb": 8220506.2,
+    "error_reason": "Total Receipts mismatch: Reported ₹43,434,796.30 != (OB ₹625,822.30 + Receipts ₹34,105,275.00 = ₹34,731,097.30)"
+  },
+  {
     "code": "254731",
     "name": "Dentam",
     "tier": "Gram Panchayat Unit",
@@ -14,7 +75,7 @@
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 1,
+    "id": 4,
     "calc_total_receipts": 16458879.0,
     "calc_cb": 2737362.0,
     "error_reason": "Total Receipts mismatch: Reported ₹16,603,126.00 != (OB ₹4,087,834.00 + Receipts ₹12,371,045.00 = ₹16,458,879.00)"
@@ -34,10 +95,50 @@
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 2,
+    "id": 5,
     "calc_total_receipts": 24026969.0,
     "calc_cb": 6442838.0,
     "error_reason": "Total Receipts mismatch: Reported ₹24,073,203.00 != (OB ₹8,114,500.00 + Receipts ₹15,912,469.00 = ₹24,026,969.00)"
+  },
+  {
+    "code": "254791",
+    "name": "Martam",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Hee Martam",
+    "fy": "2019-20",
+    "ob": 9330117.0,
+    "receipts": 24368471.0,
+    "total_receipts": 33994034.0,
+    "payments": 25953624.0,
+    "cb": 8051319.0,
+    "sources": [
+      "CARR 2022.pdf"
+    ],
+    "id": 6,
+    "calc_total_receipts": 33698588.0,
+    "calc_cb": 8040410.0,
+    "error_reason": "Total Receipts mismatch: Reported ₹33,994,034.00 != (OB ₹9,330,117.00 + Receipts ₹24,368,471.00 = ₹33,698,588.00) | Closing Balance mismatch: Reported ₹8,051,319.00 != (TR ₹33,994,034.00 - Payments ₹25,953,624.00 = ₹8,040,410.00)"
+  },
+  {
+    "code": "254790",
+    "name": "Passingdang Saffo",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Passingdong",
+    "fy": "2019-20",
+    "ob": 3251330.0,
+    "receipts": 6340780.0,
+    "total_receipts": 9656097.0,
+    "payments": 7683634.0,
+    "cb": 1972463.0,
+    "sources": [
+      "CARR 2022.pdf"
+    ],
+    "id": 7,
+    "calc_total_receipts": 9592110.0,
+    "calc_cb": 1972463.0,
+    "error_reason": "Total Receipts mismatch: Reported ₹9,656,097.00 != (OB ₹3,251,330.00 + Receipts ₹6,340,780.00 = ₹9,592,110.00)"
   },
   {
     "code": "254839",
@@ -54,7 +155,7 @@
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 3,
+    "id": 8,
     "calc_total_receipts": 39324891.0,
     "calc_cb": 16248653.0,
     "error_reason": "Total Receipts mismatch: Reported ₹39,853,476.00 != (OB ₹12,493,310.00 + Receipts ₹26,831,581.00 = ₹39,324,891.00)"
@@ -74,7 +175,7 @@
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 4,
+    "id": 9,
     "calc_total_receipts": 23586480.7,
     "calc_cb": 6486050.7,
     "error_reason": "Total Receipts mismatch: Reported ₹23,715,571.70 != (OB ₹7,250,002.70 + Receipts ₹16,336,478.00 = ₹23,586,480.70)"
@@ -94,7 +195,7 @@
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 5,
+    "id": 10,
     "calc_total_receipts": 25383880.0,
     "calc_cb": 5192256.0,
     "error_reason": "Total Receipts mismatch: Reported ₹25,594,412.00 != (OB ₹5,615,571.00 + Receipts ₹19,768,309.00 = ₹25,383,880.00)"
@@ -114,7 +215,7 @@
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 6,
+    "id": 11,
     "calc_total_receipts": 4175531.0,
     "calc_cb": 124749.0,
     "error_reason": "Total Receipts mismatch: Reported ₹4,240,511.00 != (OB ₹631,454.00 + Receipts ₹3,544,077.00 = ₹4,175,531.00)"
@@ -134,7 +235,7 @@
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 7,
+    "id": 12,
     "calc_total_receipts": 10773282.0,
     "calc_cb": 1490842.0,
     "error_reason": "Total Receipts mismatch: Reported ₹10,808,573.00 != (OB ₹707,494.00 + Receipts ₹10,065,788.00 = ₹10,773,282.00)"
@@ -146,18 +247,18 @@
     "district": "Namchi",
     "bac": "N/A",
     "fy": "2019-20",
-    "ob": 5208466.0,
-    "receipts": 16015112.0,
-    "total_receipts": 7672812.0,
-    "payments": 2145847.0,
-    "cb": 5526965.0,
+    "ob": 79862611.0,
+    "receipts": 111917054.0,
+    "total_receipts": 181194237.0,
+    "payments": 99655272.0,
+    "cb": 81538965.0,
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 8,
-    "calc_total_receipts": 21223578.0,
-    "calc_cb": 5526965.0,
-    "error_reason": "Total Receipts mismatch: Reported ₹7,672,812.00 != (OB ₹5,208,466.00 + Receipts ₹16,015,112.00 = ₹21,223,578.00)"
+    "id": 13,
+    "calc_total_receipts": 191779665.0,
+    "calc_cb": 81538965.0,
+    "error_reason": "Total Receipts mismatch: Reported ₹181,194,237.00 != (OB ₹79,862,611.00 + Receipts ₹111,917,054.00 = ₹191,779,665.00)"
   },
   {
     "code": "254834",
@@ -174,7 +275,7 @@
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 9,
+    "id": 14,
     "calc_total_receipts": 3576052.0,
     "calc_cb": 1472551.0,
     "error_reason": "Total Receipts mismatch: Reported ₹3,636,170.00 != (OB ₹1,327,772.00 + Receipts ₹2,248,280.00 = ₹3,576,052.00)"
@@ -194,10 +295,30 @@
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 10,
+    "id": 15,
     "calc_total_receipts": 23565219.0,
     "calc_cb": 3440248.0,
     "error_reason": "Total Receipts mismatch: Reported ₹23,795,736.00 != (OB ₹11,622,429.00 + Receipts ₹11,942,790.00 = ₹23,565,219.00)"
+  },
+  {
+    "code": "254794",
+    "name": "Poklok",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Poklok Nandugaon",
+    "fy": "2019-20",
+    "ob": 2141147.0,
+    "receipts": 10394189.0,
+    "total_receipts": 12647714.0,
+    "payments": 9303806.0,
+    "cb": 3343908.0,
+    "sources": [
+      "CARR 2022.pdf"
+    ],
+    "id": 16,
+    "calc_total_receipts": 12535336.0,
+    "calc_cb": 3343908.0,
+    "error_reason": "Total Receipts mismatch: Reported ₹12,647,714.00 != (OB ₹2,141,147.00 + Receipts ₹10,394,189.00 = ₹12,535,336.00)"
   },
   {
     "code": "254771",
@@ -214,70 +335,30 @@
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 11,
+    "id": 17,
     "calc_total_receipts": 17740939.0,
     "calc_cb": 3871790.0,
     "error_reason": "Total Receipts mismatch: Reported ₹17,840,509.00 != (OB ₹2,190,014.00 + Receipts ₹15,550,925.00 = ₹17,740,939.00) | Closing Balance mismatch: Reported ₹3,871,840.00 != (TR ₹17,840,509.00 - Payments ₹13,968,719.00 = ₹3,871,790.00)"
   },
   {
-    "code": "254869",
-    "name": "Yuksom",
+    "code": "300089",
+    "name": "Nambu Sindrabong",
     "tier": "Gram Panchayat Unit",
     "district": "Gyalshing",
-    "bac": "Yoksum",
+    "bac": "Gyalshing",
     "fy": "2019-20",
-    "ob": 3367770.0,
-    "receipts": 14245814.0,
-    "total_receipts": 17830478.0,
-    "payments": 12606080.0,
-    "cb": 5224398.0,
+    "ob": 7745367.0,
+    "receipts": 18738271.0,
+    "total_receipts": 26815874.0,
+    "payments": 19400189.0,
+    "cb": 7415685.0,
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 12,
-    "calc_total_receipts": 17613584.0,
-    "calc_cb": 5224398.0,
-    "error_reason": "Total Receipts mismatch: Reported ₹17,830,478.00 != (OB ₹3,367,770.00 + Receipts ₹14,245,814.00 = ₹17,613,584.00)"
-  },
-  {
-    "code": "254709",
-    "name": "Arithang Chongrong",
-    "tier": "Gram Panchayat Unit",
-    "district": "Gyalshing",
-    "bac": "Arithang Chongrong",
-    "fy": "2019-20",
-    "ob": 5451415.0,
-    "receipts": 21288392.0,
-    "total_receipts": 26950180.0,
-    "payments": 17742246.0,
-    "cb": 9207934.0,
-    "sources": [
-      "CARR 2022.pdf"
-    ],
-    "id": 13,
-    "calc_total_receipts": 26739807.0,
-    "calc_cb": 9207934.0,
-    "error_reason": "Total Receipts mismatch: Reported ₹26,950,180.00 != (OB ₹5,451,415.00 + Receipts ₹21,288,392.00 = ₹26,739,807.00)"
-  },
-  {
-    "code": "254859",
-    "name": "Chungthang",
-    "tier": "Gram Panchayat Unit",
-    "district": "Mangan",
-    "bac": "Chungthang",
-    "fy": "2019-20",
-    "ob": 3848844.0,
-    "receipts": 9171574.0,
-    "total_receipts": 13102588.0,
-    "payments": 11822995.0,
-    "cb": 1279593.0,
-    "sources": [
-      "CARR 2022.pdf"
-    ],
-    "id": 14,
-    "calc_total_receipts": 13020418.0,
-    "calc_cb": 1279593.0,
-    "error_reason": "Total Receipts mismatch: Reported ₹13,102,588.00 != (OB ₹3,848,844.00 + Receipts ₹9,171,574.00 = ₹13,020,418.00)"
+    "id": 18,
+    "calc_total_receipts": 26483638.0,
+    "calc_cb": 7415685.0,
+    "error_reason": "Total Receipts mismatch: Reported ₹26,815,874.00 != (OB ₹7,745,367.00 + Receipts ₹18,738,271.00 = ₹26,483,638.00)"
   },
   {
     "code": "254789",
@@ -294,7 +375,7 @@
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 15,
+    "id": 19,
     "calc_total_receipts": 59120379.0,
     "calc_cb": 7528477.0,
     "error_reason": "Total Receipts mismatch: Reported ₹59,387,037.00 != (OB ₹6,090,495.00 + Receipts ₹53,029,884.00 = ₹59,120,379.00)"
@@ -314,7 +395,7 @@
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 16,
+    "id": 20,
     "calc_total_receipts": 7201141.0,
     "calc_cb": 1143206.0,
     "error_reason": "Total Receipts mismatch: Reported ₹7,256,217.00 != (OB ₹2,737,362.00 + Receipts ₹4,463,779.00 = ₹7,201,141.00)"
@@ -334,7 +415,7 @@
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 17,
+    "id": 21,
     "calc_total_receipts": 13141309.0,
     "calc_cb": 7911069.0,
     "error_reason": "Total Receipts mismatch: Reported ₹13,308,597.00 != (OB ₹6,442,838.00 + Receipts ₹6,698,471.00 = ₹13,141,309.00)"
@@ -354,7 +435,7 @@
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 18,
+    "id": 22,
     "calc_total_receipts": 12895647.0,
     "calc_cb": 4358198.0,
     "error_reason": "Total Receipts mismatch: Reported ₹13,049,118.00 != (OB ₹5,968,535.00 + Receipts ₹6,927,112.00 = ₹12,895,647.00)"
@@ -366,18 +447,39 @@
     "district": "Mangan",
     "bac": "N/A",
     "fy": "2020-21",
-    "ob": 1829487.0,
-    "receipts": 3419478.0,
-    "total_receipts": 5277594.0,
-    "payments": 3674717.0,
-    "cb": 1602877.0,
+    "ob": 1845207.0,
+    "receipts": 10251815.0,
+    "total_receipts": 12175277.0,
+    "payments": 10544669.0,
+    "cb": 1630608.0,
+    "sources": [
+      "CARR 2022.pdf",
+      "CARR 2023.pdf"
+    ],
+    "id": 23,
+    "calc_total_receipts": 12097022.0,
+    "calc_cb": 1630608.0,
+    "error_reason": "Total Receipts mismatch: Reported ₹12,175,277.00 != (OB ₹1,845,207.00 + Receipts ₹10,251,815.00 = ₹12,097,022.00)"
+  },
+  {
+    "code": "254790",
+    "name": "Passingdang Saffo",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Passingdong",
+    "fy": "2020-21",
+    "ob": 1972463.0,
+    "receipts": 1338875.0,
+    "total_receipts": 3361154.0,
+    "payments": 2005631.0,
+    "cb": 1355523.0,
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 19,
-    "calc_total_receipts": 5248965.0,
-    "calc_cb": 1602877.0,
-    "error_reason": "Total Receipts mismatch: Reported ₹5,277,594.00 != (OB ₹1,829,487.00 + Receipts ₹3,419,478.00 = ₹5,248,965.00)"
+    "id": 24,
+    "calc_total_receipts": 3311338.0,
+    "calc_cb": 1355523.0,
+    "error_reason": "Total Receipts mismatch: Reported ₹3,361,154.00 != (OB ₹1,972,463.00 + Receipts ₹1,338,875.00 = ₹3,311,338.00)"
   },
   {
     "code": "254839",
@@ -394,7 +496,7 @@
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 20,
+    "id": 25,
     "calc_total_receipts": 22339697.0,
     "calc_cb": 8981968.0,
     "error_reason": "Total Receipts mismatch: Reported ₹22,741,794.00 != (OB ₹16,248,653.00 + Receipts ₹6,091,044.00 = ₹22,339,697.00)"
@@ -414,7 +516,7 @@
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 21,
+    "id": 26,
     "calc_total_receipts": 11126942.7,
     "calc_cb": 5711315.8,
     "error_reason": "Total Receipts mismatch: Reported ₹11,251,709.70 != (OB ₹6,486,050.70 + Receipts ₹4,640,892.00 = ₹11,126,942.70)"
@@ -434,7 +536,7 @@
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 22,
+    "id": 27,
     "calc_total_receipts": 9586256.0,
     "calc_cb": 4860839.0,
     "error_reason": "Total Receipts mismatch: Reported ₹9,763,727.00 != (OB ₹5,192,256.00 + Receipts ₹4,394,000.00 = ₹9,586,256.00)"
@@ -454,7 +556,7 @@
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 23,
+    "id": 28,
     "calc_total_receipts": 10083703.0,
     "calc_cb": 4216277.0,
     "error_reason": "Total Receipts mismatch: Reported ₹10,164,337.00 != (OB ₹6,407,615.00 + Receipts ₹3,676,088.00 = ₹10,083,703.00)"
@@ -474,7 +576,7 @@
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 24,
+    "id": 29,
     "calc_total_receipts": 3472986.0,
     "calc_cb": 706504.0,
     "error_reason": "Total Receipts mismatch: Reported ₹3,512,044.00 != (OB ₹1,564,598.00 + Receipts ₹1,908,388.00 = ₹3,472,986.00)"
@@ -494,7 +596,7 @@
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 25,
+    "id": 30,
     "calc_total_receipts": 8634255.0,
     "calc_cb": 5562880.0,
     "error_reason": "Total Receipts mismatch: Reported ₹8,753,570.00 != (OB ₹5,526,965.00 + Receipts ₹3,107,290.00 = ₹8,634,255.00)"
@@ -514,10 +616,30 @@
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 26,
+    "id": 31,
     "calc_total_receipts": 2781889.0,
     "calc_cb": 778896.0,
     "error_reason": "Total Receipts mismatch: Reported ₹2,836,827.00 != (OB ₹1,472,551.00 + Receipts ₹1,309,338.00 = ₹2,781,889.00)"
+  },
+  {
+    "code": "254791",
+    "name": "Martam",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Hee Martam",
+    "fy": "2020-21",
+    "ob": 2082784.0,
+    "receipts": 4366123.0,
+    "total_receipts": 6506252.0,
+    "payments": 8891815.0,
+    "cb": 1766200.0,
+    "sources": [
+      "CARR 2022.pdf"
+    ],
+    "id": 32,
+    "calc_total_receipts": 6448907.0,
+    "calc_cb": -2385563.0,
+    "error_reason": "Total Receipts mismatch: Reported ₹6,506,252.00 != (OB ₹2,082,784.00 + Receipts ₹4,366,123.00 = ₹6,448,907.00) | Closing Balance mismatch: Reported ₹1,766,200.00 != (TR ₹6,506,252.00 - Payments ₹8,891,815.00 = ₹-2,385,563.00)"
   },
   {
     "code": "254747",
@@ -534,10 +656,30 @@
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 27,
+    "id": 33,
     "calc_total_receipts": 11637854.0,
     "calc_cb": 2259706.0,
     "error_reason": "Total Receipts mismatch: Reported ₹11,676,100.00 != (OB ₹4,818,901.00 + Receipts ₹6,818,953.00 = ₹11,637,854.00)"
+  },
+  {
+    "code": "254794",
+    "name": "Poklok",
+    "tier": "Gram Panchayat Unit",
+    "district": "Namchi",
+    "bac": "Poklok Nandugaon",
+    "fy": "2020-21",
+    "ob": 3343908.0,
+    "receipts": 1865930.0,
+    "total_receipts": 5312825.0,
+    "payments": 3331297.0,
+    "cb": 1981528.0,
+    "sources": [
+      "CARR 2022.pdf"
+    ],
+    "id": 34,
+    "calc_total_receipts": 5209838.0,
+    "calc_cb": 1981528.0,
+    "error_reason": "Total Receipts mismatch: Reported ₹5,312,825.00 != (OB ₹3,343,908.00 + Receipts ₹1,865,930.00 = ₹5,209,838.00)"
   },
   {
     "code": "254771",
@@ -554,7 +696,7 @@
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 28,
+    "id": 35,
     "calc_total_receipts": 7985998.0,
     "calc_cb": 913676.0,
     "error_reason": "Total Receipts mismatch: Reported ₹8,065,810.00 != (OB ₹3,871,790.00 + Receipts ₹4,114,208.00 = ₹7,985,998.00)"
@@ -574,30 +716,10 @@
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 29,
+    "id": 36,
     "calc_total_receipts": 9801917.0,
     "calc_cb": 4964144.0,
     "error_reason": "Total Receipts mismatch: Reported ₹9,925,347.00 != (OB ₹5,224,398.00 + Receipts ₹4,577,519.00 = ₹9,801,917.00)"
-  },
-  {
-    "code": "254709",
-    "name": "Arithang Chongrong",
-    "tier": "Gram Panchayat Unit",
-    "district": "Gyalshing",
-    "bac": "Arithang Chongrong",
-    "fy": "2020-21",
-    "ob": 9207934.0,
-    "receipts": 6114582.0,
-    "total_receipts": 15499365.0,
-    "payments": 7315434.0,
-    "cb": 8183931.0,
-    "sources": [
-      "CARR 2022.pdf"
-    ],
-    "id": 30,
-    "calc_total_receipts": 15322516.0,
-    "calc_cb": 8183931.0,
-    "error_reason": "Total Receipts mismatch: Reported ₹15,499,365.00 != (OB ₹9,207,934.00 + Receipts ₹6,114,582.00 = ₹15,322,516.00)"
   },
   {
     "code": "254859",
@@ -606,18 +728,38 @@
     "district": "Mangan",
     "bac": "Chungthang",
     "fy": "2020-21",
-    "ob": 1279593.0,
-    "receipts": 2192500.0,
-    "total_receipts": 3517815.0,
-    "payments": 2831820.0,
-    "cb": 685995.0,
+    "ob": 10487527.0,
+    "receipts": 8307082.0,
+    "total_receipts": 19017180.0,
+    "payments": 10147254.0,
+    "cb": 8869926.0,
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 31,
-    "calc_total_receipts": 3472093.0,
-    "calc_cb": 685995.0,
-    "error_reason": "Total Receipts mismatch: Reported ₹3,517,815.00 != (OB ₹1,279,593.00 + Receipts ₹2,192,500.00 = ₹3,472,093.00)"
+    "id": 37,
+    "calc_total_receipts": 18794609.0,
+    "calc_cb": 8869926.0,
+    "error_reason": "Total Receipts mismatch: Reported ₹19,017,180.00 != (OB ₹10,487,527.00 + Receipts ₹8,307,082.00 = ₹18,794,609.00)"
+  },
+  {
+    "code": "300089",
+    "name": "Nambu Sindrabong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Gyalshing",
+    "bac": "Gyalshing",
+    "fy": "2020-21",
+    "ob": 7420779.0,
+    "receipts": 8408006.0,
+    "total_receipts": 16007373.0,
+    "payments": 9818766.0,
+    "cb": 6019773.0,
+    "sources": [
+      "CARR 2022.pdf"
+    ],
+    "id": 38,
+    "calc_total_receipts": 15828785.0,
+    "calc_cb": 6188607.0,
+    "error_reason": "Total Receipts mismatch: Reported ₹16,007,373.00 != (OB ₹7,420,779.00 + Receipts ₹8,408,006.00 = ₹15,828,785.00) | Closing Balance mismatch: Reported ₹6,019,773.00 != (TR ₹16,007,373.00 - Payments ₹9,818,766.00 = ₹6,188,607.00)"
   },
   {
     "code": "254789",
@@ -634,7 +776,7 @@
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 32,
+    "id": 39,
     "calc_total_receipts": 12389909.0,
     "calc_cb": 7923063.0,
     "error_reason": "Total Receipts mismatch: Reported ₹12,695,511.00 != (OB ₹7,528,477.00 + Receipts ₹4,861,432.00 = ₹12,389,909.00)"
@@ -654,7 +796,7 @@
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 33,
+    "id": 40,
     "calc_total_receipts": 9896491.0,
     "calc_cb": 4707946.0,
     "error_reason": "Total Receipts mismatch: Reported ₹10,055,779.00 != (OB ₹4,227,857.00 + Receipts ₹5,668,634.00 = ₹9,896,491.00)"
@@ -674,7 +816,7 @@
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 34,
+    "id": 41,
     "calc_total_receipts": 19366736.0,
     "calc_cb": 13704002.0,
     "error_reason": "Total Receipts mismatch: Reported ₹19,810,352.00 != (OB ₹16,267,832.00 + Receipts ₹3,098,904.00 = ₹19,366,736.00)"
@@ -694,10 +836,91 @@
     "sources": [
       "CARR 2022.pdf"
     ],
-    "id": 35,
+    "id": 42,
     "calc_total_receipts": 8064201.0,
     "calc_cb": 3020841.0,
     "error_reason": "Total Receipts mismatch: Reported ₹8,182,587.00 != (OB ₹3,838,903.00 + Receipts ₹4,225,298.00 = ₹8,064,201.00)"
+  },
+  {
+    "code": "216",
+    "name": "Gangtok Zilla Panchayat",
+    "tier": "Zilla Panchayat",
+    "district": "Gangtok",
+    "bac": "N/A",
+    "fy": "2019-20",
+    "ob": 79544934.2,
+    "receipts": 61645260.0,
+    "total_receipts": 144043136.2,
+    "payments": 57271175.0,
+    "cb": 86771896.3,
+    "sources": [
+      "CARR 2022.pdf",
+      "CARR 2023.pdf"
+    ],
+    "id": 43,
+    "calc_total_receipts": 141190194.2,
+    "calc_cb": 86771961.2,
+    "error_reason": "Total Receipts mismatch: Reported ₹144,043,136.20 != (OB ₹79,544,934.20 + Receipts ₹61,645,260.00 = ₹141,190,194.20) | Closing Balance mismatch: Reported ₹86,771,896.30 != (TR ₹144,043,136.20 - Payments ₹57,271,175.00 = ₹86,771,961.20)"
+  },
+  {
+    "code": "219",
+    "name": "Gyalshing Zilla Panchayat",
+    "tier": "Zilla Panchayat",
+    "district": "Gyalshing",
+    "bac": "N/A",
+    "fy": "2019-20",
+    "ob": 37784409.0,
+    "receipts": 97509568.0,
+    "total_receipts": 136059098.0,
+    "payments": 96904308.0,
+    "cb": 39154790.0,
+    "sources": [
+      "CARR 2022.pdf"
+    ],
+    "id": 44,
+    "calc_total_receipts": 135293977.0,
+    "calc_cb": 39154790.0,
+    "error_reason": "Total Receipts mismatch: Reported ₹136,059,098.00 != (OB ₹37,784,409.00 + Receipts ₹97,509,568.00 = ₹135,293,977.00)"
+  },
+  {
+    "code": "217",
+    "name": "Mangan Zilla Panchayat",
+    "tier": "Zilla Panchayat",
+    "district": "Mangan",
+    "bac": "N/A",
+    "fy": "2019-20",
+    "ob": 12821273.0,
+    "receipts": 83876469.0,
+    "total_receipts": 97546090.0,
+    "payments": 70993704.0,
+    "cb": 26552386.0,
+    "sources": [
+      "CARR 2022.pdf"
+    ],
+    "id": 45,
+    "calc_total_receipts": 96697742.0,
+    "calc_cb": 26552386.0,
+    "error_reason": "Total Receipts mismatch: Reported ₹97,546,090.00 != (OB ₹12,821,273.00 + Receipts ₹83,876,469.00 = ₹96,697,742.00)"
+  },
+  {
+    "code": "254776",
+    "name": "Men Rongong",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Kabi",
+    "fy": "2019-20",
+    "ob": 0.0,
+    "receipts": 503000.0,
+    "total_receipts": 28960.0,
+    "payments": 28960.0,
+    "cb": 3249.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 46,
+    "calc_total_receipts": 503000.0,
+    "calc_cb": 0.0,
+    "error_reason": "Total Receipts mismatch: Reported ₹28,960.00 != (OB ₹0.00 + Receipts ₹503,000.00 = ₹503,000.00) | Closing Balance mismatch: Reported ₹3,249.00 != (TR ₹28,960.00 - Payments ₹28,960.00 = ₹0.00)"
   },
   {
     "code": "254862",
@@ -714,10 +937,50 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 36,
+    "id": 47,
     "calc_total_receipts": 299938.0,
     "calc_cb": 360066.0,
     "error_reason": "Closing Balance mismatch: Reported ₹388,406.00 != (TR ₹1,554,646.00 - Payments ₹1,194,580.00 = ₹360,066.00)"
+  },
+  {
+    "code": "219",
+    "name": "Gyalshing Zilla Panchayat",
+    "tier": "Zilla Panchayat",
+    "district": "Gyalshing",
+    "bac": "N/A",
+    "fy": "2021-22",
+    "ob": 2894920.0,
+    "receipts": 47818803.0,
+    "total_receipts": 51513925.0,
+    "payments": 35465998.0,
+    "cb": 16047927.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 48,
+    "calc_total_receipts": 50713723.0,
+    "calc_cb": 16047927.0,
+    "error_reason": "Total Receipts mismatch: Reported ₹51,513,925.00 != (OB ₹2,894,920.00 + Receipts ₹47,818,803.00 = ₹50,713,723.00)"
+  },
+  {
+    "code": "254826",
+    "name": "Singhik",
+    "tier": "Gram Panchayat Unit",
+    "district": "Mangan",
+    "bac": "Mangan",
+    "fy": "2021-22",
+    "ob": 178085.0,
+    "receipts": 0.0,
+    "total_receipts": 222881.0,
+    "payments": 117743.0,
+    "cb": 162539.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 49,
+    "calc_total_receipts": 178085.0,
+    "calc_cb": 105138.0,
+    "error_reason": "Closing Balance mismatch: Reported ₹162,539.00 != (TR ₹222,881.00 - Payments ₹117,743.00 = ₹105,138.00)"
   },
   {
     "code": "254801",
@@ -734,7 +997,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 37,
+    "id": 50,
     "calc_total_receipts": 19894.0,
     "calc_cb": 30032.0,
     "error_reason": "Closing Balance mismatch: Reported ₹80,268.00 != (TR ₹55,150.00 - Payments ₹25,118.00 = ₹30,032.00)"
@@ -754,10 +1017,71 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 38,
+    "id": 51,
     "calc_total_receipts": 938564.0,
     "calc_cb": 1876612.0,
     "error_reason": "Closing Balance mismatch: Reported ₹2,865,102.00 != (TR ₹2,370,857.00 - Payments ₹494,245.00 = ₹1,876,612.00)"
+  },
+  {
+    "code": "217",
+    "name": "Mangan Zilla Panchayat",
+    "tier": "Zilla Panchayat",
+    "district": "Mangan",
+    "bac": "N/A",
+    "fy": "2021-22",
+    "ob": 10367219.0,
+    "receipts": 54720066.0,
+    "total_receipts": 65300939.0,
+    "payments": 57667637.0,
+    "cb": 7633302.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 52,
+    "calc_total_receipts": 65087285.0,
+    "calc_cb": 7633302.0,
+    "error_reason": "Total Receipts mismatch: Reported ₹65,300,939.00 != (OB ₹10,367,219.00 + Receipts ₹54,720,066.00 = ₹65,087,285.00)"
+  },
+  {
+    "code": "218",
+    "name": "Namchi Zilla Panchayat",
+    "tier": "Zilla Panchayat",
+    "district": "Namchi",
+    "bac": "N/A",
+    "fy": "2021-22",
+    "ob": 19771073.0,
+    "receipts": 0.0,
+    "total_receipts": 19951899.0,
+    "payments": 35438795.0,
+    "cb": 11200144.0,
+    "sources": [
+      "CARR 2023.pdf",
+      "CARR 2024.pdf"
+    ],
+    "id": 53,
+    "calc_total_receipts": 19771073.0,
+    "calc_cb": -15486896.0,
+    "error_reason": "Closing Balance mismatch: Reported ₹11,200,144.00 != (TR ₹19,951,899.00 - Payments ₹35,438,795.00 = ₹-15,486,896.00)"
+  },
+  {
+    "code": "216",
+    "name": "Gangtok Zilla Panchayat",
+    "tier": "Zilla Panchayat",
+    "district": "Gangtok",
+    "bac": "N/A",
+    "fy": "2021-22",
+    "ob": 18449698.0,
+    "receipts": 88860180.0,
+    "total_receipts": 108209021.0,
+    "payments": 73907529.0,
+    "cb": 34301492.0,
+    "sources": [
+      "CARR 2023.pdf"
+    ],
+    "id": 54,
+    "calc_total_receipts": 107309878.0,
+    "calc_cb": 34301492.0,
+    "error_reason": "Total Receipts mismatch: Reported ₹108,209,021.00 != (OB ₹18,449,698.00 + Receipts ₹88,860,180.00 = ₹107,309,878.00)"
   },
   {
     "code": "290460",
@@ -774,30 +1098,10 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 39,
+    "id": 55,
     "calc_total_receipts": 13604916.0,
     "calc_cb": 2941827.0,
     "error_reason": "Total Receipts mismatch: Reported ₹13,674,119.00 != (OB ₹131,317.00 + Receipts ₹13,473,599.00 = ₹13,604,916.00)"
-  },
-  {
-    "code": "249689",
-    "name": "Mangan Nagar Panchayat",
-    "tier": "Urban Local Body",
-    "district": "Mangan",
-    "bac": "N/A",
-    "fy": "2020-21",
-    "ob": 15720.0,
-    "receipts": 6832337.0,
-    "total_receipts": 6897683.0,
-    "payments": 6869952.0,
-    "cb": 27731.0,
-    "sources": [
-      "CARR 2023.pdf"
-    ],
-    "id": 40,
-    "calc_total_receipts": 6848057.0,
-    "calc_cb": 27731.0,
-    "error_reason": "Total Receipts mismatch: Reported ₹6,897,683.00 != (OB ₹15,720.00 + Receipts ₹6,832,337.00 = ₹6,848,057.00)"
   },
   {
     "code": "249693",
@@ -814,7 +1118,7 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 41,
+    "id": 56,
     "calc_total_receipts": 1639525.0,
     "calc_cb": 840166.0,
     "error_reason": "Total Receipts mismatch: Reported ₹1,671,766.00 != (OB ₹1,574,725.00 + Receipts ₹64,800.00 = ₹1,639,525.00)"
@@ -834,30 +1138,30 @@
     "sources": [
       "CARR 2023.pdf"
     ],
-    "id": 42,
+    "id": 57,
     "calc_total_receipts": 13195226.0,
     "calc_cb": 845016.0,
     "error_reason": "Total Receipts mismatch: Reported ₹13,250,768.00 != (OB ₹2,941,827.00 + Receipts ₹10,253,399.00 = ₹13,195,226.00)"
   },
   {
-    "code": "249689",
-    "name": "Mangan Nagar Panchayat",
-    "tier": "Urban Local Body",
-    "district": "Mangan",
+    "code": "216",
+    "name": "Gangtok Zilla Panchayat",
+    "tier": "Zilla Panchayat",
+    "district": "Gangtok",
     "bac": "N/A",
-    "fy": "2021-22",
-    "ob": 27731.0,
-    "receipts": 8397000.0,
-    "total_receipts": 8487088.0,
-    "payments": 7556024.0,
-    "cb": 931064.0,
+    "fy": "2022-23",
+    "ob": 34627982.0,
+    "receipts": 0.0,
+    "total_receipts": 34874456.0,
+    "payments": 62049416.0,
+    "cb": 38782423.0,
     "sources": [
-      "CARR 2023.pdf"
+      "CARR 2024.pdf"
     ],
-    "id": 43,
-    "calc_total_receipts": 8424731.0,
-    "calc_cb": 931064.0,
-    "error_reason": "Total Receipts mismatch: Reported ₹8,487,088.00 != (OB ₹27,731.00 + Receipts ₹8,397,000.00 = ₹8,424,731.00)"
+    "id": 58,
+    "calc_total_receipts": 34627982.0,
+    "calc_cb": -27174960.0,
+    "error_reason": "Closing Balance mismatch: Reported ₹38,782,423.00 != (TR ₹34,874,456.00 - Payments ₹62,049,416.00 = ₹-27,174,960.00)"
   },
   {
     "code": "254739",
@@ -874,7 +1178,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 44,
+    "id": 59,
     "calc_total_receipts": 19034829.0,
     "calc_cb": -36832672.0,
     "error_reason": "Closing Balance mismatch: Reported ₹32,585,709.00 != (TR ₹24,771,277.00 - Payments ₹61,603,949.00 = ₹-36,832,672.00)"
@@ -894,7 +1198,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 45,
+    "id": 60,
     "calc_total_receipts": 25417171.0,
     "calc_cb": 4286750.0,
     "error_reason": "Closing Balance mismatch: Reported ₹18,283,742.00 != (TR ₹25,417,171.00 - Payments ₹21,130,421.00 = ₹4,286,750.00)"
@@ -914,7 +1218,7 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 46,
+    "id": 61,
     "calc_total_receipts": 0.0,
     "calc_cb": 0.0,
     "error_reason": "Closing Balance mismatch: Reported ₹8,446,263.00 != (TR ₹0.00 - Payments ₹0.00 = ₹0.00)"
@@ -934,30 +1238,10 @@
     "sources": [
       "CARR 2024.pdf"
     ],
-    "id": 47,
+    "id": 62,
     "calc_total_receipts": 0.0,
     "calc_cb": -1317500.0,
     "error_reason": "Closing Balance mismatch: Reported ₹12,233,000.00 != (TR ₹0.00 - Payments ₹1,317,500.00 = ₹-1,317,500.00)"
-  },
-  {
-    "code": "216",
-    "name": "Gangtok Zilla Panchayat",
-    "tier": "Zilla Panchayat",
-    "district": "Gangtok",
-    "bac": "N/A",
-    "fy": "2022-23",
-    "ob": 34301492.0,
-    "receipts": 0.0,
-    "total_receipts": 34301492.0,
-    "payments": 61504711.0,
-    "cb": 38754164.0,
-    "sources": [
-      "CARR 2024.pdf"
-    ],
-    "id": 48,
-    "calc_total_receipts": 34301492.0,
-    "calc_cb": -27203219.0,
-    "error_reason": "Closing Balance mismatch: Reported ₹38,754,164.00 != (TR ₹34,301,492.00 - Payments ₹61,504,711.00 = ₹-27,203,219.00)"
   },
   {
     "code": "217",
@@ -966,38 +1250,19 @@
     "district": "Mangan",
     "bac": "N/A",
     "fy": "2022-23",
-    "ob": 350780.0,
-    "receipts": 0.0,
-    "total_receipts": 350780.0,
-    "payments": 0.0,
-    "cb": 504340.0,
+    "ob": 3561883.0,
+    "receipts": 4862644.0,
+    "total_receipts": 8424527.0,
+    "payments": 7564355.0,
+    "cb": 1013732.0,
     "sources": [
-      "CARR 2024.pdf"
+      "CARR 2024.pdf",
+      "CARR 2025.pdf"
     ],
-    "id": 49,
-    "calc_total_receipts": 350780.0,
-    "calc_cb": 350780.0,
-    "error_reason": "Closing Balance mismatch: Reported ₹504,340.00 != (TR ₹350,780.00 - Payments ₹0.00 = ₹350,780.00)"
-  },
-  {
-    "code": "249692",
-    "name": "Namchi Municipal Council",
-    "tier": "Urban Local Body",
-    "district": "Namchi",
-    "bac": "N/A",
-    "fy": "2021-22",
-    "ob": 17687767.0,
-    "receipts": 0.0,
-    "total_receipts": 17687767.0,
-    "payments": 33293454.0,
-    "cb": 11081353.0,
-    "sources": [
-      "CARR 2024.pdf"
-    ],
-    "id": 50,
-    "calc_total_receipts": 17687767.0,
-    "calc_cb": -15605687.0,
-    "error_reason": "Closing Balance mismatch: Reported ₹11,081,353.00 != (TR ₹17,687,767.00 - Payments ₹33,293,454.00 = ₹-15,605,687.00)"
+    "id": 63,
+    "calc_total_receipts": 8424527.0,
+    "calc_cb": 860172.0,
+    "error_reason": "Closing Balance mismatch: Reported ₹1,013,732.00 != (TR ₹8,424,527.00 - Payments ₹7,564,355.00 = ₹860,172.00)"
   },
   {
     "code": "254739",
@@ -1014,7 +1279,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 51,
+    "id": 64,
     "calc_total_receipts": 25758098.0,
     "calc_cb": 22769909.0,
     "error_reason": "Closing Balance mismatch: Reported ₹9,319,426.00 != (TR ₹25,758,098.00 - Payments ₹2,988,189.00 = ₹22,769,909.00)"
@@ -1034,10 +1299,30 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 52,
+    "id": 65,
     "calc_total_receipts": 86619080.0,
     "calc_cb": 83361077.0,
     "error_reason": "Closing Balance mismatch: Reported ₹33,462,087.00 != (TR ₹86,619,080.00 - Payments ₹3,258,003.00 = ₹83,361,077.00)"
+  },
+  {
+    "code": "216",
+    "name": "Gangtok Zilla Panchayat",
+    "tier": "Zilla Panchayat",
+    "district": "Gangtok",
+    "bac": "N/A",
+    "fy": "2023-24",
+    "ob": 3475975.0,
+    "receipts": 14511860.0,
+    "total_receipts": 17987835.0,
+    "payments": 1902987.0,
+    "cb": 9059094.0,
+    "sources": [
+      "CARR 2025.pdf"
+    ],
+    "id": 66,
+    "calc_total_receipts": 17987835.0,
+    "calc_cb": 16084848.0,
+    "error_reason": "Closing Balance mismatch: Reported ₹9,059,094.00 != (TR ₹17,987,835.00 - Payments ₹1,902,987.00 = ₹16,084,848.00)"
   },
   {
     "code": "218",
@@ -1054,7 +1339,7 @@
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 53,
+    "id": 67,
     "calc_total_receipts": 36995588.0,
     "calc_cb": 36995588.0,
     "error_reason": "Closing Balance mismatch: Reported ₹936,109.00 != (TR ₹36,995,588.00 - Payments ₹0.00 = ₹36,995,588.00)"
@@ -1066,38 +1351,18 @@
     "district": "Mangan",
     "bac": "N/A",
     "fy": "2023-24",
-    "ob": 4344027.0,
-    "receipts": 20813324.0,
-    "total_receipts": 25157351.0,
-    "payments": 0.0,
-    "cb": 1149820.0,
+    "ob": 4853419.0,
+    "receipts": 23354159.0,
+    "total_receipts": 28207578.0,
+    "payments": 509427.0,
+    "cb": 3690620.0,
     "sources": [
       "CARR 2025.pdf"
     ],
-    "id": 54,
-    "calc_total_receipts": 25157351.0,
-    "calc_cb": 25157351.0,
-    "error_reason": "Closing Balance mismatch: Reported ₹1,149,820.00 != (TR ₹25,157,351.00 - Payments ₹0.00 = ₹25,157,351.00)"
-  },
-  {
-    "code": "216",
-    "name": "Gangtok Zilla Panchayat",
-    "tier": "Zilla Panchayat",
-    "district": "Gangtok",
-    "bac": "N/A",
-    "fy": "2023-24",
-    "ob": 0.0,
-    "receipts": 13395500.0,
-    "total_receipts": 13395500.0,
-    "payments": 0.0,
-    "cb": 6369746.0,
-    "sources": [
-      "CARR 2025.pdf"
-    ],
-    "id": 55,
-    "calc_total_receipts": 13395500.0,
-    "calc_cb": 13395500.0,
-    "error_reason": "Closing Balance mismatch: Reported ₹6,369,746.00 != (TR ₹13,395,500.00 - Payments ₹0.00 = ₹13,395,500.00)"
+    "id": 68,
+    "calc_total_receipts": 28207578.0,
+    "calc_cb": 27698151.0,
+    "error_reason": "Closing Balance mismatch: Reported ₹3,690,620.00 != (TR ₹28,207,578.00 - Payments ₹509,427.00 = ₹27,698,151.00)"
   },
   {
     "code": "254743",
@@ -1114,7 +1379,7 @@
     "sources": [
       "CARR 2026.pdf"
     ],
-    "id": 56,
+    "id": 69,
     "calc_total_receipts": 849155.0,
     "calc_cb": -809155.0,
     "error_reason": "Total Receipts mismatch: Reported ₹20,000.00 != (OB ₹0.00 + Receipts ₹849,155.00 = ₹849,155.00) | Closing Balance mismatch: Reported ₹2.42 != (TR ₹20,000.00 - Payments ₹829,155.00 = ₹-809,155.00)"
@@ -1134,7 +1399,7 @@
     "sources": [
       "CARR 2026.pdf"
     ],
-    "id": 57,
+    "id": 70,
     "calc_total_receipts": 7010163.0,
     "calc_cb": -6389803.0,
     "error_reason": "Total Receipts mismatch: Reported ₹310,180.00 != (OB ₹0.00 + Receipts ₹7,010,163.00 = ₹7,010,163.00) | Closing Balance mismatch: Reported ₹4.42 != (TR ₹310,180.00 - Payments ₹6,699,983.00 = ₹-6,389,803.00)"
@@ -1154,7 +1419,7 @@
     "sources": [
       "CARR 2026.pdf"
     ],
-    "id": 58,
+    "id": 71,
     "calc_total_receipts": 4832546.0,
     "calc_cb": -3925806.0,
     "error_reason": "Total Receipts mismatch: Reported ₹453,370.00 != (OB ₹0.00 + Receipts ₹4,832,546.00 = ₹4,832,546.00) | Closing Balance mismatch: Reported ₹9.38 != (TR ₹453,370.00 - Payments ₹4,379,176.00 = ₹-3,925,806.00)"
@@ -1174,7 +1439,7 @@
     "sources": [
       "CARR 2026.pdf"
     ],
-    "id": 59,
+    "id": 72,
     "calc_total_receipts": 9773567.0,
     "calc_cb": -4559187.0,
     "error_reason": "Total Receipts mismatch: Reported ₹2,607,190.00 != (OB ₹0.00 + Receipts ₹9,773,567.00 = ₹9,773,567.00) | Closing Balance mismatch: Reported ₹26.68 != (TR ₹2,607,190.00 - Payments ₹7,166,377.00 = ₹-4,559,187.00)"
@@ -1194,7 +1459,7 @@
     "sources": [
       "CARR 2026.pdf"
     ],
-    "id": 60,
+    "id": 73,
     "calc_total_receipts": 3387420.0,
     "calc_cb": -2389946.0,
     "error_reason": "Total Receipts mismatch: Reported ₹498,737.00 != (OB ₹0.00 + Receipts ₹3,387,420.00 = ₹3,387,420.00) | Closing Balance mismatch: Reported ₹14.73 != (TR ₹498,737.00 - Payments ₹2,888,683.00 = ₹-2,389,946.00)"
@@ -1214,7 +1479,7 @@
     "sources": [
       "CARR 2026.pdf"
     ],
-    "id": 61,
+    "id": 74,
     "calc_total_receipts": 4747916.0,
     "calc_cb": -2730864.0,
     "error_reason": "Total Receipts mismatch: Reported ₹1,008,526.00 != (OB ₹0.00 + Receipts ₹4,747,916.00 = ₹4,747,916.00) | Closing Balance mismatch: Reported ₹21.25 != (TR ₹1,008,526.00 - Payments ₹3,739,390.00 = ₹-2,730,864.00)"
@@ -1234,7 +1499,7 @@
     "sources": [
       "CARR 2026.pdf"
     ],
-    "id": 62,
+    "id": 75,
     "calc_total_receipts": 0.0,
     "calc_cb": 0.0,
     "error_reason": "Closing Balance mismatch: Reported ₹375,964.00 != (TR ₹0.00 - Payments ₹0.00 = ₹0.00)"
@@ -1254,7 +1519,7 @@
     "sources": [
       "CARR 2026.pdf"
     ],
-    "id": 63,
+    "id": 76,
     "calc_total_receipts": 0.0,
     "calc_cb": 0.0,
     "error_reason": "Closing Balance mismatch: Reported ₹295,560.00 != (TR ₹0.00 - Payments ₹0.00 = ₹0.00)"
