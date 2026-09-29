@@ -2,6 +2,17 @@
 """
 extract_annexures.py - Whitelist Extraction & Math Verification Engine
 Directorate of Local Fund Audit — Government of Sikkim
+
+Features:
+  - Whitelist enforcement for 212 authorized local bodies (199 GPUs, 6 ZPs, 7 ULBs).
+  - Strict Financial Year range constraint (2015-16 to 2025-26).
+  - Legacy 4-district Zilla Panchayat resolution (East, West, North, South).
+  - Regional orthographic alias normalization.
+  - Mathematical integrity verification:
+      1) Total Receipts == Opening Balance + Receipts
+      2) Closing Balance == Total Receipts - Payments
+  - Routes discrepancies to data/processed/audit_discrepancies.json.
+  - Outputs verified records to data/processed/financial_statements.json.
 """
 
 import sys
@@ -14,25 +25,32 @@ from collections import defaultdict
 try:
     import pdfplumber
 except ImportError:
-    print("Error: pdfplumber missing. Run 'pip install pdfplumber'")
+    print("Error: Required library 'pdfplumber' is missing. Run: pip install pdfplumber")
     sys.exit(1)
 
+
+# Mapping of legacy 4-district references to modern Zilla Panchayat codes
 LEGACY_ZILLA_MAP = {
-    "east": "216",
+    "east": "216",          # Gangtok Zilla Panchayat
     "eastzilla": "216",
     "eastdistrict": "216",
-    "west": "219",
+    "edzp": "216",
+    "west": "219",          # Gyalshing Zilla Panchayat
     "westzilla": "219",
     "zillawest": "219",
     "westdistrict": "219",
-    "north": "217",
+    "wdzp": "219",
+    "north": "217",         # Mangan Zilla Panchayat
     "northzilla": "217",
     "northdistrict": "217",
-    "south": "218",
+    "ndzp": "217",
+    "south": "218",         # Namchi Zilla Panchayat
     "southzilla": "218",
     "southdistrict": "218",
+    "sdzp": "218",
 }
 
+# Regional orthographic normalization map
 SPELLING_ALIASES = {
     "geyzing": "gyalshing",
     "gezing": "gyalshing",
@@ -62,15 +80,20 @@ SPELLING_ALIASES = {
     "gmc": "gangtok",
 }
 
+
 def load_audit_whitelist():
+    """Load the 212 authorized Local Bodies from the Master Audit Plan."""
     plan_path = Path("data/raw/annual_audit_plan_2026.json")
     if not plan_path.exists():
-        print("[!] Master audit plan not found. Run scripts/generate_master_units.py first.")
+        print(f"[!] Master audit plan not found at {plan_path.resolve()}.")
+        print("    Please run: python3 scripts/generate_master_units.py")
         sys.exit(1)
     with open(plan_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
+
 def normalize_clean_string(s):
+    """Clean strings and apply standardized aliases for resilient matching."""
     if not s:
         return ""
     cleaned = re.sub(r'[^a-zA-Z0-9]', '', str(s)).lower()
@@ -79,22 +102,29 @@ def normalize_clean_string(s):
             cleaned = cleaned.replace(key, target)
     return cleaned
 
+
 def match_against_whitelist(raw_name, whitelist):
+    """
+    Match an extracted string against the 212 authorized units:
+      1. Resolves legacy 4-district ZP keywords.
+      2. Checks direct normalized containment.
+      3. Uses difflib fuzzy matching fallback (cutoff 0.70).
+    """
     if not raw_name or len(raw_name.strip()) < 3:
         return None
 
     raw_lower = raw_name.lower().strip()
     norm_raw = normalize_clean_string(raw_lower)
 
-    # 1. Resolve Legacy 4-District Zilla Panchayats (East, West, North, South)
-    if "zilla" in raw_lower or "district" in raw_lower or any(d in raw_lower.split() for d in ["east", "west", "north", "south"]):
+    # 1. Check legacy Zilla Panchayat naming patterns
+    if "zilla" in raw_lower or "district" in raw_lower or any(d in raw_lower.split() for d in ["east", "west", "north", "south", "edzp", "wdzp", "ndzp", "sdzp"]):
         for legacy_key, target_code in LEGACY_ZILLA_MAP.items():
             if legacy_key in norm_raw:
                 for unit in whitelist:
                     if unit.get("code") == target_code:
                         return unit
 
-    # 2. Direct normalized check against whitelist
+    # 2. Check direct normalized name containment
     for unit in whitelist:
         norm_canonical = normalize_clean_string(unit["name"])
         if norm_raw == norm_canonical:
@@ -102,7 +132,7 @@ def match_against_whitelist(raw_name, whitelist):
         if len(norm_raw) >= 5 and (norm_raw in norm_canonical or norm_canonical in norm_raw):
             return unit
 
-    # 3. Fuzzy match fallback
+    # 3. Fuzzy matching fallback
     whitelist_names = [unit["name"] for unit in whitelist]
     matches = difflib.get_close_matches(raw_name, whitelist_names, n=1, cutoff=0.70)
     if matches:
@@ -113,7 +143,9 @@ def match_against_whitelist(raw_name, whitelist):
 
     return None
 
+
 def clean_currency(val):
+    """Convert monetary table strings into clean float values."""
     if val is None:
         return 0.0
     s = str(val).strip().replace('₹', '').replace(',', '').replace('\n', ' ')
@@ -124,20 +156,26 @@ def clean_currency(val):
     match = re.search(r'[-+]?\d*\.?\d+', s)
     return float(match.group(0)) if match else 0.0
 
+
 def detect_fy(text):
-    match = re.search(r'20\d{2}[-–/]\d{2,4}', text)
+    """
+    Strictly extract valid Financial Years between 2015-16 and 2025-26.
+    Rejects general 4-digit numbers to avoid false positives.
+    """
+    if not text:
+        return None
+
+    # Matches only FYs starting from 2015 up to 2025
+    match = re.search(r'\b(20(?:1[5-9]|2[0-5]))[-–/](\d{2,4})\b', text)
     if match:
-        fy = match.group(0).replace('–', '-').replace('/', '-')
-        p = fy.split('-')
-        if len(p[1]) == 4:
-            fy = f"{p[0]}-{p[1][2:]}"
-        return fy
-    # Fallback to single 4-digit year format (e.g. 2016 -> 2015-16)
-    single_match = re.search(r'20\d{2}', text)
-    if single_match:
-        yr = int(single_match.group(0))
-        return f"{yr-1}-{str(yr)[2:]}"
+        start_yr = match.group(1)
+        end_yr = match.group(2)
+        if len(end_yr) == 4:
+            end_yr = end_yr[2:]
+        return f"{start_yr}-{end_yr}"
+
     return None
+
 
 def run_extraction():
     whitelist = load_audit_whitelist()
@@ -146,29 +184,31 @@ def run_extraction():
     raw_dir = Path("data/raw")
     pdf_files = sorted([f for f in raw_dir.glob("*.pdf") if "plan" not in f.name.lower()])
     if not pdf_files:
-        print("[!] No Annual Report PDFs found in data/raw/.")
+        print(f"[!] No Annual Report PDFs found in {raw_dir.resolve()}.")
         return
 
+    # Aggregate extracted figures by (Canonical Unit Code, Financial Year)
     aggregated = defaultdict(lambda: {"ob": 0.0, "receipts": 0.0, "tr": 0.0, "pay": 0.0, "cb": 0.0, "sources": set()})
     unit_lookup = {u["code"]: u for u in whitelist}
 
     for pdf_path in pdf_files:
-        print(f"  -> Scanning Annexures in: {pdf_path.name}")
+        print(f"  -> Scanning: {pdf_path.name}")
         default_fy = detect_fy(pdf_path.name) or "2024-25"
         current_fy = default_fy
 
         with pdfplumber.open(pdf_path) as pdf:
             for page in pdf.pages:
                 text = page.extract_text() or ""
-                p_fy = detect_fy(text)
-                if p_fy:
-                    current_fy = p_fy
+                page_fy = detect_fy(text)
+                if page_fy:
+                    current_fy = page_fy
 
                 tables = page.extract_tables()
                 for table in tables:
                     if not table or len(table) < 2:
                         continue
 
+                    # Dynamic header column detection
                     unit_idx, ob_idx, r_idx, tr_idx, pay_idx, cb_idx = 0, -1, -1, -1, -1, -1
                     for idx, cell in enumerate(table[0]):
                         c = str(cell).lower().replace('\n', ' ')
@@ -185,8 +225,13 @@ def run_extraction():
                         elif 'closing' in c:
                             cb_idx = idx
 
+                    # Fallback column structure
                     if ob_idx == -1 and len(table[0]) >= 6:
-                        ob_idx, r_idx, tr_idx, pay_idx, cb_idx = len(table[0])-5, len(table[0])-4, len(table[0])-3, len(table[0])-2, len(table[0])-1
+                        ob_idx = len(table[0]) - 5
+                        r_idx = len(table[0]) - 4
+                        tr_idx = len(table[0]) - 3
+                        pay_idx = len(table[0]) - 2
+                        cb_idx = len(table[0]) - 1
 
                     for row in table[1:]:
                         if not row or len(row) <= max(ob_idx, pay_idx, cb_idx):
@@ -203,6 +248,7 @@ def run_extraction():
                         pay = clean_currency(row[pay_idx]) if pay_idx != -1 else 0.0
                         cb = clean_currency(row[cb_idx]) if cb_idx != -1 else (tr - pay)
 
+                        # Skip blank/nil rows
                         if ob == 0 and rec == 0 and tr == 0 and pay == 0 and cb == 0:
                             continue
 
@@ -232,6 +278,7 @@ def run_extraction():
         math_ok = True
         reasons = []
 
+        # Mathematical verification checks
         if rec > 0 and abs(calc_tr - tr) > 2.0:
             math_ok = False
             reasons.append(f"Total Receipts mismatch: Reported ₹{tr:,.2f} != (OB ₹{ob:,.2f} + Receipts ₹{rec:,.2f} = ₹{calc_tr:,.2f})")
@@ -251,7 +298,7 @@ def run_extraction():
             "total_receipts": tr,
             "payments": pay,
             "cb": cb,
-            "sources": list(v["sources"])
+            "sources": sorted(list(v["sources"]))
         }
 
         if math_ok:
@@ -276,9 +323,10 @@ def run_extraction():
         json.dump(discrepancies, f, indent=2, ensure_ascii=False)
 
     print(f"\n[✓] Whitelist Extraction & Math Verification Complete:")
-    print(f"    • Total Authorized Units Audited : {len(whitelist)}")
-    print(f"    • Valid Financial Statements      : {len(verified_records)} -> data/processed/financial_statements.json")
-    print(f"    • Flagged Calculation Anomalies   : {len(discrepancies)} -> data/processed/audit_discrepancies.json")
+    print(f"    • Total Authorized Units in Scope : {len(whitelist)}")
+    print(f"    • Verified Financial Statements   : {len(verified_records)} -> data/processed/financial_statements.json")
+    print(f"    • Flagged Calculation Anomalies    : {len(discrepancies)} -> data/processed/audit_discrepancies.json")
+
 
 if __name__ == "__main__":
     run_extraction()
