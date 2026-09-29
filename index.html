@@ -7,13 +7,11 @@
 
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 
   <style>
     @media print {
       .no-print { display: none !important; }
       body { background-color: #ffffff !important; color: #000000 !important; }
-      mark { background-color: transparent !important; font-weight: bold; padding: 0 !important; }
     }
   </style>
 </head>
@@ -21,39 +19,38 @@
 
   <div class="max-w-7xl mx-auto space-y-6">
     
-    <!-- Dashboard Header -->
+    <!-- Header -->
     <header class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 bg-white p-6 rounded-xl shadow-sm border border-gray-200">
       <div>
         <h1 class="text-2xl font-bold text-gray-900">Directorate of Local Fund Audit</h1>
-        <p class="text-xs text-gray-500 mt-1">Government of Sikkim — Dynamic Financial Analytics Dashboard</p>
+        <p class="text-xs text-gray-500 mt-1">Government of Sikkim — Financial Analytics & Local Body Audit Dashboard</p>
       </div>
 
       <div class="flex flex-wrap items-center gap-2 no-print">
         <button onclick="exportFilteredToCSV()" class="inline-flex items-center px-3.5 py-2 border border-gray-300 text-xs font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50">
           Export CSV
         </button>
-        <button onclick="exportChartsToPDFPresentation()" class="inline-flex items-center px-3.5 py-2 border border-gray-300 text-xs font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50">
-          Export Presentation (PDF)
-        </button>
       </div>
     </header>
 
     <!-- Visualizations Section -->
     <section class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <!-- Receipts vs Payments Bar Chart -->
       <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
         <div class="flex justify-between items-center mb-4">
-          <h3 class="text-base font-bold text-gray-800">Receipts vs Payments Breakdown</h3>
+          <h3 class="text-base font-bold text-gray-800">Top 10 Units: Receipts vs Payments</h3>
         </div>
-        <div class="relative h-64">
-          <canvas id="barChart" aria-label="Receipts vs Payments Breakdown"></canvas>
+        <div class="relative h-72">
+          <canvas id="barChart" aria-label="Receipts vs Payments"></canvas>
         </div>
       </div>
 
+      <!-- Tier Breakdown Doughnut Chart (ULB, Zilla, GPU) -->
       <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
         <div class="flex justify-between items-center mb-4">
           <h3 class="text-base font-bold text-gray-800">Closing Balance Share by Tier</h3>
         </div>
-        <div class="relative h-64">
+        <div class="relative h-72">
           <canvas id="doughnutChart" aria-label="Closing Balance Share by Tier"></canvas>
         </div>
       </div>
@@ -61,17 +58,31 @@
 
     <!-- Financial Table Card -->
     <section class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+      <!-- Table Controls -->
       <div class="p-4 sm:p-6 border-b border-gray-100 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 no-print">
-        <input type="text" id="searchInput" placeholder="Search local body, tier, FY..." class="block w-full sm:w-72 pr-10 pl-3 py-2 border border-gray-300 rounded-lg text-xs" />
+        <div class="flex flex-col sm:flex-row items-center gap-3 w-full sm:w-auto">
+          <!-- Text Search Input -->
+          <input type="text" id="searchInput" placeholder="Search local body or FY..." class="block w-full sm:w-72 px-3 py-2 border border-gray-300 rounded-lg text-xs focus:ring-1 focus:ring-indigo-500" />
+          
+          <!-- Tier Filter Dropdown -->
+          <select id="tierFilter" class="block w-full sm:w-48 px-3 py-2 border border-gray-300 rounded-lg text-xs bg-white focus:ring-1 focus:ring-indigo-500">
+            <option value="ALL">All Tiers</option>
+            <option value="Urban Local Body">Urban Local Bodies (ULB)</option>
+            <option value="Zilla Panchayat">Zilla Panchayats (ZP)</option>
+            <option value="Gram Panchayat Unit">Gram Panchayat Units (GPU)</option>
+          </select>
+        </div>
+
         <span id="dataStatus" class="text-xs text-gray-500 italic">Loading dynamic audit data...</span>
       </div>
 
+      <!-- Table -->
       <div class="overflow-x-auto">
         <table class="w-full text-left border-collapse">
           <thead>
             <tr class="bg-gray-50 border-b border-gray-200 text-gray-600 text-xs uppercase font-semibold">
-              <th class="py-3.5 px-4">Local Body Name</th>
-              <th class="py-3.5 px-4">Tier</th>
+              <th class="py-3.5 px-4">Local Body / Unit Name</th>
+              <th class="py-3.5 px-4">Tier Category</th>
               <th class="py-3.5 px-4 text-center">FY</th>
               <th class="py-3.5 px-4 text-right">Opening Bal (₹)</th>
               <th class="py-3.5 px-4 text-right">Receipts (₹)</th>
@@ -96,6 +107,16 @@
       return new Intl.NumberFormat('en-IN', { maximumFractionDigits: 0 }).format(val || 0);
     }
 
+    function getTierBadgeHTML(tier) {
+      if (tier.includes('Gram') || tier.includes('GPU')) {
+        return `<span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-medium bg-emerald-100 text-emerald-800">Gram Panchayat</span>`;
+      } else if (tier.includes('Zilla')) {
+        return `<span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-medium bg-amber-100 text-amber-800">Zilla Panchayat</span>`;
+      } else {
+        return `<span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-medium bg-purple-100 text-purple-800">Urban Local Body</span>`;
+      }
+    }
+
     async function loadDynamicData() {
       const statusEl = document.getElementById('dataStatus');
       try {
@@ -104,41 +125,35 @@
         allRecords = await response.json();
         filteredRecords = [...allRecords];
         
-        statusEl.textContent = `Loaded ${allRecords.length} records dynamically from annual report.`;
+        statusEl.textContent = `Showing ${allRecords.length} extracted audit records.`;
         renderTable();
         initCharts();
       } catch (err) {
-        statusEl.textContent = 'Error loading dynamic data. Using fallback local records.';
-        allRecords = [
-          { id: 1, body: "Gangtok Municipal Corporation", tier: "Urban Local Body", year: "2024-25", ob: 14500000, receipts: 32000000, payments: 28000000, cb: 18500000 },
-          { id: 2, body: "Namchi Municipal Council", tier: "Urban Local Body", year: "2024-25", ob: 8200000, receipts: 19500000, payments: 16200000, cb: 11500000 }
-        ];
-        filteredRecords = [...allRecords];
-        renderTable();
-        initCharts();
+        statusEl.textContent = 'Error loading dataset. Please run batch extraction script.';
       }
     }
 
     function renderTable() {
       const tbody = document.getElementById('tableBody');
       const query = (document.getElementById('searchInput')?.value || '').toLowerCase();
+      const selectedTier = document.getElementById('tierFilter')?.value || 'ALL';
 
-      filteredRecords = allRecords.filter(r => 
-        r.body.toLowerCase().includes(query) ||
-        r.tier.toLowerCase().includes(query) ||
-        r.year.toLowerCase().includes(query)
-      );
+      filteredRecords = allRecords.filter(r => {
+        const matchesQuery = r.body.toLowerCase().includes(query) || r.year.toLowerCase().includes(query);
+        const matchesTier = selectedTier === 'ALL' || r.tier === selectedTier;
+        return matchesQuery && matchesTier;
+      });
 
       if (!filteredRecords.length) {
-        tbody.innerHTML = `<tr><td colspan="7" class="py-8 text-center text-xs text-gray-500">No records found.</td></tr>`;
+        tbody.innerHTML = `<tr><td colspan="7" class="py-8 text-center text-xs text-gray-500">No records found matching filters.</td></tr>`;
         return;
       }
 
       tbody.innerHTML = filteredRecords.map(row => `
         <tr class="hover:bg-gray-50 text-xs text-gray-800">
-          <td class="py-3 px-4 font-medium">${row.body}</td>
-          <td class="py-3 px-4">${row.tier}</td>
-          <td class="py-3 px-4 text-center">${row.year}</td>
+          <td class="py-3 px-4 font-medium text-gray-900">${row.body}</td>
+          <td class="py-3 px-4">${getTierBadgeHTML(row.tier)}</td>
+          <td class="py-3 px-4 text-center font-mono">${row.year}</td>
           <td class="py-3 px-4 text-right font-mono">${formatCurrency(row.ob)}</td>
           <td class="py-3 px-4 text-right font-mono text-emerald-700">${formatCurrency(row.receipts)}</td>
           <td class="py-3 px-4 text-right font-mono text-rose-700">${formatCurrency(row.payments)}</td>
@@ -151,34 +166,70 @@
       if (barChartInstance) barChartInstance.destroy();
       if (doughnutChartInstance) doughnutChartInstance.destroy();
 
+      // Top 10 by Receipts Bar Chart
+      const top10 = [...allRecords].sort((a, b) => b.receipts - a.receipts).slice(0, 10);
+
       barChartInstance = new Chart(document.getElementById('barChart').getContext('2d'), {
         type: 'bar',
         data: {
-          labels: allRecords.map(r => r.body.split(' ')[0]),
+          labels: top10.map(r => r.body.length > 18 ? r.body.substring(0, 16) + '...' : r.body),
           datasets: [
-            { label: 'Receipts (₹)', data: allRecords.map(r => r.receipts), backgroundColor: '#10b981' },
-            { label: 'Payments (₹)', data: allRecords.map(r => r.payments), backgroundColor: '#f43f5e' }
+            { label: 'Receipts (₹)', data: top10.map(r => r.receipts), backgroundColor: '#10b981' },
+            { label: 'Payments (₹)', data: top10.map(r => r.payments), backgroundColor: '#f43f5e' }
           ]
         },
         options: { responsive: true, maintainAspectRatio: false }
       });
 
-      const urbanCb = allRecords.filter(r => r.tier.includes('Urban')).reduce((a, b) => a + b.cb, 0);
-      const zillaCb = allRecords.filter(r => r.tier.includes('Zilla')).reduce((a, b) => a + b.cb, 0);
+      // Tier Closing Balance Aggregation (ULB vs Zilla vs GPU)
+      const gpuCb = allRecords.filter(r => r.tier.includes('Gram')).reduce((sum, r) => sum + r.cb, 0);
+      const zillaCb = allRecords.filter(r => r.tier.includes('Zilla')).reduce((sum, r) => sum + r.cb, 0);
+      const ulbCb = allRecords.filter(r => r.tier.includes('Urban')).reduce((sum, r) => sum + r.cb, 0);
 
       doughnutChartInstance = new Chart(document.getElementById('doughnutChart').getContext('2d'), {
         type: 'doughnut',
         data: {
-          labels: ['Urban Local Bodies', 'Zilla Panchayats'],
-          datasets: [{ data: [urbanCb, zillaCb], backgroundColor: ['#6366f1', '#f59e0b'] }]
+          labels: ['Gram Panchayat Units (GPU)', 'Zilla Panchayats (ZP)', 'Urban Local Bodies (ULB)'],
+          datasets: [{
+            data: [gpuCb, zillaCb, ulbCb],
+            backgroundColor: ['#10b981', '#f59e0b', '#8b5cf6']
+          }]
         },
         options: { responsive: true, maintainAspectRatio: false }
       });
     }
 
+    function exportFilteredToCSV() {
+      if (!filteredRecords.length) return;
+      
+      const headers = ["ID", "Local Body", "Tier", "Financial Year", "Opening Balance", "Receipts", "Payments", "Closing Balance"];
+      const csvRows = [headers.join(",")];
+
+      filteredRecords.forEach(r => {
+        csvRows.push([
+          r.id,
+          `"${r.body.replace(/"/g, '""')}"`,
+          `"${r.tier}"`,
+          `"${r.year}"`,
+          r.ob,
+          r.receipts,
+          r.payments,
+          r.cb
+        ].join(","));
+      });
+
+      const blob = new Blob([csvRows.join("\n")], { type: "text/csv" });
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `sikkim_lfa_audit_records.csv`;
+      a.click();
+    }
+
     document.addEventListener('DOMContentLoaded', () => {
       loadDynamicData();
       document.getElementById('searchInput')?.addEventListener('input', renderTable);
+      document.getElementById('tierFilter')?.addEventListener('change', renderTable);
     });
   </script>
 </body>

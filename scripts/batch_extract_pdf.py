@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-batch_extract_pdf.py - Bulk Annual Report Extraction Engine
+batch_extract_pdf.py - Enhanced Bulk Extraction Engine
 Directorate of Local Fund Audit — Government of Sikkim
 
-Description:
-    Processes all PDF annual reports inside `data/raw/`, extracts audit tables,
-    normalizes numbers, calculates closing balances, and generates a unified
-    `data/processed/records.json` dataset for index.html.
+Fixes applied:
+ - Precise Tier classification (ULB vs Zilla Panchayat vs Gram Panchayat)
+ - Ignores NIL / Zero monetary records
+ - Cleans and normalizes Local Body unit names (removes numbers, prefixes, noise)
 """
 
 import sys
@@ -18,60 +18,106 @@ try:
     import pdfplumber
     import pandas as pd
 except ImportError:
-    print("Error: Required packages missing. Run: pip install pdfplumber pandas")
+    print("Error: Missing packages in active environment. Run 'pip install pdfplumber pandas'")
     sys.exit(1)
 
 
 def clean_currency_val(val):
-    """Strip currency symbols (₹), commas, and spaces into standard float."""
+    """Strip currency symbols (₹), commas, 'nil', and whitespace into standard float."""
     if val is None or pd.isna(val):
         return 0.0
+    
+    val_str = str(val).strip().lower()
+    if val_str in ['nil', 'null', '-', '--', 'n/a', '']:
+        return 0.0
+
     if isinstance(val, (int, float)):
         return float(val)
-    
-    cleaned_str = re.sub(r'[^\d.-]', '', str(val)).strip()
+
+    cleaned_str = re.sub(r'[^\d.-]', '', val_str)
     try:
         return float(cleaned_str)
     except ValueError:
         return 0.0
 
 
+def clean_unit_name(raw_name):
+    """Clean and normalize Local Body unit names."""
+    if not raw_name:
+        return ""
+
+    # Replace newlines with spaces
+    name = str(raw_name).replace('\n', ' ').strip()
+
+    # Remove leading serial numbers like "1.", "01-", "Sl No 5", "1 )"
+    name = re.sub(r'^(?:sl\.?\s*no\.?|sno\.?|\d+[\.\-\)]|\d+\s+)\s*', '', name, flags=re.IGNORECASE)
+
+    # Remove repeated whitespaces
+    name = re.sub(r'\s+', ' ', name).strip()
+
+    # Proper casing if string is ALL CAPS
+    if name.isupper():
+        name = name.title()
+
+    return name
+
+
+def detect_tier(unit_name):
+    """Classify Local Body tier based on keyword analysis."""
+    name_lower = unit_name.lower()
+
+    if any(k in name_lower for k in ['zilla', 'zp', 'district panchayat']):
+        return "Zilla Panchayat"
+    elif any(k in name_lower for k in ['gram', 'gpu', 'gp', 'panchayat']):
+        return "Gram Panchayat Unit"
+    elif any(k in name_lower for k in ['municipal', 'corporation', 'gmc', 'council', 'nagar', 'ulb']):
+        return "Urban Local Body"
+    
+    # Default fallback based on common Sikkim local body naming
+    return "Gram Panchayat Unit" if "panchayat" in name_lower else "Urban Local Body"
+
+
 def extract_tables_from_pdf(pdf_path):
-    """Extract structured rows from a single PDF annual report."""
+    """Extract and normalize rows from a single PDF report."""
     extracted = []
     filename = pdf_path.name
     
-    # Extract Financial Year from filename if present (e.g., Report_2024-25.pdf)
     fy_match = re.search(r'20\d{2}[-_]\d{2,4}', filename)
     default_fy = fy_match.group(0).replace('_', '-') if fy_match else "2024-25"
 
     with pdfplumber.open(pdf_path) as pdf:
-        for page_num, page in enumerate(pdf.pages, start=1):
+        for page in pdf.pages:
             tables = page.extract_tables()
             for table in tables:
                 for row in table:
                     if not row or len(row) < 4:
                         continue
-                    
+
+                    # Header/Footer filter
                     row_str = " ".join([str(cell) for cell in row if cell])
-                    
-                    # Skip header/footer noise
-                    if any(header in row_str.lower() for header in ["opening balance", "particulars", "total", "sl. no"]):
-                        continue
-                    
-                    body = str(row[0]).replace('\n', ' ').strip() if row[0] else ''
-                    if not body or len(body) < 3 or body.isdigit():
+                    if any(header in row_str.lower() for header in ["opening balance", "particulars", "total", "sl. no", "grand total"]):
                         continue
 
-                    # Tier detection logic
-                    tier = "Zilla Panchayat" if "zilla" in body.lower() or "gram" in body.lower() else "Urban Local Body"
-                    
+                    raw_unit = row[0] if row[0] else ''
+                    unit_name = clean_unit_name(raw_unit)
+
+                    # Filter out invalid name entries
+                    if not unit_name or len(unit_name) < 3 or unit_name.isdigit():
+                        continue
+
                     ob = clean_currency_val(row[1] if len(row) > 1 else 0)
                     receipts = clean_currency_val(row[2] if len(row) > 2 else 0)
                     payments = clean_currency_val(row[3] if len(row) > 3 else 0)
 
+                    # FIX: Skip NIL records where all balances are zero
+                    if ob == 0.0 and receipts == 0.0 and payments == 0.0:
+                        continue
+
+                    # FIX: Precise Tier assignment
+                    tier = detect_tier(unit_name)
+
                     extracted.append({
-                        "body": body,
+                        "body": unit_name,
                         "tier": tier,
                         "year": default_fy,
                         "ob": ob,
@@ -79,7 +125,7 @@ def extract_tables_from_pdf(pdf_path):
                         "payments": payments,
                         "source_file": filename
                     })
-                    
+
     return extracted
 
 
@@ -93,15 +139,15 @@ def main():
         print(f"[!] No PDF files found in {raw_dir.resolve()}")
         sys.exit(1)
 
-    print(f"[*] Found {len(pdf_files)} PDF reports in {raw_dir}/. Starting extraction...")
+    print(f"[*] Processing {len(pdf_files)} PDF reports from {raw_dir}/...")
 
     all_records = []
     for pdf in pdf_files:
-        print(f"  -> Extracting: {pdf.name}")
+        print(f"  -> Extracting & cleaning: {pdf.name}")
         records = extract_tables_from_pdf(pdf)
         all_records.extend(records)
 
-    # Format output array with IDs and calculated Closing Balances
+    # Re-index clean records and calculate closing balance
     final_output = []
     for idx, rec in enumerate(all_records, start=1):
         cb = rec["ob"] + rec["receipts"] - rec["payments"]
@@ -121,8 +167,8 @@ def main():
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(final_output, f, indent=2, ensure_ascii=False)
 
-    print(f"\n[✓] Successfully extracted {len(final_output)} audit records from {len(pdf_files)} PDF files.")
-    print(f"[✓] Compiled dataset written to: {output_file.resolve()}")
+    print(f"\n[✓] Extracted {len(final_output)} non-nil records with tier classification.")
+    print(f"[✓] File saved to: {output_file.resolve()}")
 
 
 if __name__ == "__main__":
