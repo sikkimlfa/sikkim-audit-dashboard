@@ -33,16 +33,17 @@ sikkim-audit-dashboard/
 
 ## 🚀 Quick Start
 Install Python dependencies:
-```
-Bash
+```Bash
 pip install -r requirements.txt
+```
 Process raw audit spreadsheet:
 
-Bash
+```Bash
 python3 scripts/extract.py -i data/sample_audit.xlsx -o data/records.json
+```
 Run local server:
 
-Bash
+```Bash
 python3 -m http.server 8000
 ```
 ---
