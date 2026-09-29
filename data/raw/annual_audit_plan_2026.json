@@ -1,0 +1,1480 @@
+[
+  {
+    "district": "Gyalshing",
+    "bac": "Arithang Chongrong",
+    "name": "Arithang Chongrong",
+    "code": "254709",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Arithang Chongrong",
+    "name": "Dhupidara Narkhola",
+    "code": "254733",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Arithang Chongrong",
+    "name": "Karzi Mangnam",
+    "code": "254743",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Arithang Chongrong",
+    "name": "Kongri Labdang",
+    "code": "254749",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Arithang Chongrong",
+    "name": "Tashiding",
+    "code": "254845",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Baiguney",
+    "name": "Gelling Baiguney",
+    "code": "254821",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Baiguney",
+    "name": "Mabong Segeng",
+    "code": "254767",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Baiguney",
+    "name": "Samsing Pipalay",
+    "code": "276341",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Baiguney",
+    "name": "Zoom",
+    "code": "254870",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Chumbong",
+    "name": "Chakung",
+    "code": "254722",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Chumbong",
+    "name": "Chota Samdong Arubotey",
+    "code": "254725",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Chumbong",
+    "name": "Chumbong",
+    "code": "254728",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Chumbong",
+    "name": "Mendogaon Berbotey",
+    "code": "254777",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Mangan",
+    "bac": "Chungthang",
+    "name": "Chungthang",
+    "code": "254859",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Mangan",
+    "bac": "Chungthang",
+    "name": "Lachen Dzumsa",
+    "code": "254750",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Mangan",
+    "bac": "Chungthang",
+    "name": "Lachung Dzumsa",
+    "code": "254751",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Mangan",
+    "bac": "Chungthang",
+    "name": "Shipgyer",
+    "code": "254827",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "name": "Burikhop",
+    "code": "254720",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "name": "Dodak",
+    "code": "254734",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "name": "Lower Fambong",
+    "code": "254763",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "name": "Lungchok Salyangdang",
+    "code": "254762",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "name": "Okhrey",
+    "code": "254786",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "name": "Ribdi Bhareng",
+    "code": "254807",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "name": "Rumbuk",
+    "code": "254814",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "name": "Sapreynaghi",
+    "code": "300590",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "name": "Siktam Tikpur",
+    "code": "254828",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Daramdin",
+    "name": "Upper Thambong",
+    "code": "254863",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Dentam",
+    "name": "Begha",
+    "code": "300095",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Dentam",
+    "name": "Bongten Sapong",
+    "code": "254712",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Dentam",
+    "name": "Dentam",
+    "code": "254731",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Dentam",
+    "name": "Hee",
+    "code": "254740",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Dentam",
+    "name": "Karmatar Gitang",
+    "code": "254744",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Dentam",
+    "name": "Maneybung",
+    "code": "254770",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Dentam",
+    "name": "Sangkhu Radukhandu",
+    "code": "254824",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Dentam",
+    "name": "Sardung Lungzik",
+    "code": "254825",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Dentam",
+    "name": "Sopakha",
+    "code": "276338",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Pakyong",
+    "bac": "Duga",
+    "name": "Budang Kamerey",
+    "code": "257843",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Pakyong",
+    "bac": "Duga",
+    "name": "Central Pendam",
+    "code": "254721",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Pakyong",
+    "bac": "Duga",
+    "name": "West Pendam",
+    "code": "254865",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Gyalshing",
+    "name": "Darap Singpheng",
+    "code": "254730",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Gyalshing",
+    "name": "Gyalshing Omchung",
+    "code": "254739",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Gyalshing",
+    "name": "Lingchom Tikjya",
+    "code": "254755",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Gyalshing",
+    "name": "Nambu Sindrabong",
+    "code": "300089",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Gyalshing",
+    "name": "Singyang Chumbung",
+    "code": "254832",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Gyalshing",
+    "name": "Tikjuk Kyongsa",
+    "code": "300094",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Gyalshing",
+    "name": "Yangten",
+    "code": "254867",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Gyalshing",
+    "name": "Yangthang",
+    "code": "254868",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Mangan",
+    "bac": "Kabi",
+    "name": "Kabi Rongpa",
+    "code": "254742",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gangtok",
+    "bac": "Kabi",
+    "name": "Kyongnosla",
+    "code": "257833",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Mangan",
+    "bac": "Kabi",
+    "name": "Lingchom Tingda",
+    "code": "276335",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Mangan",
+    "bac": "Kabi",
+    "name": "Lingdok Nampong",
+    "code": "254756",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Mangan",
+    "bac": "Kabi",
+    "name": "Men Rongong",
+    "code": "254776",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Mangan",
+    "bac": "Kabi",
+    "name": "Navey Shotak",
+    "code": "254784",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Mangan",
+    "bac": "Kabi",
+    "name": "Phensang",
+    "code": "254793",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Mangan",
+    "bac": "Kabi",
+    "name": "Rongong Tumlong",
+    "code": "254813",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Kaluk",
+    "name": "Bara Samdong Boom Reshi",
+    "code": "300092",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Kaluk",
+    "name": "Deythang",
+    "code": "254732",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Kaluk",
+    "name": "Samdong Sribadam",
+    "code": "254818",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Kaluk",
+    "name": "Sangadorji",
+    "code": "254822",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Kaluk",
+    "name": "Tadong Rinchenpong",
+    "code": "254841",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gangtok",
+    "bac": "Khamdong",
+    "name": "Chisopani",
+    "code": "276337",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gangtok",
+    "bac": "Khamdong",
+    "name": "Dung Dung Thasa",
+    "code": "257847",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gangtok",
+    "bac": "Khamdong",
+    "name": "Khamdong",
+    "code": "254747",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gangtok",
+    "bac": "Khamdong",
+    "name": "Simik Lingzey",
+    "code": "254829",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gangtok",
+    "bac": "Khamdong",
+    "name": "Sirwani",
+    "code": "254833",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Mangalbaria",
+    "name": "Khaniserbong Suntoley",
+    "code": "254748",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Mangalbaria",
+    "name": "Parengoan",
+    "code": "276340",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Mangalbaria",
+    "name": "Suldung Kamling",
+    "code": "254838",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Mangalbaria",
+    "name": "Takothang",
+    "code": "254842",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Mangan",
+    "bac": "Mangan",
+    "name": "Mangshila Tibuk",
+    "code": "254853",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Mangan",
+    "bac": "Mangan",
+    "name": "Namok Swayem",
+    "code": "254782",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Mangan",
+    "bac": "Mangan",
+    "name": "Ramthang Tanyak",
+    "code": "254800",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Mangan",
+    "bac": "Mangan",
+    "name": "Ringhim Nampatam",
+    "code": "254808",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Mangan",
+    "bac": "Mangan",
+    "name": "Singhik",
+    "code": "254826",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Mangan",
+    "bac": "Mangan",
+    "name": "Tingchim Chadey",
+    "code": "257850",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Mangan",
+    "bac": "Mangan",
+    "name": "Toong Naga",
+    "code": "254858",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gangtok",
+    "bac": "Martam",
+    "name": "Byeng Phegyong",
+    "code": "254717",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gangtok",
+    "bac": "Martam",
+    "name": "Martam Nazitam",
+    "code": "254773",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gangtok",
+    "bac": "Martam",
+    "name": "Namli",
+    "code": "254781",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gangtok",
+    "bac": "Martam",
+    "name": "Samlik Marchak",
+    "code": "254820",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Hee Martam",
+    "name": "Berfok Chandabong",
+    "code": "300100",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Hee Martam",
+    "name": "Bermiok Barthang",
+    "code": "254718",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Hee Martam",
+    "name": "Chingthang",
+    "code": "254724",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Hee Martam",
+    "name": "Martam",
+    "code": "254791",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Hee Martam",
+    "name": "Pecherek Hee Patal",
+    "code": "257848",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Pakyong",
+    "bac": "Namcheybong",
+    "name": "Aho Yangtam",
+    "code": "254706",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gangtok",
+    "bac": "Namcheybong",
+    "name": "Assam Lingzey",
+    "code": "254710",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Pakyong",
+    "bac": "Namcheybong",
+    "name": "Namcheybong",
+    "code": "254745",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Pakyong",
+    "bac": "Namcheybong",
+    "name": "Sumin Lingzey",
+    "code": "254840",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Namchi",
+    "name": "Assangthang",
+    "code": "254711",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Namchi",
+    "name": "Boomtar Salleybong",
+    "code": "276342",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Namchi",
+    "name": "Damthang",
+    "code": "254729",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Namchi",
+    "name": "Kamrang",
+    "code": "300196",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Namchi",
+    "name": "Kitam Manpur",
+    "code": "254778",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Namchi",
+    "name": "Mamley",
+    "code": "254769",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Namchi",
+    "name": "Maniram Phalidara",
+    "code": "254772",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Namchi",
+    "name": "Mikkhola Singithang",
+    "code": "257852",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Namchi",
+    "name": "Rong Bul",
+    "code": "254811",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Namchi",
+    "name": "Sorok Shyampani",
+    "code": "254835",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Namchi",
+    "name": "Tingrithang",
+    "code": "254854",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Namthang",
+    "name": "Chuba Phong",
+    "code": "254726",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Namthang",
+    "name": "Karek Kabrey",
+    "code": "257853",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Namthang",
+    "name": "Kateng Pamphok",
+    "code": "254779",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Namthang",
+    "name": "Nagi Ruchung",
+    "code": "300187",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Namthang",
+    "name": "Namthang Maneydara",
+    "code": "254771",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Namthang",
+    "name": "Perbing Dovan",
+    "code": "254792",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Namthang",
+    "name": "Rameng Nizrameng",
+    "code": "254799",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Namthang",
+    "name": "Rateypani",
+    "code": "254802",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Namthang",
+    "name": "Tangzi Bikmat",
+    "code": "254843",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Namthang",
+    "name": "Turung Mamring",
+    "code": "254862",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gangtok",
+    "bac": "Nandok",
+    "name": "Bhusuk Naitam",
+    "code": "254780",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gangtok",
+    "bac": "Nandok",
+    "name": "Gnathang",
+    "code": "254738",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gangtok",
+    "bac": "Nandok",
+    "name": "Kopibari Syari",
+    "code": "257846",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gangtok",
+    "bac": "Nandok",
+    "name": "Nandok Saramsa",
+    "code": "257845",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gangtok",
+    "bac": "Nandok",
+    "name": "Rongay Tathangchen",
+    "code": "254846",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "name": "Amba",
+    "code": "254707",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "name": "Bering Tareythang",
+    "code": "254761",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "name": "Chalamthang Pacheykhani",
+    "code": "254787",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "name": "East Pendam",
+    "code": "254736",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "name": "Pachey Samsing",
+    "code": "257844",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "name": "Pakyong Yaakten",
+    "code": "254789",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Pakyong",
+    "bac": "Pakyong",
+    "name": "Taza",
+    "code": "254847",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Pakyong",
+    "bac": "Parakha",
+    "name": "Latuk Barapathing",
+    "code": "254753",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Pakyong",
+    "bac": "Parakha",
+    "name": "Linkey Parakha",
+    "code": "254850",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Pakyong",
+    "bac": "Parakha",
+    "name": "Riwa Machong",
+    "code": "254809",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Mangan",
+    "bac": "Passingdong",
+    "name": "Barfok Lingdong",
+    "code": "254713",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Mangan",
+    "bac": "Passingdong",
+    "name": "Hee Gyathang",
+    "code": "254741",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Mangan",
+    "bac": "Passingdong",
+    "name": "Lingthem Lingdem",
+    "code": "254760",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Mangan",
+    "bac": "Passingdong",
+    "name": "Lum Gor Sangtok",
+    "code": "254765",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Mangan",
+    "bac": "Passingdong",
+    "name": "Passingdang Saffo",
+    "code": "254790",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Mangan",
+    "bac": "Passingdong",
+    "name": "Sakyong Pentong",
+    "code": "254816",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Mangan",
+    "bac": "Passingdong",
+    "name": "Tingvong",
+    "code": "254855",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Poklok Nandugaon",
+    "name": "Denchung",
+    "code": "300194",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Poklok Nandugaon",
+    "name": "Poklok",
+    "code": "254794",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Poklok Nandugaon",
+    "name": "Salghari",
+    "code": "254817",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Poklok Nandugaon",
+    "name": "Tinik Chisopani",
+    "code": "254856",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gangtok",
+    "bac": "Rakdong Tintek",
+    "name": "Patuk Singbel",
+    "code": "254830",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gangtok",
+    "bac": "Rakdong Tintek",
+    "name": "Rakdong Tintek",
+    "code": "254797",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gangtok",
+    "bac": "Rakdong Tintek",
+    "name": "Samdong Kambel",
+    "code": "254819",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gangtok",
+    "bac": "Rakdong Tintek",
+    "name": "Tumin",
+    "code": "254860",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gangtok",
+    "bac": "Ranka",
+    "name": "Luing Parbing",
+    "code": "254764",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gangtok",
+    "bac": "Ranka",
+    "name": "Ranka",
+    "code": "254801",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gangtok",
+    "bac": "Ranka",
+    "name": "Rawatey Rumtek",
+    "code": "254803",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gangtok",
+    "bac": "Ranka",
+    "name": "Rey Mendu",
+    "code": "254805",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Ravong",
+    "name": "Barfung Zarung",
+    "code": "254714",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Ravong",
+    "name": "Borong Phamthang",
+    "code": "254719",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Ravong",
+    "name": "Kewzing Bakhim",
+    "code": "254746",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Ravong",
+    "name": "Legship",
+    "code": "254754",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Ravong",
+    "name": "Rabong Khop",
+    "code": "254796",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Ravong",
+    "name": "Ralong Namlung",
+    "code": "254798",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Ravong",
+    "name": "Ravong Barfung",
+    "code": "300088",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Ravong",
+    "name": "Sangmo Rankay",
+    "code": "300093",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Ravong",
+    "name": "Tinkitam Rayong",
+    "code": "254857",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Pakyong",
+    "bac": "Regu",
+    "name": "Chujachen",
+    "code": "254727",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Pakyong",
+    "bac": "Regu",
+    "name": "Dolepchen",
+    "code": "254735",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Pakyong",
+    "bac": "Regu",
+    "name": "Lingtam Phadamchen",
+    "code": "254759",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Pakyong",
+    "bac": "Regu",
+    "name": "Premlakha Subaneydara",
+    "code": "254795",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Pakyong",
+    "bac": "Regu",
+    "name": "Regoh",
+    "code": "254804",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Pakyong",
+    "bac": "Regu",
+    "name": "Rolep Lamaten",
+    "code": "254810",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Pakyong",
+    "bac": "Regu",
+    "name": "Rongli Chengeylakha",
+    "code": "254812",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Pakyong",
+    "bac": "Rhenock",
+    "name": "Aritar",
+    "code": "254708",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Pakyong",
+    "bac": "Rhenock",
+    "name": "Rhenock",
+    "code": "254806",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Pakyong",
+    "bac": "Rhenock",
+    "name": "Sudunglakha",
+    "code": "254837",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Pakyong",
+    "bac": "Rhenock",
+    "name": "Tarpin",
+    "code": "254723",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Sikip",
+    "name": "Lamting Tingmo",
+    "code": "254752",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Sikip",
+    "name": "Sanganath",
+    "code": "254823",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Sikip",
+    "name": "Wok Omchu",
+    "code": "254864",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Soreng",
+    "name": "Bhudang",
+    "code": "276343",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Soreng",
+    "name": "Karthok Bojek",
+    "code": "257849",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Soreng",
+    "name": "Lower Timburbong",
+    "code": "300285",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Soreng",
+    "name": "Malbasay",
+    "code": "254768",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Soreng",
+    "name": "Mangsari Mangarjung",
+    "code": "276344",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Soreng",
+    "name": "Singling",
+    "code": "254831",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Soreng",
+    "name": "Soreng",
+    "code": "254834",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Soreng",
+    "name": "Tharpu",
+    "code": "254849",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Soreng",
+    "bac": "Soreng",
+    "name": "Upper Timburbong",
+    "code": "254852",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Sumbuk",
+    "name": "Lungchok Kamarey",
+    "code": "254766",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Sumbuk",
+    "name": "Mellidara Paiyong",
+    "code": "254775",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Sumbuk",
+    "name": "Sadam Rabitar",
+    "code": "300189",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Sumbuk",
+    "name": "Sukrabarey Suntaley",
+    "code": "254815",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Sumbuk",
+    "name": "Sumbuk Kartikey",
+    "code": "254839",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Sumbuk",
+    "name": "Turuk Ramabung",
+    "code": "254861",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Temi",
+    "name": "Barnayak Tokal",
+    "code": "254715",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Temi",
+    "name": "Ben Namprik",
+    "code": "254716",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Temi",
+    "name": "Namphing",
+    "code": "254783",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Temi",
+    "name": "Tarku",
+    "code": "254844",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Temi",
+    "name": "Temi",
+    "code": "254848",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Yangang",
+    "name": "Kolthang Tokday",
+    "code": "254758",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Yangang",
+    "name": "Lingi",
+    "code": "254757",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Yangang",
+    "name": "Niya Mangzing",
+    "code": "254785",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Yangang",
+    "name": "Paiyong",
+    "code": "254788",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Yangang",
+    "name": "Sripatam Gagyong",
+    "code": "254836",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Namchi",
+    "bac": "Yangang",
+    "name": "Yangang Rangang",
+    "code": "254866",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Yoksum",
+    "name": "Gerethang",
+    "code": "254737",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Yoksum",
+    "name": "Khechodpalri",
+    "code": "254851",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Yoksum",
+    "name": "Meli Aching",
+    "code": "254774",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Yoksum",
+    "name": "Rimbi Tingbrum",
+    "code": "276336",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Yoksum",
+    "name": "Thingling",
+    "code": "300082",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gyalshing",
+    "bac": "Yoksum",
+    "name": "Yuksom",
+    "code": "254869",
+    "tier": "Gram Panchayat Unit"
+  },
+  {
+    "district": "Gangtok",
+    "name": "Gangtok Zilla Panchayat",
+    "code": "216",
+    "tier": "Zilla Panchayat"
+  },
+  {
+    "district": "Gyalshing",
+    "name": "Gyalshing Zilla Panchayat",
+    "code": "219",
+    "tier": "Zilla Panchayat"
+  },
+  {
+    "district": "Mangan",
+    "name": "Mangan Zilla Panchayat",
+    "code": "217",
+    "tier": "Zilla Panchayat"
+  },
+  {
+    "district": "Namchi",
+    "name": "Namchi Zilla Panchayat",
+    "code": "218",
+    "tier": "Zilla Panchayat"
+  },
+  {
+    "district": "Pakyong",
+    "name": "Pakyong Zilla Panchayat",
+    "code": "300083",
+    "tier": "Zilla Panchayat"
+  },
+  {
+    "district": "Soreng",
+    "name": "Soreng Zilla Panchayat",
+    "code": "300084",
+    "tier": "Zilla Panchayat"
+  },
+  {
+    "district": "Gangtok",
+    "name": "Gangtok Municipal Corporation",
+    "code": "249694",
+    "tier": "Urban Local Body",
+    "type": "MUNICIPAL CORPORATION"
+  },
+  {
+    "district": "Namchi",
+    "name": "Namchi Municipal Council",
+    "code": "249692",
+    "tier": "Urban Local Body",
+    "type": "MUNICIPAL COUNCIL"
+  },
+  {
+    "district": "Gangtok",
+    "name": "Singtam Nagar Panchayat",
+    "code": "249695",
+    "tier": "Urban Local Body",
+    "type": "NAGAR PANCHAYAT"
+  },
+  {
+    "district": "Mangan",
+    "name": "Mangan Nagar Panchayat",
+    "code": "249689",
+    "tier": "Urban Local Body",
+    "type": "NAGAR PANCHAYAT"
+  },
+  {
+    "district": "Pakyong",
+    "name": "Rangpo Nagar Panchayat",
+    "code": "290460",
+    "tier": "Urban Local Body",
+    "type": "NAGAR PANCHAYAT"
+  },
+  {
+    "district": "Namchi",
+    "name": "Jorethang Nayabazar Nagar Panchayat",
+    "code": "249693",
+    "tier": "Urban Local Body",
+    "type": "NAGAR PANCHAYAT"
+  },
+  {
+    "district": "Gyalshing",
+    "name": "Gyalshing Nagar Panchayat",
+    "code": "249690",
+    "tier": "Urban Local Body",
+    "type": "NAGAR PANCHAYAT"
+  }
+]
