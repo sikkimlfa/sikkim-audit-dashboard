@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-extract_annexures.py - Whitelist-Enforced Audit Extraction & Mathematical Verifier
+extract_annexures.py - Whitelist Extraction & Math Verification Engine
 Directorate of Local Fund Audit — Government of Sikkim
 """
 
@@ -17,6 +17,50 @@ except ImportError:
     print("Error: pdfplumber missing. Run 'pip install pdfplumber'")
     sys.exit(1)
 
+LEGACY_ZILLA_MAP = {
+    "east": "216",
+    "eastzilla": "216",
+    "eastdistrict": "216",
+    "west": "219",
+    "westzilla": "219",
+    "zillawest": "219",
+    "westdistrict": "219",
+    "north": "217",
+    "northzilla": "217",
+    "northdistrict": "217",
+    "south": "218",
+    "southzilla": "218",
+    "southdistrict": "218",
+}
+
+SPELLING_ALIASES = {
+    "geyzing": "gyalshing",
+    "gezing": "gyalshing",
+    "gazing": "gyalshing",
+    "yoksum": "yuksom",
+    "yoksom": "yuksom",
+    "yuksam": "yuksom",
+    "jorethang": "nayabazar",
+    "jorethangnayabazar": "nayabazar",
+    "nayabazarjorethang": "nayabazar",
+    "ravangla": "ravong",
+    "rabong": "ravong",
+    "sikkip": "sikip",
+    "phensong": "phensang",
+    "lamatingtingmoo": "lamtingtingmo",
+    "turukramabong": "turukramabung",
+    "salghari": "salghari",
+    "dzumsa": "",
+    "gpu": "",
+    "panchayat": "",
+    "zilla": "",
+    "district": "",
+    "unit": "",
+    "nagar": "",
+    "council": "",
+    "corporation": "",
+    "gmc": "gangtok",
+}
 
 def load_audit_whitelist():
     plan_path = Path("data/raw/annual_audit_plan_2026.json")
@@ -24,41 +68,43 @@ def load_audit_whitelist():
         print("[!] Master audit plan not found. Run scripts/generate_master_units.py first.")
         sys.exit(1)
     with open(plan_path, "r", encoding="utf-8") as f:
-        units = json.load(f)
-    return units
+        return json.load(f)
 
-
-def normalize_str(s):
+def normalize_clean_string(s):
     if not s:
         return ""
     cleaned = re.sub(r'[^a-zA-Z0-9]', '', str(s)).lower()
-    # Normalize common phonetic variations in Sikkim audit reports
-    aliases = {
-        'yoksum': 'yuksom', 'yoksom': 'yuksom', 'gyalshing': 'gezing', 'geyzing': 'gezing',
-        'namthang': 'namthang', 'jorethang': 'nayabazar', 'nayabazar': 'nayabazar',
-        'chongrang': 'chongrong', 'dzumsa': '', 'gpu': '', 'zilla': '', 'panchayat': ''
-    }
-    for k, v in aliases.items():
-        cleaned = cleaned.replace(k, v)
+    for key, target in SPELLING_ALIASES.items():
+        if key in cleaned:
+            cleaned = cleaned.replace(key, target)
     return cleaned
 
-
 def match_against_whitelist(raw_name, whitelist):
-    """Matches an extracted string against the 212 official units."""
     if not raw_name or len(raw_name.strip()) < 3:
         return None
 
-    norm_raw = normalize_str(raw_name)
+    raw_lower = raw_name.lower().strip()
+    norm_raw = normalize_clean_string(raw_lower)
 
-    # 1. Exact canonical or substring match
+    # 1. Resolve Legacy 4-District Zilla Panchayats (East, West, North, South)
+    if "zilla" in raw_lower or "district" in raw_lower or any(d in raw_lower.split() for d in ["east", "west", "north", "south"]):
+        for legacy_key, target_code in LEGACY_ZILLA_MAP.items():
+            if legacy_key in norm_raw:
+                for unit in whitelist:
+                    if unit.get("code") == target_code:
+                        return unit
+
+    # 2. Direct normalized check against whitelist
     for unit in whitelist:
-        norm_canonical = normalize_str(unit["name"])
-        if norm_raw == norm_canonical or (len(norm_raw) >= 5 and norm_raw in norm_canonical):
+        norm_canonical = normalize_clean_string(unit["name"])
+        if norm_raw == norm_canonical:
+            return unit
+        if len(norm_raw) >= 5 and (norm_raw in norm_canonical or norm_canonical in norm_raw):
             return unit
 
-    # 2. Fuzzy match fallback
+    # 3. Fuzzy match fallback
     whitelist_names = [unit["name"] for unit in whitelist]
-    matches = difflib.get_close_matches(raw_name, whitelist_names, n=1, cutoff=0.72)
+    matches = difflib.get_close_matches(raw_name, whitelist_names, n=1, cutoff=0.70)
     if matches:
         matched_name = matches[0]
         for unit in whitelist:
@@ -66,7 +112,6 @@ def match_against_whitelist(raw_name, whitelist):
                 return unit
 
     return None
-
 
 def clean_currency(val):
     if val is None:
@@ -79,7 +124,6 @@ def clean_currency(val):
     match = re.search(r'[-+]?\d*\.?\d+', s)
     return float(match.group(0)) if match else 0.0
 
-
 def detect_fy(text):
     match = re.search(r'20\d{2}[-–/]\d{2,4}', text)
     if match:
@@ -88,8 +132,12 @@ def detect_fy(text):
         if len(p[1]) == 4:
             fy = f"{p[0]}-{p[1][2:]}"
         return fy
+    # Fallback to single 4-digit year format (e.g. 2016 -> 2015-16)
+    single_match = re.search(r'20\d{2}', text)
+    if single_match:
+        yr = int(single_match.group(0))
+        return f"{yr-1}-{str(yr)[2:]}"
     return None
-
 
 def run_extraction():
     whitelist = load_audit_whitelist()
@@ -101,7 +149,6 @@ def run_extraction():
         print("[!] No Annual Report PDFs found in data/raw/.")
         return
 
-    # Accumulate by (Canonical Code, FY)
     aggregated = defaultdict(lambda: {"ob": 0.0, "receipts": 0.0, "tr": 0.0, "pay": 0.0, "cb": 0.0, "sources": set()})
     unit_lookup = {u["code"]: u for u in whitelist}
 
@@ -122,11 +169,10 @@ def run_extraction():
                     if not table or len(table) < 2:
                         continue
 
-                    # Dynamic header indices
                     unit_idx, ob_idx, r_idx, tr_idx, pay_idx, cb_idx = 0, -1, -1, -1, -1, -1
                     for idx, cell in enumerate(table[0]):
                         c = str(cell).lower().replace('\n', ' ')
-                        if any(k in c for k in ['gram panchayat', 'zilla', 'name of', 'unit', 'local body', 'nagar']):
+                        if any(k in c for k in ['gram panchayat', 'zilla', 'name of', 'unit', 'local body', 'nagar', 'institution']):
                             unit_idx = idx
                         elif 'opening' in c:
                             ob_idx = idx
@@ -139,7 +185,6 @@ def run_extraction():
                         elif 'closing' in c:
                             cb_idx = idx
 
-                    # Fallback column structure
                     if ob_idx == -1 and len(table[0]) >= 6:
                         ob_idx, r_idx, tr_idx, pay_idx, cb_idx = len(table[0])-5, len(table[0])-4, len(table[0])-3, len(table[0])-2, len(table[0])-1
 
@@ -150,7 +195,6 @@ def run_extraction():
                         raw_name = str(row[unit_idx]).replace('\n', ' ').strip() if unit_idx < len(row) else ''
                         matched_unit = match_against_whitelist(raw_name, whitelist)
                         if not matched_unit:
-                            # Skip rows not in approved Audit Plan
                             continue
 
                         ob = clean_currency(row[ob_idx]) if ob_idx != -1 else 0.0
@@ -222,7 +266,6 @@ def run_extraction():
             discrepancies.append(rec_entry)
             disc_id += 1
 
-    # Save to data/processed/
     out_dir = Path("data/processed")
     out_dir.mkdir(parents=True, exist_ok=True)
 
@@ -236,7 +279,6 @@ def run_extraction():
     print(f"    • Total Authorized Units Audited : {len(whitelist)}")
     print(f"    • Valid Financial Statements      : {len(verified_records)} -> data/processed/financial_statements.json")
     print(f"    • Flagged Calculation Anomalies   : {len(discrepancies)} -> data/processed/audit_discrepancies.json")
-
 
 if __name__ == "__main__":
     run_extraction()
