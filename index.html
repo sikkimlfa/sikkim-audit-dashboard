@@ -5,30 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Local Fund Audit Dashboard - Govt of Sikkim</title>
 
-  <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
-
-  <!-- Chart.js CDN -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-  <!-- jsPDF CDN for Multi-Page PDF Deck Export -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 
   <style>
     @media print {
-      .no-print {
-        display: none !important;
-      }
-      body {
-        background-color: #ffffff !important;
-        color: #000000 !important;
-      }
-      mark {
-        background-color: transparent !important;
-        color: inherit !important;
-        font-weight: bold;
-        padding: 0 !important;
-      }
+      .no-print { display: none !important; }
+      body { background-color: #ffffff !important; color: #000000 !important; }
+      mark { background-color: transparent !important; font-weight: bold; padding: 0 !important; }
     }
   </style>
 </head>
@@ -40,27 +25,14 @@
     <header class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 bg-white p-6 rounded-xl shadow-sm border border-gray-200">
       <div>
         <h1 class="text-2xl font-bold text-gray-900">Directorate of Local Fund Audit</h1>
-        <p class="text-xs text-gray-500 mt-1">Government of Sikkim — Financial Reconciliation & Analytics</p>
+        <p class="text-xs text-gray-500 mt-1">Government of Sikkim — Dynamic Financial Analytics Dashboard</p>
       </div>
 
-      <!-- Toolbar -->
       <div class="flex flex-wrap items-center gap-2 no-print">
-        <button 
-          id="exportCsvBtn" 
-          onclick="exportFilteredToCSV()" 
-          class="inline-flex items-center px-3.5 py-2 border border-gray-300 shadow-sm text-xs font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-colors">
-          <svg class="w-4 h-4 mr-1.5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
-          </svg>
+        <button onclick="exportFilteredToCSV()" class="inline-flex items-center px-3.5 py-2 border border-gray-300 text-xs font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50">
           Export CSV
         </button>
-
-        <button 
-          onclick="exportChartsToPDFPresentation()"
-          class="inline-flex items-center px-3.5 py-2 border border-gray-300 shadow-sm text-xs font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-colors">
-          <svg class="w-4 h-4 mr-1.5 text-rose-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
-          </svg>
+        <button onclick="exportChartsToPDFPresentation()" class="inline-flex items-center px-3.5 py-2 border border-gray-300 text-xs font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50">
           Export Presentation (PDF)
         </button>
       </div>
@@ -70,15 +42,7 @@
     <section class="grid grid-cols-1 lg:grid-cols-2 gap-6">
       <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
         <div class="flex justify-between items-center mb-4">
-          <div>
-            <h3 class="text-base font-bold text-gray-800">Receipts vs Payments Breakdown</h3>
-            <p class="text-xs text-gray-500">Comparative receipts and expenditure across Local Bodies</p>
-          </div>
-          <button 
-            onclick="downloadChartPNG('barChart', 'Receipts_vs_Payments.png')"
-            class="no-print inline-flex items-center px-2.5 py-1.5 border border-gray-300 text-xs font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-colors shadow-sm">
-            Export PNG
-          </button>
+          <h3 class="text-base font-bold text-gray-800">Receipts vs Payments Breakdown</h3>
         </div>
         <div class="relative h-64">
           <canvas id="barChart" aria-label="Receipts vs Payments Breakdown"></canvas>
@@ -87,15 +51,7 @@
 
       <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
         <div class="flex justify-between items-center mb-4">
-          <div>
-            <h3 class="text-base font-bold text-gray-800">Closing Balance Share by Tier</h3>
-            <p class="text-xs text-gray-500">Distribution of available funds across Local Body Tiers</p>
-          </div>
-          <button 
-            onclick="downloadChartPNG('doughnutChart', 'Closing_Balance_Share.png')"
-            class="no-print inline-flex items-center px-2.5 py-1.5 border border-gray-300 text-xs font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-colors shadow-sm">
-            Export PNG
-          </button>
+          <h3 class="text-base font-bold text-gray-800">Closing Balance Share by Tier</h3>
         </div>
         <div class="relative h-64">
           <canvas id="doughnutChart" aria-label="Closing Balance Share by Tier"></canvas>
@@ -103,85 +59,27 @@
       </div>
     </section>
 
-    <!-- Financial Table & Controls Card -->
+    <!-- Financial Table Card -->
     <section class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
       <div class="p-4 sm:p-6 border-b border-gray-100 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 no-print">
-        
-        <div class="relative rounded-md shadow-sm w-full sm:w-72">
-          <input
-            type="text"
-            id="searchInput"
-            placeholder="Search local body, tier, FY..."
-            class="block w-full pr-10 pl-3 py-2 border border-gray-300 rounded-lg text-xs focus:ring-indigo-500 focus:border-indigo-500"
-          />
-          <div id="searchSpinner" class="hidden absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
-            <svg class="animate-spin h-4 w-4 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-              <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
-              <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-            </svg>
-          </div>
-        </div>
-
-        <div class="relative inline-block text-left">
-          <button 
-            id="colToggleBtn" 
-            onclick="toggleColumnMenu()" 
-            class="inline-flex items-center px-3 py-2 border border-gray-300 shadow-sm text-xs font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500">
-            Columns
-            <svg class="w-3 h-3 ml-1 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-            </svg>
-          </button>
-
-          <div 
-            id="columnMenu" 
-            class="hidden origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-20 p-2 space-y-1">
-            <div class="px-2 py-1 text-[11px] font-semibold text-gray-400 uppercase tracking-wider border-b border-gray-100">
-              Toggle Visibility
-            </div>
-            <label class="flex items-center px-2 py-1.5 text-xs text-gray-700 hover:bg-gray-50 rounded cursor-pointer select-none">
-              <input type="checkbox" checked onchange="toggleColumn('tier')" class="col-checkbox rounded text-indigo-600 focus:ring-indigo-500 mr-2" data-col="tier">
-              Tier
-            </label>
-            <label class="flex items-center px-2 py-1.5 text-xs text-gray-700 hover:bg-gray-50 rounded cursor-pointer select-none">
-              <input type="checkbox" checked onchange="toggleColumn('year')" class="col-checkbox rounded text-indigo-600 focus:ring-indigo-500 mr-2" data-col="year">
-              Financial Year
-            </label>
-            <label class="flex items-center px-2 py-1.5 text-xs text-gray-700 hover:bg-gray-50 rounded cursor-pointer select-none">
-              <input type="checkbox" checked onchange="toggleColumn('ob')" class="col-checkbox rounded text-indigo-600 focus:ring-indigo-500 mr-2" data-col="ob">
-              Opening Balance
-            </label>
-            <label class="flex items-center px-2 py-1.5 text-xs text-gray-700 hover:bg-gray-50 rounded cursor-pointer select-none">
-              <input type="checkbox" checked onchange="toggleColumn('receipts')" class="col-checkbox rounded text-indigo-600 focus:ring-indigo-500 mr-2" data-col="receipts">
-              Receipts
-            </label>
-            <label class="flex items-center px-2 py-1.5 text-xs text-gray-700 hover:bg-gray-50 rounded cursor-pointer select-none">
-              <input type="checkbox" checked onchange="toggleColumn('payments')" class="col-checkbox rounded text-indigo-600 focus:ring-indigo-500 mr-2" data-col="payments">
-              Payments
-            </label>
-            <label class="flex items-center px-2 py-1.5 text-xs text-gray-700 hover:bg-gray-50 rounded cursor-pointer select-none">
-              <input type="checkbox" checked onchange="toggleColumn('cb')" class="col-checkbox rounded text-indigo-600 focus:ring-indigo-500 mr-2" data-col="cb">
-              Closing Balance
-            </label>
-          </div>
-        </div>
+        <input type="text" id="searchInput" placeholder="Search local body, tier, FY..." class="block w-full sm:w-72 pr-10 pl-3 py-2 border border-gray-300 rounded-lg text-xs" />
+        <span id="dataStatus" class="text-xs text-gray-500 italic">Loading dynamic audit data...</span>
       </div>
 
       <div class="overflow-x-auto">
         <table class="w-full text-left border-collapse">
           <thead>
             <tr class="bg-gray-50 border-b border-gray-200 text-gray-600 text-xs uppercase font-semibold">
-              <th data-col="body" class="py-3.5 px-4">Local Body Name</th>
-              <th data-col="tier" class="py-3.5 px-4">Tier</th>
-              <th data-col="year" class="py-3.5 px-4 text-center">FY</th>
-              <th data-col="ob" class="py-3.5 px-4 text-right">Opening Bal (₹)</th>
-              <th data-col="receipts" class="py-3.5 px-4 text-right">Receipts (₹)</th>
-              <th data-col="payments" class="py-3.5 px-4 text-right">Payments (₹)</th>
-              <th data-col="cb" class="py-3.5 px-4 text-right">Closing Bal (₹)</th>
+              <th class="py-3.5 px-4">Local Body Name</th>
+              <th class="py-3.5 px-4">Tier</th>
+              <th class="py-3.5 px-4 text-center">FY</th>
+              <th class="py-3.5 px-4 text-right">Opening Bal (₹)</th>
+              <th class="py-3.5 px-4 text-right">Receipts (₹)</th>
+              <th class="py-3.5 px-4 text-right">Payments (₹)</th>
+              <th class="py-3.5 px-4 text-right">Closing Bal (₹)</th>
             </tr>
           </thead>
-          <tbody id="tableBody" class="divide-y divide-gray-100">
-          </tbody>
+          <tbody id="tableBody" class="divide-y divide-gray-100"></tbody>
         </table>
       </div>
     </section>
@@ -189,223 +87,71 @@
   </div>
 
   <script>
-    const allRecords = [
-      { id: 1, body: "Gangtok Municipal Corporation", tier: "Urban Local Body", year: "2024-25", ob: 14500000, receipts: 32000000, payments: 28000000 },
-      { id: 2, body: "Namchi Municipal Council", tier: "Urban Local Body", year: "2024-25", ob: 8200000, receipts: 19500000, payments: 16200000 },
-      { id: 3, body: "Gyalshing Nagar Panchayat", tier: "Urban Local Body", year: "2024-25", ob: 4100000, receipts: 9800000, payments: 8100000 },
-      { id: 4, body: "Mangan Nagar Panchayat", tier: "Urban Local Body", year: "2024-25", ob: 3500000, receipts: 7600000, payments: 6900000 },
-      { id: 5, body: "Soreng Zilla Panchayat", tier: "Zilla Panchayat", year: "2024-25", ob: 12000000, receipts: 24000000, payments: 21000000 },
-      { id: 6, body: "Pakyong Zilla Panchayat", tier: "Zilla Panchayat", year: "2024-25", ob: 11500000, receipts: 22500000, payments: 19800000 }
-    ];
-
-    window.filteredRecords = [...allRecords];
-    const hiddenColumns = new Set();
+    let allRecords = [];
+    let filteredRecords = [];
+    let barChartInstance = null;
+    let doughnutChartInstance = null;
 
     function formatCurrency(val) {
       return new Intl.NumberFormat('en-IN', { maximumFractionDigits: 0 }).format(val || 0);
     }
 
-    function debounce(func, wait = 300) {
-      let timeoutId;
-      return function (...args) {
-        clearTimeout(timeoutId);
-        timeoutId = setTimeout(() => func.apply(this, args), wait);
-      };
-    }
-
-    function highlightMatch(text, searchTerm) {
-      if (!text) return '';
-      if (!searchTerm || !searchTerm.trim()) return text;
-      const escapedSearch = searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-      const regex = new RegExp(`(${escapedSearch})`, 'gi');
-      return String(text).replace(regex, '<mark class="bg-yellow-200 text-gray-900 rounded-sm px-0.5 font-semibold">$1</mark>');
-    }
-
-    function applyFilters() {
-      const searchInput = document.getElementById('searchInput');
-      const query = searchInput ? searchInput.value.toLowerCase().trim() : '';
-
-      window.filteredRecords = allRecords.filter((item) => {
-        return (
-          item.body.toLowerCase().includes(query) ||
-          item.tier.toLowerCase().includes(query) ||
-          item.year.toLowerCase().includes(query)
-        );
-      });
-
-      renderTable();
+    async function loadDynamicData() {
+      const statusEl = document.getElementById('dataStatus');
+      try {
+        const response = await fetch('data/processed/records.json');
+        if (!response.ok) throw new Error('Processed data file not found.');
+        allRecords = await response.json();
+        filteredRecords = [...allRecords];
+        
+        statusEl.textContent = `Loaded ${allRecords.length} records dynamically from annual report.`;
+        renderTable();
+        initCharts();
+      } catch (err) {
+        statusEl.textContent = 'Error loading dynamic data. Using fallback local records.';
+        allRecords = [
+          { id: 1, body: "Gangtok Municipal Corporation", tier: "Urban Local Body", year: "2024-25", ob: 14500000, receipts: 32000000, payments: 28000000, cb: 18500000 },
+          { id: 2, body: "Namchi Municipal Council", tier: "Urban Local Body", year: "2024-25", ob: 8200000, receipts: 19500000, payments: 16200000, cb: 11500000 }
+        ];
+        filteredRecords = [...allRecords];
+        renderTable();
+        initCharts();
+      }
     }
 
     function renderTable() {
       const tbody = document.getElementById('tableBody');
-      if (!tbody) return;
+      const query = (document.getElementById('searchInput')?.value || '').toLowerCase();
 
-      const searchInput = document.getElementById('searchInput');
-      const query = searchInput ? searchInput.value.trim() : '';
+      filteredRecords = allRecords.filter(r => 
+        r.body.toLowerCase().includes(query) ||
+        r.tier.toLowerCase().includes(query) ||
+        r.year.toLowerCase().includes(query)
+      );
 
-      if (window.filteredRecords.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="7" class="py-8 text-center text-xs text-gray-500">No financial audit records found.</td></tr>`;
+      if (!filteredRecords.length) {
+        tbody.innerHTML = `<tr><td colspan="7" class="py-8 text-center text-xs text-gray-500">No records found.</td></tr>`;
         return;
       }
 
-      tbody.innerHTML = window.filteredRecords.map((row) => {
-        const highlightedBody = highlightMatch(row.body, query);
-        const highlightedTier = highlightMatch(row.tier, query);
-        const highlightedYear = highlightMatch(row.year, query);
-        const cb = row.ob + row.receipts - row.payments;
-
-        return `
-          <tr class="hover:bg-gray-50 text-xs text-gray-800 transition-colors">
-            <td data-col="body" class="py-3 px-4 font-medium">${highlightedBody}</td>
-            <td data-col="tier" class="py-3 px-4">${highlightedTier}</td>
-            <td data-col="year" class="py-3 px-4 text-center">${highlightedYear}</td>
-            <td data-col="ob" class="py-3 px-4 text-right font-mono">${formatCurrency(row.ob)}</td>
-            <td data-col="receipts" class="py-3 px-4 text-right font-mono text-emerald-700">${formatCurrency(row.receipts)}</td>
-            <td data-col="payments" class="py-3 px-4 text-right font-mono text-rose-700">${formatCurrency(row.payments)}</td>
-            <td data-col="cb" class="py-3 px-4 text-right font-mono font-bold text-gray-900">${formatCurrency(cb)}</td>
-          </tr>
-        `;
-      }).join('');
-
-      applyColumnVisibility();
+      tbody.innerHTML = filteredRecords.map(row => `
+        <tr class="hover:bg-gray-50 text-xs text-gray-800">
+          <td class="py-3 px-4 font-medium">${row.body}</td>
+          <td class="py-3 px-4">${row.tier}</td>
+          <td class="py-3 px-4 text-center">${row.year}</td>
+          <td class="py-3 px-4 text-right font-mono">${formatCurrency(row.ob)}</td>
+          <td class="py-3 px-4 text-right font-mono text-emerald-700">${formatCurrency(row.receipts)}</td>
+          <td class="py-3 px-4 text-right font-mono text-rose-700">${formatCurrency(row.payments)}</td>
+          <td class="py-3 px-4 text-right font-mono font-bold text-gray-900">${formatCurrency(row.cb)}</td>
+        </tr>
+      `).join('');
     }
 
-    function toggleColumnMenu() {
-      const menu = document.getElementById('columnMenu');
-      if (menu) menu.classList.toggle('hidden');
-    }
+    function initCharts() {
+      if (barChartInstance) barChartInstance.destroy();
+      if (doughnutChartInstance) doughnutChartInstance.destroy();
 
-    function toggleColumn(colKey) {
-      if (hiddenColumns.has(colKey)) {
-        hiddenColumns.delete(colKey);
-      } else {
-        hiddenColumns.add(colKey);
-      }
-      applyColumnVisibility();
-    }
-
-    function applyColumnVisibility() {
-      const allColKeys = ['tier', 'year', 'ob', 'receipts', 'payments', 'cb'];
-      allColKeys.forEach((colKey) => {
-        const isHidden = hiddenColumns.has(colKey);
-        document.querySelectorAll(`[data-col="${colKey}"]`).forEach((el) => {
-          if (isHidden) el.classList.add('hidden');
-          else el.classList.remove('hidden');
-        });
-      });
-    }
-
-    function exportFilteredToCSV(filename = 'Sikkim_Local_Body_Audit_Report.csv') {
-      const records = window.filteredRecords || [];
-      if (!records.length) return alert('No records to export.');
-
-      const headers = ['Local Body Name', 'Tier', 'Financial Year', 'Opening Balance (INR)', 'Receipts (INR)', 'Payments (INR)', 'Closing Balance (INR)'];
-      const rows = records.map((item) => [
-        item.body || '', item.tier || '', item.year || '',
-        item.ob || 0, item.receipts || 0, item.payments || 0,
-        (item.ob || 0) + (item.receipts || 0) - (item.payments || 0)
-      ]);
-
-      const escapeCell = (val) => {
-        const str = String(val === null || val === undefined ? '' : val);
-        return str.includes(',') || str.includes('"') || str.includes('\n') ? `"${str.replace(/"/g, '""')}"` : str;
-      };
-
-      const csvContent = [headers.map(escapeCell).join(','), ...rows.map(r => r.map(escapeCell).join(','))].join('\r\n');
-      const blob = new Blob(['\uFEFF' + csvContent], { type: 'text/csv;charset=utf-8;' });
-      const link = document.createElement('a');
-      link.href = URL.createObjectURL(blob);
-      link.download = filename;
-      link.click();
-    }
-
-    function downloadChartPNG(canvasId, filename = 'chart.png') {
-      const canvas = document.getElementById(canvasId);
-      if (!canvas) return;
-      const tempCanvas = document.createElement('canvas');
-      tempCanvas.width = canvas.width;
-      tempCanvas.height = canvas.height;
-      const ctx = tempCanvas.getContext('2d');
-      ctx.fillStyle = '#ffffff';
-      ctx.fillRect(0, 0, tempCanvas.width, tempCanvas.height);
-      ctx.drawImage(canvas, 0, 0);
-
-      const link = document.createElement('a');
-      link.download = filename;
-      link.href = tempCanvas.toDataURL('image/png', 1.0);
-      link.click();
-    }
-
-    async function exportChartsToPDFPresentation(filename = 'Sikkim_Audit_Visuals_Presentation.pdf') {
-      const { jsPDF } = window.jspdf;
-      const chartCanvases = document.querySelectorAll('canvas');
-      if (!chartCanvases.length) return alert('No active charts found.');
-
-      const doc = new jsPDF({ orientation: 'landscape', unit: 'mm', format: 'a4' });
-      const pageWidth = doc.internal.pageSize.getWidth();
-      const pageHeight = doc.internal.pageSize.getHeight();
-      const dateStr = new Date().toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' });
-
-      let isFirstPage = true;
-      chartCanvases.forEach((canvas, index) => {
-        if (!isFirstPage) doc.addPage('a4', 'landscape');
-        else isFirstPage = false;
-
-        const tempCanvas = document.createElement('canvas');
-        tempCanvas.width = canvas.width;
-        tempCanvas.height = canvas.height;
-        const ctx = tempCanvas.getContext('2d');
-        ctx.fillStyle = '#ffffff';
-        ctx.fillRect(0, 0, tempCanvas.width, tempCanvas.height);
-        ctx.drawImage(canvas, 0, 0);
-
-        doc.setFillColor(30, 41, 59);
-        doc.rect(0, 0, pageWidth, 18, 'F');
-        doc.setFont('helvetica', 'bold');
-        doc.setFontSize(11);
-        doc.setTextColor(255, 255, 255);
-        doc.text('DIRECTORATE OF LOCAL FUND AUDIT — GOVT OF SIKKIM', 12, 12);
-        doc.setFontSize(9);
-        doc.text(`Generated: ${dateStr}`, pageWidth - 12, 12, { align: 'right' });
-
-        const chartTitle = canvas.getAttribute('aria-label') || `Visualization #${index + 1}`;
-        doc.setFont('helvetica', 'bold');
-        doc.setFontSize(14);
-        doc.setTextColor(15, 23, 42);
-        doc.text(chartTitle, 12, 28);
-
-        const renderWidth = pageWidth - 24;
-        const renderHeight = (renderWidth / tempCanvas.width) * tempCanvas.height;
-        doc.addImage(tempCanvas.toDataURL('image/png', 1.0), 'PNG', 12, 34, renderWidth, renderHeight);
-
-        doc.setFont('helvetica', 'normal');
-        doc.setFontSize(8);
-        doc.setTextColor(148, 163, 184);
-        doc.text('Confidential — For Official Review Only', 12, pageHeight - 8);
-        doc.text(`Slide ${index + 1} of ${chartCanvases.length}`, pageWidth - 12, pageHeight - 8, { align: 'right' });
-      });
-
-      doc.save(filename);
-    }
-
-    document.addEventListener('DOMContentLoaded', () => {
-      renderTable();
-      const searchInput = document.getElementById('searchInput');
-      const searchSpinner = document.getElementById('searchSpinner');
-
-      if (searchInput) {
-        const debouncedSearch = debounce(() => {
-          applyFilters();
-          if (searchSpinner) searchSpinner.classList.add('hidden');
-        }, 300);
-
-        searchInput.addEventListener('input', () => {
-          if (searchSpinner) searchSpinner.classList.remove('hidden');
-          debouncedSearch();
-        });
-      }
-
-      new Chart(document.getElementById('barChart').getContext('2d'), {
+      barChartInstance = new Chart(document.getElementById('barChart').getContext('2d'), {
         type: 'bar',
         data: {
           labels: allRecords.map(r => r.body.split(' ')[0]),
@@ -414,23 +160,25 @@
             { label: 'Payments (₹)', data: allRecords.map(r => r.payments), backgroundColor: '#f43f5e' }
           ]
         },
-        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom' } } }
+        options: { responsive: true, maintainAspectRatio: false }
       });
 
-      new Chart(document.getElementById('doughnutChart').getContext('2d'), {
+      const urbanCb = allRecords.filter(r => r.tier.includes('Urban')).reduce((a, b) => a + b.cb, 0);
+      const zillaCb = allRecords.filter(r => r.tier.includes('Zilla')).reduce((a, b) => a + b.cb, 0);
+
+      doughnutChartInstance = new Chart(document.getElementById('doughnutChart').getContext('2d'), {
         type: 'doughnut',
         data: {
           labels: ['Urban Local Bodies', 'Zilla Panchayats'],
-          datasets: [{
-            data: [
-              allRecords.filter(r => r.tier.includes('Urban')).reduce((acc, curr) => acc + (curr.ob + curr.receipts - curr.payments), 0),
-              allRecords.filter(r => r.tier.includes('Zilla')).reduce((acc, curr) => acc + (curr.ob + curr.receipts - curr.payments), 0)
-            ],
-            backgroundColor: ['#6366f1', '#f59e0b']
-          }]
+          datasets: [{ data: [urbanCb, zillaCb], backgroundColor: ['#6366f1', '#f59e0b'] }]
         },
-        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom' } } }
+        options: { responsive: true, maintainAspectRatio: false }
       });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      loadDynamicData();
+      document.getElementById('searchInput')?.addEventListener('input', renderTable);
     });
   </script>
 </body>
