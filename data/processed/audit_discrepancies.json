@@ -151,7 +151,7 @@
   },
   {
     "body": "Tingchimchadey",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 413963.0,
     "receipts": 2143136.0,
@@ -241,7 +241,7 @@
   },
   {
     "body": "Namcheybong",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 624739.0,
     "receipts": 1651467.0,
@@ -346,7 +346,7 @@
   },
   {
     "body": "Namcheybong",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 761564.0,
     "receipts": 476399.0,
@@ -481,7 +481,7 @@
   },
   {
     "body": "Eastdistrict",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Zilla Panchayat",
     "year": "2024-25",
     "ob": 25347.0,
     "receipts": 43142.0,
@@ -496,7 +496,7 @@
   },
   {
     "body": "Northdistrict",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Zilla Panchayat",
     "year": "2024-25",
     "ob": 7410.0,
     "receipts": 12088.0,
@@ -511,7 +511,7 @@
   },
   {
     "body": "Southdistrict",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Zilla Panchayat",
     "year": "2024-25",
     "ob": 24658.0,
     "receipts": 47694.0,
@@ -526,7 +526,7 @@
   },
   {
     "body": "Westdistrict",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Zilla Panchayat",
     "year": "2024-25",
     "ob": 27772.0,
     "receipts": 51793.0,
@@ -601,7 +601,7 @@
   },
   {
     "body": "Kartoknamcheybong",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 623.0,
     "receipts": 957.0,
@@ -721,7 +721,7 @@
   },
   {
     "body": "Tingchimchadey",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 212.0,
     "receipts": 404.0,
@@ -1996,7 +1996,7 @@
   },
   {
     "body": "Namcheybong GPU under Pakyong BAC 14th FC/SFC",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 0.0,
     "receipts": 10945331.0,
@@ -2281,7 +2281,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 0.0,
     "receipts": 3368312.0,
@@ -2686,7 +2686,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 0.0,
     "receipts": 5393773.0,
@@ -3166,7 +3166,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 0.0,
     "receipts": 1840154.0,
@@ -3541,7 +3541,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 0.0,
     "receipts": 133192.0,
@@ -4771,7 +4771,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 0.0,
     "receipts": 0.0,
@@ -4831,7 +4831,7 @@
   },
   {
     "body": "Zilla -Namchi",
-    "tier": "Zilla Panchayat",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 15.0,
     "receipts": 25417171.0,
@@ -5191,7 +5191,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 0.0,
     "receipts": 15.0,
@@ -5521,7 +5521,7 @@
   },
   {
     "body": "Namcheybong",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 0.0,
     "receipts": 0.0,
@@ -5566,7 +5566,7 @@
   },
   {
     "body": "Namchi Zilla Panchayat",
-    "tier": "Zilla Panchayat",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 0.0,
     "receipts": 10701604.0,
@@ -6136,7 +6136,7 @@
   },
   {
     "body": "Namcheybong",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 0.0,
     "receipts": 15.0,
@@ -6151,7 +6151,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 0.0,
     "receipts": 15.0,
@@ -6436,7 +6436,7 @@
   },
   {
     "body": "Namchi Zilla Panchayat",
-    "tier": "Zilla Panchayat",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 15.0,
     "receipts": 11970025.0,
@@ -7456,7 +7456,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 27.0,
     "receipts": 0.0,
@@ -7471,7 +7471,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 27.0,
     "receipts": 0.0,
@@ -7486,7 +7486,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 27.0,
     "receipts": 0.0,
@@ -7501,7 +7501,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 27.0,
     "receipts": 0.0,
@@ -7516,7 +7516,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 28.0,
     "receipts": 0.0,
@@ -7531,7 +7531,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 28.0,
     "receipts": 0.0,
@@ -7546,7 +7546,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 28.0,
     "receipts": 0.0,
@@ -7561,7 +7561,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 28.0,
     "receipts": 0.0,
@@ -7576,7 +7576,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 29.0,
     "receipts": 0.0,
@@ -7591,7 +7591,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 29.0,
     "receipts": 0.0,
@@ -7606,7 +7606,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 29.0,
     "receipts": 0.0,
@@ -7621,7 +7621,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 29.0,
     "receipts": 0.0,
@@ -7636,7 +7636,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 30.0,
     "receipts": 0.0,
@@ -7651,7 +7651,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 30.0,
     "receipts": 0.0,
@@ -7666,7 +7666,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 30.0,
     "receipts": 0.0,
@@ -7681,7 +7681,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 30.0,
     "receipts": 0.0,
@@ -7696,7 +7696,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 31.0,
     "receipts": 0.0,
@@ -7711,7 +7711,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 31.0,
     "receipts": 0.0,
@@ -7726,7 +7726,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 31.0,
     "receipts": 0.0,
@@ -7741,7 +7741,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 31.0,
     "receipts": 0.0,
@@ -7756,7 +7756,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 31.0,
     "receipts": 0.0,
@@ -7771,7 +7771,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 33.0,
     "receipts": 0.0,
@@ -7786,7 +7786,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 33.0,
     "receipts": 0.0,
@@ -7801,7 +7801,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 33.0,
     "receipts": 0.0,
@@ -7816,7 +7816,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 36.0,
     "receipts": 0.0,
@@ -7831,7 +7831,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 36.0,
     "receipts": 0.0,
@@ -7846,7 +7846,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 36.0,
     "receipts": 0.0,
@@ -7861,7 +7861,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 36.0,
     "receipts": 0.0,
@@ -7876,7 +7876,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 36.0,
     "receipts": 0.0,
@@ -7891,7 +7891,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 37.0,
     "receipts": 0.0,
@@ -7906,7 +7906,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 37.0,
     "receipts": 0.0,
@@ -7921,7 +7921,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 37.0,
     "receipts": 0.0,
@@ -7936,7 +7936,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 37.0,
     "receipts": 0.0,
@@ -7951,7 +7951,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 37.0,
     "receipts": 0.0,
@@ -7966,7 +7966,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 38.0,
     "receipts": 0.0,
@@ -7981,7 +7981,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 38.0,
     "receipts": 0.0,
@@ -7996,7 +7996,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 38.0,
     "receipts": 0.0,
@@ -8011,7 +8011,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 38.0,
     "receipts": 0.0,
@@ -8536,7 +8536,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 27.0,
     "receipts": 0.0,
@@ -8551,7 +8551,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 27.0,
     "receipts": 0.0,
@@ -8566,7 +8566,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 27.0,
     "receipts": 0.0,
@@ -8581,7 +8581,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 28.0,
     "receipts": 0.0,
@@ -8596,7 +8596,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 28.0,
     "receipts": 0.0,
@@ -8611,7 +8611,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 28.0,
     "receipts": 0.0,
@@ -8626,7 +8626,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 29.0,
     "receipts": 0.0,
@@ -8641,7 +8641,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 29.0,
     "receipts": 0.0,
@@ -8656,7 +8656,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 29.0,
     "receipts": 0.0,
@@ -8671,7 +8671,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 30.0,
     "receipts": 0.0,
@@ -8686,7 +8686,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 30.0,
     "receipts": 0.0,
@@ -8701,7 +8701,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 30.0,
     "receipts": 0.0,
@@ -8716,7 +8716,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 31.0,
     "receipts": 0.0,
@@ -8731,7 +8731,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 31.0,
     "receipts": 0.0,
@@ -8746,7 +8746,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 31.0,
     "receipts": 0.0,
@@ -8761,7 +8761,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 31.0,
     "receipts": 0.0,
@@ -8776,7 +8776,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 33.0,
     "receipts": 0.0,
@@ -8791,7 +8791,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 33.0,
     "receipts": 0.0,
@@ -8806,7 +8806,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 33.0,
     "receipts": 0.0,
@@ -8821,7 +8821,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 33.0,
     "receipts": 0.0,
@@ -8836,7 +8836,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 36.0,
     "receipts": 0.0,
@@ -8851,7 +8851,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 36.0,
     "receipts": 0.0,
@@ -8866,7 +8866,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 36.0,
     "receipts": 0.0,
@@ -8881,7 +8881,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 36.0,
     "receipts": 0.0,
@@ -8896,7 +8896,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 37.0,
     "receipts": 0.0,
@@ -8911,7 +8911,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 37.0,
     "receipts": 0.0,
@@ -8926,7 +8926,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 37.0,
     "receipts": 0.0,
@@ -8941,7 +8941,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 37.0,
     "receipts": 0.0,
@@ -8956,7 +8956,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 38.0,
     "receipts": 0.0,
@@ -8971,7 +8971,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 38.0,
     "receipts": 0.0,
@@ -8986,7 +8986,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 38.0,
     "receipts": 0.0,
@@ -9901,7 +9901,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 27.0,
     "receipts": 0.0,
@@ -9916,7 +9916,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 27.0,
     "receipts": 4.0,
@@ -9931,7 +9931,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 27.0,
     "receipts": 14.0,
@@ -9946,7 +9946,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 27.0,
     "receipts": 0.0,
@@ -9961,7 +9961,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 28.0,
     "receipts": 0.0,
@@ -9976,7 +9976,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 28.0,
     "receipts": 414.0,
@@ -9991,7 +9991,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 28.0,
     "receipts": 0.0,
@@ -10006,7 +10006,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 29.0,
     "receipts": 0.0,
@@ -10021,7 +10021,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 29.0,
     "receipts": 341314.0,
@@ -10036,7 +10036,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 29.0,
     "receipts": 0.0,
@@ -10051,7 +10051,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 30.0,
     "receipts": 0.0,
@@ -10066,7 +10066,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 30.0,
     "receipts": 313.0,
@@ -10081,7 +10081,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 30.0,
     "receipts": 4.0,
@@ -10096,7 +10096,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 30.0,
     "receipts": 14.0,
@@ -10111,7 +10111,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 31.0,
     "receipts": 0.0,
@@ -10126,7 +10126,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 31.0,
     "receipts": 13.0,
@@ -10141,7 +10141,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 31.0,
     "receipts": 14.0,
@@ -10156,7 +10156,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 31.0,
     "receipts": 0.0,
@@ -10171,7 +10171,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 33.0,
     "receipts": 0.0,
@@ -10186,7 +10186,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 33.0,
     "receipts": 34.0,
@@ -10201,7 +10201,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 33.0,
     "receipts": 13.0,
@@ -10216,7 +10216,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 33.0,
     "receipts": 0.0,
@@ -10231,7 +10231,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 33.0,
     "receipts": 0.0,
@@ -10246,7 +10246,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 33.0,
     "receipts": 0.0,
@@ -10261,7 +10261,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 36.0,
     "receipts": 0.0,
@@ -10276,7 +10276,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 36.0,
     "receipts": 34.0,
@@ -10291,7 +10291,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 36.0,
     "receipts": 13.0,
@@ -10306,7 +10306,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 36.0,
     "receipts": 0.0,
@@ -10321,7 +10321,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 36.0,
     "receipts": 0.0,
@@ -10336,7 +10336,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 37.0,
     "receipts": 0.0,
@@ -10351,7 +10351,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 37.0,
     "receipts": 3.0,
@@ -10366,7 +10366,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 37.0,
     "receipts": 414.0,
@@ -10381,7 +10381,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 37.0,
     "receipts": 13.0,
@@ -10396,7 +10396,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 37.0,
     "receipts": 0.0,
@@ -10411,7 +10411,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 37.0,
     "receipts": 0.0,
@@ -10426,7 +10426,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 38.0,
     "receipts": 0.0,
@@ -10441,7 +10441,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 38.0,
     "receipts": 313.0,
@@ -10456,7 +10456,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 38.0,
     "receipts": 0.0,
@@ -10471,7 +10471,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 38.0,
     "receipts": 0.0,
@@ -10681,7 +10681,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 27.0,
     "receipts": 133.0,
@@ -10696,7 +10696,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 28.0,
     "receipts": 133.0,
@@ -10711,7 +10711,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 31.0,
     "receipts": 34.0,
@@ -12106,7 +12106,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 27.0,
     "receipts": 0.0,
@@ -12121,7 +12121,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 27.0,
     "receipts": 4.0,
@@ -12136,7 +12136,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 27.0,
     "receipts": 14.0,
@@ -12151,7 +12151,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 28.0,
     "receipts": 0.0,
@@ -12166,7 +12166,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 28.0,
     "receipts": 414.0,
@@ -12181,7 +12181,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 29.0,
     "receipts": 0.0,
@@ -12196,7 +12196,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 29.0,
     "receipts": 341314.0,
@@ -12211,7 +12211,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 30.0,
     "receipts": 0.0,
@@ -12226,7 +12226,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 30.0,
     "receipts": 313.0,
@@ -12241,7 +12241,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 30.0,
     "receipts": 4.0,
@@ -12256,7 +12256,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 30.0,
     "receipts": 14.0,
@@ -12271,7 +12271,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 31.0,
     "receipts": 0.0,
@@ -12286,7 +12286,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 31.0,
     "receipts": 13.0,
@@ -12301,7 +12301,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 31.0,
     "receipts": 14.0,
@@ -12316,7 +12316,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 33.0,
     "receipts": 0.0,
@@ -12331,7 +12331,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 33.0,
     "receipts": 34.0,
@@ -12346,7 +12346,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 33.0,
     "receipts": 14.0,
@@ -12361,7 +12361,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 33.0,
     "receipts": 0.0,
@@ -12376,7 +12376,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 38.0,
     "receipts": 0.0,
@@ -12391,7 +12391,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 38.0,
     "receipts": 414.0,
@@ -12406,7 +12406,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 27.0,
     "receipts": 133.0,
@@ -12421,7 +12421,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 28.0,
     "receipts": 133.0,
@@ -12436,7 +12436,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 31.0,
     "receipts": 34.0,
@@ -12451,7 +12451,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 36.0,
     "receipts": 0.0,
@@ -12466,7 +12466,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 36.0,
     "receipts": 34.0,
@@ -12481,7 +12481,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 36.0,
     "receipts": 14.0,
@@ -12496,7 +12496,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 36.0,
     "receipts": 0.0,
@@ -12511,7 +12511,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 37.0,
     "receipts": 0.0,
@@ -12526,7 +12526,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 37.0,
     "receipts": 414.0,
@@ -12541,7 +12541,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 37.0,
     "receipts": 13.0,
@@ -13351,7 +13351,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 19360175.0,
     "receipts": 12378922.0,
@@ -14086,7 +14086,7 @@
   },
   {
     "body": "Namchi",
-    "tier": "Gram Panchayat Unit",
+    "tier": "Urban Local Body",
     "year": "2024-25",
     "ob": 0.0,
     "receipts": 183760756.0,

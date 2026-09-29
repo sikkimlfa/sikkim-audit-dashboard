@@ -70,7 +70,7 @@ def detect_tier(unit_name):
         return "Zilla Panchayat"
 
     # 3. Gram Panchayat Units (GPUs)
-    gpu_keywords = ['gram', 'gpu', 'gp', 'panchayat', 'unit', 'ward']
+    gpu_keywords = ['gram', 'gpu', 'gp', 'panchayat', 'unit', 'ward', 'rlb', 'dzumsa']
     if any(k in nl for k in gpu_keywords):
         return "Gram Panchayat Unit"
 
