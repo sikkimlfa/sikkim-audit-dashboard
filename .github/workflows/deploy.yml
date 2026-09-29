@@ -1,4 +1,4 @@
-name: Deploy Sikkim Audit Dashboard to GitHub Pages
+name: Deploy Dashboard to GitHub Pages
 
 on:
   push:
@@ -27,7 +27,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
-      - name: Upload Artifacts
+      - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
