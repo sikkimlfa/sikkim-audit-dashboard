@@ -1,18 +1,19 @@
 #!/usr/bin/env python3
 """
-extract_annexures.py - Whitelist Extraction & Math Verification Engine
+extract_annexures.py - Whitelist Extraction & Mathematical Verification Engine
 Directorate of Local Fund Audit — Government of Sikkim
 
 Features:
   - Whitelist enforcement for 212 authorized local bodies (199 GPUs, 6 ZPs, 7 ULBs).
-  - Strict Financial Year range constraint (2015-16 to 2025-26).
-  - Legacy 4-district Zilla Panchayat resolution (East, West, North, South).
-  - Regional orthographic alias normalization.
+  - Multi-year alias dictionary from Annual Plans 2022-2026.
+  - Strips numeric prefixes (e.g., '38-Chota Samdong', '54-Bariakhop').
+  - Legacy 4-district ZP mapping (East -> Gangtok, West -> Gyalshing, etc.).
+  - Bounded FY extraction (2015-16 through 2025-26).
   - Mathematical integrity verification:
       1) Total Receipts == Opening Balance + Receipts
       2) Closing Balance == Total Receipts - Payments
-  - Routes discrepancies to data/processed/audit_discrepancies.json.
-  - Outputs verified records to data/processed/financial_statements.json.
+  - Isolates arithmetic discrepancies into data/processed/audit_discrepancies.json.
+  - Saves verified records into data/processed/financial_statements.json.
 """
 
 import sys
@@ -28,29 +29,170 @@ except ImportError:
     print("Error: Required library 'pdfplumber' is missing. Run: pip install pdfplumber")
     sys.exit(1)
 
-
-# Mapping of legacy 4-district references to modern Zilla Panchayat codes
-LEGACY_ZILLA_MAP = {
-    "east": "216",          # Gangtok Zilla Panchayat
-    "eastzilla": "216",
-    "eastdistrict": "216",
+# Comprehensive lookup mapping all historical spellings, shorthand, and BAC list prefixes
+# to canonical Local Body codes from the 212-unit whitelist
+EXPLICIT_NAME_TO_CODE = {
+    # Zilla Panchayats (Legacy 4-district & modern)
+    "east zilla": "216",
+    "east district zilla panchayat": "216",
     "edzp": "216",
-    "west": "219",          # Gyalshing Zilla Panchayat
-    "westzilla": "219",
-    "zillawest": "219",
-    "westdistrict": "219",
+    "east zilla panchayat": "216",
+    "gangtok zilla": "216",
+    "gangtok zilla panchayat": "216",
+    "west zilla": "219",
+    "west district zilla panchayat": "219",
     "wdzp": "219",
-    "north": "217",         # Mangan Zilla Panchayat
-    "northzilla": "217",
-    "northdistrict": "217",
+    "zilla west": "219",
+    "west zilla panchayat": "219",
+    "gyalshing zilla": "219",
+    "gyalshing zilla panchayat": "219",
+    "geyzing zilla panchayat": "219",
+    "north zilla": "217",
+    "north district zilla panchayat": "217",
     "ndzp": "217",
-    "south": "218",         # Namchi Zilla Panchayat
-    "southzilla": "218",
-    "southdistrict": "218",
+    "north zilla panchayat": "217",
+    "mangan zilla": "217",
+    "mangan zilla panchayat": "217",
+    "south zilla": "218",
+    "south district zilla panchayat": "218",
     "sdzp": "218",
+    "south zilla panchayat": "218",
+    "namchi zilla": "218",
+    "namchi zilla panchayat": "218",
+    "pakyong zilla": "300083",
+    "pakyong zilla panchayat": "300083",
+    "soreng zilla": "300084",
+    "soreng zilla panchayat": "300084",
+
+    # Municipalities / Urban Local Bodies
+    "geyzing nagar panchayat": "249690",
+    "gazing nagar panchayat": "249690",
+    "gnp": "249690",
+    "gyalshing np": "249690",
+    "gyalshing nagar panchayat": "249690",
+    "jorethang nayabazar nagar panchayat": "249693",
+    "nayabazar jorethang nagar panchayat": "249693",
+    "jnp": "249693",
+    "jorethang nagar panchayat": "249693",
+    "nayabazar nagar panchayat": "249693",
+    "singtam nagar panchayat": "249695",
+    "snp": "249695",
+    "mangan nagar panchayat": "249689",
+    "mnp": "249689",
+    "rangpo nagar panchayat": "290460",
+    "rnp": "290460",
+    "gangtok municipal corporation": "249694",
+    "gmc": "249694",
+    "namchi municipal council": "249692",
+    "nmc": "249692",
+
+    # Gram Panchayat Units (Transliterations, Historical Variants & Numbered List Prefixes)
+    "yoksum": "254869",
+    "yoksom": "254869",
+    "yuksam": "254869",
+    "yuksom": "254869",
+    "yuksum dubdi": "254869",
+    "melli aching": "254774",
+    "melliaching": "254774",
+    "meli aching": "254774",
+    "tingling": "300082",
+    "thingling": "300082",
+    "rimbi tingvong": "276336",
+    "rimbi tingbrum": "276336",
+    "khecheopalri": "254851",
+    "khechopalri": "254851",
+    "khechodpalri": "254851",
+    "karjee mangnam": "254743",
+    "karzi mangnam": "254743",
+    "arithang chongrang": "254709",
+    "arithang chongrong": "254709",
+    "dhupi narkhola": "254733",
+    "dhupidara narkhola": "254733",
+    "chota samdong": "254725",
+    "chota samdong arubotey": "254725",
+    "chota samdong arubotay": "254725",
+    "38 chota samdong": "254725",
+    "38 chota samdong arubotay": "254725",
+    "buriakhop": "254720",
+    "burikhop": "254720",
+    "54 bariakhop gpu": "254720",
+    "54 bariakhop": "254720",
+    "barikhop": "254720",
+    "lungchok salangdang": "254762",
+    "lunchok salangdang": "254762",
+    "lungchok salyangdang": "254762",
+    "ribdi bharayang": "254807",
+    "ribdi bhareng": "254807",
+    "saprenagi": "300590",
+    "sapreynaghi": "300590",
+    "upper fambong": "254863",
+    "upper thambong": "254863",
+    "lower fambong": "254763",
+    "gyaten karmatar": "254744",
+    "karmatar gitang": "254744",
+    "bongten sopakha": "254712",
+    "bongten sapong": "254712",
+    "bongten": "254712",
+    "sardong lungzik": "254825",
+    "sardung lungzik": "254825",
+    "phensong": "254793",
+    "phensang": "254793",
+    "men rongong": "254776",
+    "sirwani chisopani": "276337",
+    "chisopani": "276337",
+    "simick lingzey": "254829",
+    "simik lingzey": "254829",
+    "dungdung thasa": "257847",
+    "dung dung thasa": "257847",
+    "beng phegyong": "254717",
+    "byeng phegyong": "254717",
+    "byeng": "254717",
+    "namchebong": "254745",
+    "namcheybong": "254745",
+    "boomtar": "276342",
+    "boomtar salleybong": "276342",
+    "salleybong": "276342",
+    "nagi karek": "257853",
+    "karek kabrey": "257853",
+    "kateng pamphok": "254779",
+    "rameng nizrameng": "254799",
+    "tangzi bikmat": "254843",
+    "turung mamring": "254862",
+    "bhusuk naitam": "254780",
+    "kopibari syari": "257846",
+    "nandok saramsa": "257845",
+    "rongey tathangchen": "254846",
+    "rongay tathangchen": "254846",
+    "latuk chuchenpheri": "254753",
+    "latuk barapathing": "254753",
+    "thekabong parakha": "254850",
+    "linkey parakha": "254850",
+    "lamating tingmoo": "254752",
+    "lamting tingmo": "254752",
+    "turuk ramabong": "254861",
+    "turuk ramabung": "254861",
+    "46 budang gpu": "276343",
+    "46 budang": "276343",
+    "budang": "276343",
+    "bhudang": "276343",
+    "52 karthok bojek": "257849",
+    "karthok bojek": "257849",
+    "50 timburbong": "300285",
+    "lower timburbong": "300285",
+    "upper timburbong": "254852",
+    "45 malbasey": "254768",
+    "malbasey": "254768",
+    "malbasay": "254768",
+    "48 mangsari mangerjung": "276344",
+    "mangsari mangarjung": "276344",
+    "49 singling": "254831",
+    "singling": "254831",
+    "47 soreng": "254834",
+    "soreng": "254834",
+    "51 tharpu": "254849",
+    "tharpu": "254849"
 }
 
-# Regional orthographic normalization map
 SPELLING_ALIASES = {
     "geyzing": "gyalshing",
     "gezing": "gyalshing",
@@ -59,15 +201,10 @@ SPELLING_ALIASES = {
     "yoksom": "yuksom",
     "yuksam": "yuksom",
     "jorethang": "nayabazar",
-    "jorethangnayabazar": "nayabazar",
-    "nayabazarjorethang": "nayabazar",
     "ravangla": "ravong",
     "rabong": "ravong",
     "sikkip": "sikip",
     "phensong": "phensang",
-    "lamatingtingmoo": "lamtingtingmo",
-    "turukramabong": "turukramabung",
-    "salghari": "salghari",
     "dzumsa": "",
     "gpu": "",
     "panchayat": "",
@@ -77,12 +214,12 @@ SPELLING_ALIASES = {
     "nagar": "",
     "council": "",
     "corporation": "",
-    "gmc": "gangtok",
+    "gmc": "gangtok"
 }
 
 
 def load_audit_whitelist():
-    """Load the 212 authorized Local Bodies from the Master Audit Plan."""
+    """Load canonical list of 212 units from the master audit plan."""
     plan_path = Path("data/raw/annual_audit_plan_2026.json")
     if not plan_path.exists():
         print(f"[!] Master audit plan not found at {plan_path.resolve()}.")
@@ -92,8 +229,18 @@ def load_audit_whitelist():
         return json.load(f)
 
 
+def clean_unit_string(s):
+    """Strip numbers, BAC prefixes, sl. nos, and non-alphabetical artifacts."""
+    if not s:
+        return ""
+    text = str(s).strip().lower()
+    text = re.sub(r'^(?:sl\.?\s*no\.?|sno\.?|\d+[\.\-\)]|\d+\s*[-/]?\s*)\s*', '', text)
+    text = re.sub(r'[^a-z0-9\s]', ' ', text)
+    return re.sub(r'\s+', ' ', text).strip()
+
+
 def normalize_clean_string(s):
-    """Clean strings and apply standardized aliases for resilient matching."""
+    """Clean string and apply phonetic replacements."""
     if not s:
         return ""
     cleaned = re.sub(r'[^a-zA-Z0-9]', '', str(s)).lower()
@@ -104,76 +251,82 @@ def normalize_clean_string(s):
 
 
 def match_against_whitelist(raw_name, whitelist):
-    """
-    Match an extracted string against the 212 authorized units:
-      1. Resolves legacy 4-district ZP keywords.
-      2. Checks direct normalized containment.
-      3. Uses difflib fuzzy matching fallback (cutoff 0.70).
-    """
-    if not raw_name or len(raw_name.strip()) < 3:
+    """Match extracted strings against canonical 212 units."""
+    if not raw_name or len(str(raw_name).strip()) < 3:
         return None
 
-    raw_lower = raw_name.lower().strip()
-    norm_raw = normalize_clean_string(raw_lower)
+    cleaned_raw = clean_unit_string(raw_name)
+    if not cleaned_raw:
+        return None
 
-    # 1. Check legacy Zilla Panchayat naming patterns
-    if "zilla" in raw_lower or "district" in raw_lower or any(d in raw_lower.split() for d in ["east", "west", "north", "south", "edzp", "wdzp", "ndzp", "sdzp"]):
-        for legacy_key, target_code in LEGACY_ZILLA_MAP.items():
-            if legacy_key in norm_raw:
-                for unit in whitelist:
-                    if unit.get("code") == target_code:
-                        return unit
+    if cleaned_raw in EXPLICIT_NAME_TO_CODE:
+        target_code = EXPLICIT_NAME_TO_CODE[cleaned_raw]
+        for u in whitelist:
+            if u["code"] == target_code:
+                return u
 
-    # 2. Check direct normalized name containment
-    for unit in whitelist:
-        norm_canonical = normalize_clean_string(unit["name"])
+    for alias_name, code in EXPLICIT_NAME_TO_CODE.items():
+        if len(alias_name) >= 5 and (alias_name in cleaned_raw or cleaned_raw in alias_name):
+            for u in whitelist:
+                if u["code"] == code:
+                    return u
+
+    norm_raw = normalize_clean_string(cleaned_raw)
+    for u in whitelist:
+        norm_canonical = normalize_clean_string(u["name"])
         if norm_raw == norm_canonical:
-            return unit
+            return u
         if len(norm_raw) >= 5 and (norm_raw in norm_canonical or norm_canonical in norm_raw):
-            return unit
+            return u
 
-    # 3. Fuzzy matching fallback
-    whitelist_names = [unit["name"] for unit in whitelist]
-    matches = difflib.get_close_matches(raw_name, whitelist_names, n=1, cutoff=0.70)
+    whitelist_names = [u["name"] for u in whitelist]
+    matches = difflib.get_close_matches(raw_name, whitelist_names, n=1, cutoff=0.72)
     if matches:
-        matched_name = matches[0]
-        for unit in whitelist:
-            if unit["name"] == matched_name:
-                return unit
+        for u in whitelist:
+            if u["name"] == matches[0]:
+                return u
 
     return None
 
 
-def clean_currency(val):
-    """Convert monetary table strings into clean float values."""
+def clean_currency(val, is_lakhs=False):
+    """Parse numeric values, convert parentheses to negative, and scale Lakhs to Rupees."""
     if val is None:
         return 0.0
-    s = str(val).strip().replace('₹', '').replace(',', '').replace('\n', ' ')
-    if s.lower() in ['', 'nil', '-', '--', 'null', 'n/a']:
+    s = str(val).strip().replace('₹', '').replace(',', '').replace(' ', '')
+    if s.lower() in ['', 'nil', '-', '--', 'null', 'n/a', 'nan']:
         return 0.0
+
+    is_negative = False
     if s.startswith('(') and s.endswith(')'):
-        s = '-' + s[1:-1]
+        is_negative = True
+        s = s[1:-1]
+
     match = re.search(r'[-+]?\d*\.?\d+', s)
-    return float(match.group(0)) if match else 0.0
+    if not match:
+        return 0.0
+
+    num = float(match.group(0))
+    if is_negative:
+        num = -num
+
+    if is_lakhs:
+        num = num * 100000.0
+
+    return num
 
 
 def detect_fy(text):
-    """
-    Strictly extract valid Financial Years between 2015-16 and 2025-26.
-    Rejects general 4-digit numbers to avoid false positives.
-    """
+    """Strictly extract valid Financial Years between 2015-16 and 2025-26."""
     if not text:
         return None
-
-    # Matches only FYs starting from 2015 up to 2026
-    match = re.search(r'\b(20(?:1[5-9]|2[0-6]))[-–/](\d{2,4})\b', text)
+    match = re.search(r'\b(20(?:1[5-9]|2[0-5]))[-–/](\d{2,4})\b', str(text))
     if match:
         start_yr = match.group(1)
         end_yr = match.group(2)
         if len(end_yr) == 4:
             end_yr = end_yr[2:]
         return f"{start_yr}-{end_yr}"
-
     return None
 
 
@@ -187,7 +340,6 @@ def run_extraction():
         print(f"[!] No Annual Report PDFs found in {raw_dir.resolve()}.")
         return
 
-    # Aggregate extracted figures by (Canonical Unit Code, Financial Year)
     aggregated = defaultdict(lambda: {"ob": 0.0, "receipts": 0.0, "tr": 0.0, "pay": 0.0, "cb": 0.0, "sources": set()})
     unit_lookup = {u["code"]: u for u in whitelist}
 
@@ -197,18 +349,20 @@ def run_extraction():
         current_fy = default_fy
 
         with pdfplumber.open(pdf_path) as pdf:
+            current_unit = None
             for page in pdf.pages:
                 text = page.extract_text() or ""
                 page_fy = detect_fy(text)
                 if page_fy:
                     current_fy = page_fy
 
+                is_lakhs = bool(re.search(r'lakh', text, re.IGNORECASE))
+
                 tables = page.extract_tables()
                 for table in tables:
                     if not table or len(table) < 2:
                         continue
 
-                    # Dynamic header column detection
                     unit_idx, ob_idx, r_idx, tr_idx, pay_idx, cb_idx = 0, -1, -1, -1, -1, -1
                     for idx, cell in enumerate(table[0]):
                         c = str(cell).lower().replace('\n', ' ')
@@ -225,7 +379,6 @@ def run_extraction():
                         elif 'closing' in c:
                             cb_idx = idx
 
-                    # Fallback column structure
                     if ob_idx == -1 and len(table[0]) >= 6:
                         ob_idx = len(table[0]) - 5
                         r_idx = len(table[0]) - 4
@@ -237,22 +390,32 @@ def run_extraction():
                         if not row or len(row) <= max(ob_idx, pay_idx, cb_idx):
                             continue
 
-                        raw_name = str(row[unit_idx]).replace('\n', ' ').strip() if unit_idx < len(row) else ''
-                        matched_unit = match_against_whitelist(raw_name, whitelist)
-                        if not matched_unit:
+                        row_str = " ".join([str(c).lower() for c in row if c])
+                        if any(skip in row_str for skip in ['total', 'grand total', 'sub total', 'sl. no', 'particulars']):
                             continue
 
-                        ob = clean_currency(row[ob_idx]) if ob_idx != -1 else 0.0
-                        rec = clean_currency(row[r_idx]) if r_idx != -1 else 0.0
-                        tr = clean_currency(row[tr_idx]) if tr_idx != -1 else (ob + rec)
-                        pay = clean_currency(row[pay_idx]) if pay_idx != -1 else 0.0
-                        cb = clean_currency(row[cb_idx]) if cb_idx != -1 else (tr - pay)
+                        raw_name = str(row[unit_idx]).replace('\n', ' ').strip() if unit_idx < len(row) else ''
+                        if raw_name:
+                            matched = match_against_whitelist(raw_name, whitelist)
+                            if matched:
+                                current_unit = matched
+                        elif not current_unit:
+                            continue
 
-                        # Skip blank/nil rows
+                        active_unit = current_unit
+                        if not active_unit:
+                            continue
+
+                        ob = clean_currency(row[ob_idx], is_lakhs) if ob_idx != -1 else 0.0
+                        rec = clean_currency(row[r_idx], is_lakhs) if r_idx != -1 else 0.0
+                        tr = clean_currency(row[tr_idx], is_lakhs) if tr_idx != -1 else (ob + rec)
+                        pay = clean_currency(row[pay_idx], is_lakhs) if pay_idx != -1 else 0.0
+                        cb = clean_currency(row[cb_idx], is_lakhs) if cb_idx != -1 else (tr - pay)
+
                         if ob == 0 and rec == 0 and tr == 0 and pay == 0 and cb == 0:
                             continue
 
-                        key = (matched_unit["code"], current_fy)
+                        key = (active_unit["code"], current_fy)
                         aggregated[key]["ob"] += ob
                         aggregated[key]["receipts"] += rec
                         aggregated[key]["tr"] += tr
@@ -278,7 +441,6 @@ def run_extraction():
         math_ok = True
         reasons = []
 
-        # Mathematical verification checks
         if rec > 0 and abs(calc_tr - tr) > 2.0:
             math_ok = False
             reasons.append(f"Total Receipts mismatch: Reported ₹{tr:,.2f} != (OB ₹{ob:,.2f} + Receipts ₹{rec:,.2f} = ₹{calc_tr:,.2f})")
@@ -322,7 +484,7 @@ def run_extraction():
     with open(out_dir / "audit_discrepancies.json", "w", encoding="utf-8") as f:
         json.dump(discrepancies, f, indent=2, ensure_ascii=False)
 
-    print(f"\n[✓] Whitelist Extraction & Math Verification Complete:")
+    print(f"\n[✓] PDF Annexure Extraction Complete:")
     print(f"    • Total Authorized Units in Scope : {len(whitelist)}")
     print(f"    • Verified Financial Statements   : {len(verified_records)} -> data/processed/financial_statements.json")
     print(f"    • Flagged Calculation Anomalies    : {len(discrepancies)} -> data/processed/audit_discrepancies.json")
